@@ -54,8 +54,8 @@ def process-block [name:string start:int end:int] {
       | lines
       | each {|line|
         $line
-        | split column "," | get column1
-        | split column ":" | get column2
+        | split column , | get column1
+        | split column : | get column2
         | str trim
         | str replace \ "" -a
       }
