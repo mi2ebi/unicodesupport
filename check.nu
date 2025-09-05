@@ -37,7 +37,7 @@ def process-block [name:string start:int end:int] {
   let starthex = $start | tohex 
   let endhex = $end | tohex
   let len = $end - $start + 1
-  print $"(ansi green)'($name)'(ansi reset) ($starthex)-($endhex)" --stderr
+  print $"(ansi green_bold)'($name)'(ansi reset) ($starthex)-($endhex)" --stderr
   let starttime = date now
   let res = $start..$end | enumerate | each {|item|
     let i = $item.item
@@ -47,7 +47,7 @@ def process-block [name:string start:int end:int] {
     let elapsed = $now - $starttime
     if $elapsed mod 20sec < 50ms and $elapsed > 1sec {
       let eta = $elapsed / $index * ($len - $index) / 1sec | math round | $in * 1sec
-      print $"(ansi yellow)'($name)'(ansi reset) u+($hex) (ansi blue)($eta)(ansi reset)"
+      print $"(ansi yellow_bold)'($name)'(ansi reset) u+($hex) (ansi blue_bold)($eta)(ansi reset)"
     } 
     let families = (
       fc-list $":charset=($hex)"

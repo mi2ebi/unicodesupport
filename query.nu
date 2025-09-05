@@ -99,13 +99,13 @@ def main [
         | get codepoint
         let has = format-range $supportedlist $assigned
         let hastext = if ($pct == 100) or ($has | is-empty) {""} else {
-          $"\n(ansi green)yes(ansi reset) ($has)"
+          $"\n(ansi green_bold)yes(ansi reset) ($has)"
         }
         let gaps = format-range $missing $assigned
         let gaptext = if ($gaps | is-empty) or (is-pua $block.name) {""} else {
-          $"\n(ansi red)no (ansi reset) ($gaps)"
+          $"\n(ansi red_bold)no (ansi reset) ($gaps)"
         }
-        $"(ansi yellow)($block.name)(ansi reset) ($pct)%($hastext)($gaptext)"
+        $"(ansi yellow_bold)($block.name)(ansi reset) ($pct)%($hastext)($gaptext)"
       }
     }
     | compact | each {print}
