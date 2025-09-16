@@ -1,5 +1,6 @@
 #!/usr/bin/env nu
 def tohex [] {$in | (format number -n).lowerhex | fill -a right -c 0 -w 4}
+def fromhex [] {$in | str replace -r "^0+" "" | into int -r 16}
 def fetch-assigned [] {
   let lines = http get https://www.unicode.org/Public/UNIDATA/UnicodeData.txt
   | lines
@@ -16,8 +17,8 @@ def fetch-assigned [] {
   let ranges = $parsed | enumerate
   | where ($it.item.name | str ends-with ", First>")
   | each {|f|
-    let start = $f.item.codepoint | into int -r 16
-    let end = ($parsed | get ($f.index + 1)).codepoint | into int -r 16
+    let start = $f.item.codepoint | fromhex
+    let end = ($parsed | get ($f.index + 1)).codepoint | fromhex
     $start..$end | par-each {|i| $i | tohex} | sort
   }
   | flatten
@@ -29,7 +30,7 @@ def is-pua [block] {
 def format-range [list:list<string> assigned:list<string>] {
   let assignedonly = $list | where {|hex| $hex in $assigned}
   if ($list | is-empty) or ($assignedonly | is-empty) {return ""}
-  let sorted = $assignedonly | par-each {|hex| $hex | into int -r 16} | sort
+  let sorted = $assignedonly | par-each {|hex| $hex | fromhex} | sort
   mut ranges = []
   mut start = -1
   mut prev = -1
@@ -62,10 +63,7 @@ def main [
 ] {
   let data = open data.json
   if ($codepoint | is-not-empty) {
-    let codepoint = $codepoint
-    | into int -r 16
-    | (format number -n).lowerhex
-    | fill -a right -c 0 -w 4
+    let codepoint = $codepoint | fromhex | tohex
     $data
     | where {|block| $block.chars | any {|char| $char.codepoint == $codepoint}}
     | get chars
