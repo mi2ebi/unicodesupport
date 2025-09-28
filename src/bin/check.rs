@@ -286,7 +286,7 @@ fn main() {
         let b_start = b["startdec"].as_u64().unwrap();
         a_start.cmp(&b_start)
     });
-    let json_data = serde_json::to_string_pretty(&data).unwrap();
+    let json_data = serde_json::to_string_pretty(&data).unwrap() + "\n";
     fs::write("data.json", &json_data).unwrap();
     let elapsed = start_time.elapsed();
     println!("done :3 (took {elapsed:?})");
