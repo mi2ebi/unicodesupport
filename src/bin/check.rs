@@ -1,11 +1,16 @@
-#![allow(clippy::cast_precision_loss, clippy::cast_sign_loss, clippy::cast_possible_truncation)]
+#![allow(
+    clippy::cast_precision_loss,
+    clippy::cast_sign_loss,
+    clippy::cast_possible_truncation,
+    clippy::cast_possible_wrap
+)]
 use std::{
     cmp::Ordering as SortOrder,
     collections::{HashMap, HashSet},
     fs,
     process::Command,
     sync::{
-        Arc,
+        Arc, LazyLock,
         atomic::{AtomicUsize, Ordering as LoadOrder},
         mpsc::{self, Sender},
     },
@@ -14,6 +19,7 @@ use std::{
 };
 
 use rayon::prelude::*;
+use reqwest::blocking::Client;
 use serde_json::{Value, json};
 
 #[derive(Debug, Clone)]
@@ -24,7 +30,7 @@ struct Block {
 }
 #[derive(Debug)]
 enum ProgressMsg {
-    Started(String, usize, Instant),
+    Started(String, usize),
     Progress(String, usize),
     Finished(String),
     Done,
@@ -36,16 +42,30 @@ struct VersionInfo {
     latest: String,
 }
 
+fn try_fetch(url: &str) -> String {
+    static CLIENT: LazyLock<Client> =
+        LazyLock::new(|| Client::builder().timeout(Duration::from_secs(60)).build().unwrap());
+    const RETRY_MAX: i32 = 3;
+    for attempt in 0..RETRY_MAX {
+        match CLIENT.get(url).send() {
+            Ok(resp) => return resp.text().unwrap(),
+            Err(e) if attempt < RETRY_MAX - 1 => {
+                println!("retry {}/{RETRY_MAX} for {url}: {e}", attempt + 1);
+                thread::sleep(Duration::from_secs(1));
+            }
+            Err(e) => panic!("failed after 3 attempts: {e}"),
+        }
+    }
+    unreachable!()
+}
+
 fn version_compare(a: &str, b: &str) -> SortOrder {
     let a_parts = a.split('.').map(|s| s.parse().unwrap_or(0)).collect::<Vec<_>>();
     let b_parts = b.split('.').map(|s| s.parse().unwrap_or(0)).collect::<Vec<_>>();
     a_parts.cmp(&b_parts)
 }
 fn fetch_version_info() -> VersionInfo {
-    let response = reqwest::blocking::get("https://www.unicode.org/Public/UNIDATA/DerivedAge.txt")
-        .unwrap()
-        .text()
-        .unwrap();
+    let response = try_fetch("https://www.unicode.org/Public/UNIDATA/DerivedAge.txt");
     let mut codepoints = HashMap::new();
     let mut all_versions = HashSet::new();
     for line in response.lines() {
@@ -73,10 +93,7 @@ fn fetch_version_info() -> VersionInfo {
 }
 
 fn fetch_blocks() -> Vec<Block> {
-    let response = reqwest::blocking::get("https://www.unicode.org/Public/UNIDATA/Blocks.txt")
-        .unwrap()
-        .text()
-        .unwrap();
+    let response = try_fetch("https://www.unicode.org/Public/UNIDATA/Blocks.txt");
     response
         .lines()
         .filter(|line| !line.starts_with('#') && !line.trim().is_empty())
@@ -138,7 +155,7 @@ fn get_font_families(hex: &str) -> Vec<String> {
 
 fn process_block(block: &Block, tx: &Sender<ProgressMsg>) -> Value {
     let total_chars = (block.end - block.start + 1) as usize;
-    tx.send(ProgressMsg::Started(block.name.clone(), total_chars, Instant::now())).ok();
+    tx.send(ProgressMsg::Started(block.name.clone(), total_chars)).ok();
     let start_hex = to_hex(block.start);
     let end_hex = to_hex(block.end);
     let chars = (block.start..=block.end)
@@ -191,9 +208,10 @@ fn block_has_recent_chars(block: &Block, version_info: &VersionInfo) -> bool {
 }
 
 fn print_status(
-    block_progress: &HashMap<String, (usize, usize, Instant)>,
+    block_progress: &HashMap<String, (usize, usize)>,
     block_order: &[String],
-    finished: i32,
+    finished_chunks: i32,
+    total_chunks: i32,
     recent_blocks: &HashSet<String>,
 ) {
     if block_progress.is_empty() {
@@ -202,31 +220,26 @@ fn print_status(
     let lines: Vec<String> = block_order
         .iter()
         .filter_map(|name| {
-            block_progress.get(name).map(|(current, total, start)| {
+            block_progress.get(name).map(|(current, total)| {
                 let percentage =
-                    if *total > 0 { (*current as f64 / *total as f64) * 100.0 } else { 0.0 };
-                (name.clone(), *current, *total, percentage, start)
+                    if *total > 0 { (*current as f64 / *total as f64 * 100.).floor() } else { 0.0 };
+                (name.clone(), *current, *total, percentage)
             })
         })
         .clone()
-        .map(|(name, current, total, percentage, start)| {
-            let is_recent = recent_blocks.contains(&name);
-            let just_started = start.elapsed() <= Duration::from_secs(1);
-            let (color_start, color_end) = if just_started {
-                ("\x1b[92m", "\x1b[0m")
-            } else if is_recent {
-                ("\x1b[93m", "\x1b[m")
-            } else {
-                ("", "")
-            };
+        .map(|(name, current, total, percentage)| {
+            let color_start = if recent_blocks.contains(&name) { "\x1b[93m" } else { "" };
             format!(
-                "{percentage:3.0}% \x1b[40m{}\x1b[m {color_start}{name}{color_end}",
-                make_progress_bar(current, total, 12)
+                "{percentage:3.0}% {} {color_start}{name}\x1b[m",
+                make_progress_bar(current, total, 12),
             )
         })
         .collect();
     eprintln!(
-        "\x1b[1;34mcurrently processing ({finished} chunks finished):\x1b[0m\n{}",
+        "\x1b[1;34m{:3.0}% {} {finished_chunks} chunk{} completed\x1b[m\n{}",
+        (f64::from(finished_chunks) / f64::from(total_chunks) * 100.).floor(),
+        make_progress_bar(finished_chunks as usize, total_chunks as usize, 12),
+        if finished_chunks == 1 { "" } else { "s" },
         lines.join("\n")
     );
 }
@@ -238,25 +251,26 @@ fn main() {
     let last_line_count = Arc::new(AtomicUsize::new(0));
     let blocks = fetch_blocks();
     let chunks: Vec<Block> = blocks.iter().flat_map(chunk_block).collect();
-    println!("there are {} blocks and {} chunks", blocks.len(), chunks.len());
+    let total_chunks = chunks.len();
+    println!("there are {} blocks and {total_chunks} chunks", blocks.len());
     let recent_blocks: HashSet<String> = chunks
         .iter()
         .filter(|chunk| block_has_recent_chars(chunk, &version_info))
         .map(|chunk| chunk.name.clone())
         .collect();
     let progress_handle = thread::spawn(move || {
-        let mut block_progress: HashMap<String, (usize, usize, Instant)> = HashMap::new();
+        let mut block_progress: HashMap<String, (usize, usize)> = HashMap::new();
         let mut block_order = vec![];
         let mut finished = 0;
         loop {
-            match rx.recv_timeout(Duration::from_millis(500)) {
-                Ok(ProgressMsg::Started(name, total, now)) => {
-                    block_progress.insert(name.clone(), (0, total, now));
+            match rx.recv_timeout(Duration::from_millis(50)) {
+                Ok(ProgressMsg::Started(name, total)) => {
+                    block_progress.insert(name.clone(), (0, total));
                     block_order.push(name);
                 }
                 Ok(ProgressMsg::Progress(name, current)) => {
-                    if let Some((_, total, start)) = block_progress.get(&name) {
-                        block_progress.insert(name, (current, *total, *start));
+                    if let Some((_, total)) = block_progress.get(&name) {
+                        block_progress.insert(name, (current, *total));
                     }
                 }
                 Ok(ProgressMsg::Finished(name)) => {
@@ -273,7 +287,13 @@ fn main() {
             if block_progress.is_empty() {
                 last_line_count.store(0, LoadOrder::Relaxed);
             } else {
-                print_status(&block_progress, &block_order, finished, &recent_blocks);
+                print_status(
+                    &block_progress,
+                    &block_order,
+                    finished,
+                    total_chunks as i32,
+                    &recent_blocks,
+                );
                 last_line_count.store(block_progress.len() + 1, LoadOrder::Relaxed);
             }
         }
