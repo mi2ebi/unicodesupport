@@ -108,7 +108,7 @@ fn fetch_blocks() -> Vec<Block> {
 }
 
 fn chunk_block(block: &Block) -> Vec<Block> {
-    const CHUNK_SIZE: u32 = 2048;
+    const CHUNK_SIZE: u32 = 1024;
     let len = block.end - block.start + 1;
     if len <= CHUNK_SIZE {
         return vec![block.clone()];
