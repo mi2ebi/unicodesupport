@@ -4,6 +4,7 @@
     clippy::cast_possible_truncation,
     clippy::cast_possible_wrap
 )]
+
 use std::{
     cmp::Ordering as SortOrder,
     collections::{HashMap, HashSet},
@@ -127,8 +128,6 @@ fn chunk_block(block: &Block) -> Vec<Block> {
         .collect()
 }
 
-fn to_hex(num: u32) -> String { format!("{num:04x}") }
-
 fn get_font_families(hex: &str) -> Vec<String> {
     let output = Command::new("fc-list").arg(format!(":charset={hex}")).output().unwrap();
     let families: HashSet<String> = String::from_utf8(output.stdout)
@@ -156,13 +155,13 @@ fn get_font_families(hex: &str) -> Vec<String> {
 fn process_block(block: &Block, tx: &Sender<ProgressMsg>) -> Value {
     let total_chars = (block.end - block.start + 1) as usize;
     tx.send(ProgressMsg::Started(block.name.clone(), total_chars)).ok();
-    let start_hex = to_hex(block.start);
-    let end_hex = to_hex(block.end);
+    let start_hex = format!("{:04x}", block.start);
+    let end_hex = format!("{:04x}", block.end);
     let chars = (block.start..=block.end)
         .enumerate()
         .map(|(i, codepoint)| {
             tx.send(ProgressMsg::Progress(block.name.clone(), i + 1)).ok();
-            let hex = to_hex(codepoint);
+            let hex = format!("{codepoint:04x}");
             let families = get_font_families(&hex);
             json!({
                 "codepoint": hex,
@@ -202,11 +201,6 @@ fn make_progress_bar(current: usize, total: usize, width: usize) -> String {
     format!("{bar:width$}")
 }
 
-fn block_has_recent_chars(block: &Block, version_info: &VersionInfo) -> bool {
-    (block.start..=block.end)
-        .any(|cp| version_info.codepoints.get(&cp).is_some_and(|v| v == &version_info.latest))
-}
-
 fn print_status(
     block_progress: &HashMap<String, (usize, usize)>,
     block_order: &[String],
@@ -243,6 +237,7 @@ fn print_status(
         lines.join("\n")
     );
 }
+
 fn main() {
     let start_time = Instant::now();
     let version_info = fetch_version_info();
@@ -255,7 +250,11 @@ fn main() {
     println!("there are {} blocks and {total_chunks} chunks", blocks.len());
     let recent_blocks: HashSet<String> = chunks
         .iter()
-        .filter(|chunk| block_has_recent_chars(chunk, &version_info))
+        .filter(|chunk| {
+            (chunk.start..=chunk.end).any(|cp| {
+                version_info.codepoints.get(&cp).is_some_and(|v| v == &version_info.latest)
+            })
+        })
         .map(|chunk| chunk.name.clone())
         .collect();
     let progress_handle = thread::spawn(move || {
