@@ -27,7 +27,7 @@ struct Block {
 
 fn try_fetch(url: &str) -> String {
     static CLIENT: LazyLock<Client> =
-        LazyLock::new(|| Client::builder().timeout(Duration::from_secs(60)).build().unwrap());
+        LazyLock::new(|| Client::builder().timeout(Duration::from_mins(1)).build().unwrap());
     const RETRY_MAX: i32 = 3;
     for attempt in 0..RETRY_MAX {
         match CLIENT.get(url).send() {
