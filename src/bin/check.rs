@@ -25,25 +25,29 @@ struct Block {
     end: u32,
 }
 
-fn try_fetch(url: &str) -> String {
+fn try_fetch(url: &str) -> Option<String> {
     static CLIENT: LazyLock<Client> =
         LazyLock::new(|| Client::builder().timeout(Duration::from_mins(1)).build().unwrap());
     const RETRY_MAX: i32 = 3;
     for attempt in 0..RETRY_MAX {
         match CLIENT.get(url).send() {
-            Ok(resp) => return resp.text().unwrap(),
+            Ok(resp) => return Some(resp.text().unwrap()),
             Err(e) if attempt < RETRY_MAX - 1 => {
                 println!("retry {}/{RETRY_MAX} for {url}: {e}", attempt + 1);
                 thread::sleep(Duration::from_secs(1));
             }
-            Err(e) => panic!("failed after 3 attempts: {e}"),
+            Err(_) => return None,
         }
     }
     unreachable!()
 }
 
 fn fetch_blocks() -> Vec<Block> {
-    let response = try_fetch("https://www.unicode.org/Public/UNIDATA/Blocks.txt");
+    let response =
+        try_fetch("https://www.unicode.org/Public/draft/ucd/Blocks.txt").unwrap_or_else(|| {
+            try_fetch("https://www.unicode.org/Public/latest/ucd/Blocks.txt")
+                .unwrap_or_else(|| panic!("ohno"))
+        });
     response
         .lines()
         .filter(|line| !line.starts_with('#') && !line.trim().is_empty())
