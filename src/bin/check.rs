@@ -99,12 +99,12 @@ fn process_block(block: &Block, font_map: &HashMap<u32, Vec<String>>) -> Value {
     let start_hex = format!("{:04x}", block.start);
     let end_hex = format!("{:04x}", block.end);
     let chars = (block.start..=block.end)
+        .filter(|cp| font_map.contains_key(cp))
         .map(|codepoint| {
             let hex = format!("{codepoint:04x}");
             let families = font_map.get(&codepoint).cloned().unwrap_or_default();
             json!({
-                "codepoint": hex,
-                "families": families
+                hex: families
             })
         })
         .collect::<Vec<_>>();
@@ -129,8 +129,18 @@ fn main() {
         let b_start = b["startdec"].as_u64().unwrap();
         a_start.cmp(&b_start)
     });
+    for b in &mut data {
+        b.as_object_mut().unwrap().remove("startdec");
+    }
     let json_data = serde_json::to_string_pretty(&data).unwrap() + "\n";
     fs::write("data.json", &json_data).unwrap();
+    let min = serde_json::to_string(&data).unwrap() + "\n";
+    fs::write("data.min.json", &min).unwrap();
     let elapsed = start_time.elapsed();
     println!("finished in {elapsed:?}");
+    println!(
+        "{:.2} MiB pretty, {:.2} MiB minified",
+        json_data.len() as f64 / 1_048_576.,
+        min.len() as f64 / 1_048_576.
+    );
 }
