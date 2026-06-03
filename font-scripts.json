@@ -1,0 +1,4323 @@
+[
+  {
+    "font": "Abyssinica SIL",
+    "scripts": {
+      "Common": 1.9297110823630874,
+      "Ethiopic": 100.0,
+      "Greek": 0.38461538461538464,
+      "Inherited": 4.172661870503598,
+      "Latin": 7.683000604960677
+    }
+  },
+  {
+    "font": "Adwaita Mono",
+    "scripts": {
+      "Armenian": 91.91919191919192,
+      "Bopomofo": 2.5974025974025974,
+      "Braille": 100.0,
+      "Common": 50.38809831824062,
+      "Cyrillic": 99.60629921259843,
+      "Greek": 70.76923076923077,
+      "Hebrew": 0.7352941176470588,
+      "Inherited": 34.10071942446043,
+      "Latin": 81.85117967332124
+    }
+  },
+  {
+    "font": "Adwaita Sans",
+    "scripts": {
+      "Bopomofo": 2.5974025974025974,
+      "Common": 5.379473911168607,
+      "Cyrillic": 49.01574803149607,
+      "Greek": 64.61538461538461,
+      "Inherited": 18.992805755395683,
+      "Latin": 53.72050816696915
+    }
+  },
+  {
+    "font": "Akatab",
+    "scripts": {
+      "Common": 1.6386373436826216,
+      "Greek": 0.38461538461538464,
+      "Inherited": 4.892086330935252,
+      "Latin": 10.405323653962492,
+      "Tifinagh": 100.0
+    }
+  },
+  {
+    "font": "Alkalami",
+    "scripts": {
+      "Arabic": 8.81542699724518,
+      "Common": 1.8003449762828805,
+      "Greek": 0.38461538461538464,
+      "Inherited": 4.460431654676259,
+      "Latin": 7.683000604960677
+    }
+  },
+  {
+    "font": "Amiri",
+    "scripts": {
+      "Arabic": 83.81542699724518,
+      "Common": 1.7248814144027595,
+      "Inherited": 4.60431654676259,
+      "Latin": 17.604355716878402
+    }
+  },
+  {
+    "font": "Amiri Typewriter",
+    "scripts": {
+      "Arabic": 5.647382920110193,
+      "Common": 1.034928848641656,
+      "Inherited": 2.877697841726619,
+      "Latin": 7.259528130671507
+    }
+  },
+  {
+    "font": "Andika",
+    "scripts": {
+      "Bopomofo": 2.5974025974025974,
+      "Common": 5.648986632169038,
+      "Coptic": 1.4598540145985401,
+      "Cyrillic": 65.94488188976378,
+      "Greek": 7.6923076923076925,
+      "Inherited": 24.89208633093525,
+      "Latin": 82.335148215366
+    }
+  },
+  {
+    "font": "Annapurna SIL",
+    "scripts": {
+      "Common": 1.7895644674428632,
+      "Devanagari": 93.33333333333333,
+      "Greek": 0.38461538461538464,
+      "Inherited": 5.467625899280575,
+      "Latin": 9.195402298850574
+    }
+  },
+  {
+    "font": "Awami Nastaliq",
+    "scripts": {
+      "Arabic": 15.84022038567493,
+      "Common": 1.7572229409228115,
+      "Greek": 0.19230769230769232,
+      "Inherited": 3.1654676258992804,
+      "Latin": 7.683000604960677
+    }
+  },
+  {
+    "font": "Bitstream Charter",
+    "scripts": {
+      "Common": 1.1211729193617939,
+      "Greek": 0.19230769230769232,
+      "Latin": 7.80399274047187
+    }
+  },
+  {
+    "font": "BJCree",
+    "scripts": {
+      "Canadian_Aboriginal": 57.438016528925615,
+      "Common": 1.563173781802501,
+      "Greek": 0.38461538461538464,
+      "Inherited": 4.028776978417266,
+      "Latin": 8.166969147005444
+    }
+  },
+  {
+    "font": "Busra",
+    "scripts": {
+      "Common": 1.5739542906425183,
+      "Greek": 0.38461538461538464,
+      "Inherited": 4.748201438848921,
+      "Khmer": 100.0,
+      "Latin": 13.853599516031458
+    }
+  },
+  {
+    "font": "C059",
+    "scripts": {
+      "Common": 3.3850797757654165,
+      "Cyrillic": 28.346456692913385,
+      "Greek": 14.23076923076923,
+      "Inherited": 0.14388489208633093,
+      "Latin": 16.273442226255295
+    }
+  },
+  {
+    "font": "Caladea",
+    "scripts": {
+      "Common": 1.5955153083225526,
+      "Greek": 0.19230769230769232,
+      "Latin": 16.152450090744104
+    }
+  },
+  {
+    "font": "Cantarell",
+    "scripts": {
+      "Common": 2.339370418283743,
+      "Cyrillic": 35.826771653543304,
+      "Greek": 58.84615384615385,
+      "Inherited": 4.172661870503598,
+      "Latin": 29.58257713248639
+    }
+  },
+  {
+    "font": "Carlito",
+    "scripts": {
+      "Bopomofo": 2.5974025974025974,
+      "Common": 3.805519620526089,
+      "Coptic": 10.218978102189782,
+      "Cyrillic": 53.937007874015755,
+      "Greek": 68.84615384615384,
+      "Inherited": 14.244604316546763,
+      "Latin": 61.34301270417423
+    }
+  },
+  {
+    "font": "Charis",
+    "scripts": {
+      "Bopomofo": 2.5974025974025974,
+      "Common": 5.648986632169038,
+      "Coptic": 1.4598540145985401,
+      "Cyrillic": 65.94488188976378,
+      "Greek": 7.6923076923076925,
+      "Inherited": 24.89208633093525,
+      "Latin": 82.335148215366
+    }
+  },
+  {
+    "font": "Comfortaa",
+    "scripts": {
+      "Common": 1.8326865028029322,
+      "Cyrillic": 35.43307086614173,
+      "Greek": 14.23076923076923,
+      "Inherited": 3.741007194244604,
+      "Latin": 24.07743496672716
+    }
+  },
+  {
+    "font": "Courier 10 Pitch",
+    "scripts": {
+      "Common": 1.1211729193617939,
+      "Greek": 0.19230769230769232,
+      "Latin": 7.80399274047187
+    }
+  },
+  {
+    "font": "Cursor",
+    "scripts": {
+      "Common": 0.03234152652005175
+    }
+  },
+  {
+    "font": "D050000L",
+    "scripts": {
+      "Common": 3.126347563605002,
+      "Latin": 6.896551724137931
+    }
+  },
+  {
+    "font": "Dai Banna SIL",
+    "scripts": {
+      "Common": 1.7033203967227253,
+      "Greek": 0.38461538461538464,
+      "Inherited": 2.7338129496402876,
+      "Latin": 7.683000604960677,
+      "New_Tai_Lue": 100.0
+    }
+  },
+  {
+    "font": "DejaVu Sans",
+    "scripts": {
+      "Arabic": 32.438016528925615,
+      "Armenian": 91.91919191919192,
+      "Braille": 100.0,
+      "Canadian_Aboriginal": 55.64738292011019,
+      "Common": 26.045709357481673,
+      "Coptic": 10.218978102189782,
+      "Cyrillic": 64.37007874015748,
+      "Georgian": 69.36416184971098,
+      "Greek": 70.57692307692308,
+      "Hebrew": 73.52941176470588,
+      "Inherited": 20.431654676258994,
+      "Lao": 78.3132530120482,
+      "Latin": 67.15063520871144,
+      "Lisu": 97.95918367346938,
+      "Nko": 87.09677419354838,
+      "Ogham": 100.0,
+      "Old_Italic": 89.74358974358975,
+      "Tifinagh": 93.22033898305084
+    }
+  },
+  {
+    "font": "Doulos SIL",
+    "scripts": {
+      "Bopomofo": 2.5974025974025974,
+      "Common": 5.648986632169038,
+      "Coptic": 1.4598540145985401,
+      "Cyrillic": 65.94488188976378,
+      "Greek": 7.6923076923076925,
+      "Inherited": 24.89208633093525,
+      "Latin": 82.335148215366
+    }
+  },
+  {
+    "font": "Droid Arabic Kufi",
+    "scripts": {
+      "Arabic": 30.509641873278238,
+      "Common": 0.10780508840017247,
+      "Inherited": 1.7266187050359711
+    }
+  },
+  {
+    "font": "Droid Sans",
+    "scripts": {
+      "Common": 1.6386373436826216,
+      "Cyrillic": 53.74015748031496,
+      "Greek": 14.423076923076922,
+      "Inherited": 1.1510791366906474,
+      "Latin": 22.081064730792498
+    }
+  },
+  {
+    "font": "Droid Sans Armenian",
+    "scripts": {
+      "Armenian": 91.91919191919192,
+      "Common": 0.01078050884001725
+    }
+  },
+  {
+    "font": "Droid Sans Devanagari",
+    "scripts": {
+      "Common": 0.603708495040966,
+      "Devanagari": 64.24242424242425,
+      "Inherited": 0.8633093525179856
+    }
+  },
+  {
+    "font": "Droid Sans Ethiopic",
+    "scripts": {
+      "Common": 0.0215610176800345,
+      "Ethiopic": 94.64627151051626
+    }
+  },
+  {
+    "font": "Droid Sans Fallback",
+    "scripts": {
+      "Bopomofo": 48.05194805194805,
+      "Common": 2.867615351444588,
+      "Deseret": 6.25,
+      "Han": 26.895464045204736,
+      "Hangul": 1.9081693500298151,
+      "Hiragana": 22.5130890052356,
+      "Inherited": 0.28776978417266186,
+      "Katakana": 48.62385321100918,
+      "Latin": 3.145795523290986
+    }
+  },
+  {
+    "font": "Droid Sans Georgian",
+    "scripts": {
+      "Common": 0.0215610176800345,
+      "Georgian": 69.36416184971098
+    }
+  },
+  {
+    "font": "Droid Sans Hebrew",
+    "scripts": {
+      "Common": 0.043122035360069,
+      "Hebrew": 97.79411764705883
+    }
+  },
+  {
+    "font": "Droid Sans Japanese",
+    "scripts": {
+      "Common": 0.35575679172056923,
+      "Han": 6.1517919343602445,
+      "Hiragana": 22.25130890052356,
+      "Katakana": 43.730886850152906
+    }
+  },
+  {
+    "font": "Droid Sans Tamil",
+    "scripts": {
+      "Common": 0.5929279862009487,
+      "Inherited": 0.28776978417266186,
+      "Tamil": 58.536585365853654
+    }
+  },
+  {
+    "font": "Droid Sans Thai",
+    "scripts": {
+      "Common": 0.043122035360069,
+      "Thai": 100.0
+    }
+  },
+  {
+    "font": "Fira Math",
+    "scripts": {
+      "Common": 11.71841310909875,
+      "Cyrillic": 20.47244094488189,
+      "Greek": 15.96153846153846,
+      "Inherited": 11.223021582733812,
+      "Latin": 12.94615849969752
+    }
+  },
+  {
+    "font": "Fira Sans",
+    "scripts": {
+      "Common": 2.792151789564467,
+      "Cyrillic": 56.69291338582677,
+      "Greek": 67.6923076923077,
+      "Inherited": 9.352517985611511,
+      "Latin": 45.5535390199637
+    }
+  },
+  {
+    "font": "FreeSans",
+    "scripts": {
+      "Armenian": 92.92929292929293,
+      "Bengali": 93.87755102040816,
+      "Bopomofo": 2.5974025974025974,
+      "Canadian_Aboriginal": 97.7961432506887,
+      "Cherokee": 49.41860465116279,
+      "Common": 10.46787408365675,
+      "Cyrillic": 52.362204724409445,
+      "Devanagari": 73.33333333333333,
+      "Georgian": 42.19653179190752,
+      "Greek": 63.07692307692307,
+      "Gurmukhi": 98.75,
+      "Hebrew": 75.0,
+      "Inherited": 21.72661870503597,
+      "Latin": 53.055051421657595,
+      "Malayalam": 83.05084745762711,
+      "Old_Persian": 100.0,
+      "Osmanya": 100.0,
+      "Phoenician": 100.0,
+      "Syriac": 87.5,
+      "Tifinagh": 96.61016949152543,
+      "Ugaritic": 100.0,
+      "Vai": 100.0
+    }
+  },
+  {
+    "font": "Gentium",
+    "scripts": {
+      "Bopomofo": 2.5974025974025974,
+      "Common": 5.68132815868909,
+      "Coptic": 1.4598540145985401,
+      "Cyrillic": 65.94488188976378,
+      "Greek": 70.76923076923077,
+      "Inherited": 25.755395683453237,
+      "Latin": 82.335148215366
+    }
+  },
+  {
+    "font": "Harmattan",
+    "scripts": {
+      "Arabic": 30.44077134986226,
+      "Common": 1.8542475204829667,
+      "Greek": 0.38461538461538464,
+      "Inherited": 4.460431654676259,
+      "Latin": 7.683000604960677
+    }
+  },
+  {
+    "font": "IBM Plex Math",
+    "scripts": {
+      "Common": 34.152652005174645,
+      "Cyrillic": 21.062992125984252,
+      "Greek": 62.69230769230769,
+      "Hiragana": 0.2617801047120419,
+      "Inherited": 15.107913669064748,
+      "Latin": 40.77434966727162
+    }
+  },
+  {
+    "font": "IBM Plex Mono",
+    "scripts": {
+      "Common": 4.150495903406641,
+      "Cyrillic": 38.188976377952756,
+      "Greek": 0.38461538461538464,
+      "Inherited": 3.0215827338129495,
+      "Latin": 22.807017543859647
+    }
+  },
+  {
+    "font": "IBM Plex Sans",
+    "scripts": {
+      "Common": 2.436394997843898,
+      "Cyrillic": 38.188976377952756,
+      "Greek": 13.653846153846153,
+      "Inherited": 3.0215827338129495,
+      "Latin": 22.807017543859647
+    }
+  },
+  {
+    "font": "IBM Plex Sans Arabic",
+    "scripts": {
+      "Arabic": 45.24793388429752,
+      "Common": 2.2423458387235877,
+      "Greek": 0.38461538461538464,
+      "Inherited": 3.597122302158273,
+      "Latin": 8.22746521476104
+    }
+  },
+  {
+    "font": "IBM Plex Sans Devanagari",
+    "scripts": {
+      "Common": 2.166882276843467,
+      "Devanagari": 60.60606060606061,
+      "Greek": 0.38461538461538464,
+      "Inherited": 2.158273381294964,
+      "Latin": 8.22746521476104
+    }
+  },
+  {
+    "font": "IBM Plex Sans Hebrew",
+    "scripts": {
+      "Common": 2.1345407503234153,
+      "Greek": 0.38461538461538464,
+      "Hebrew": 61.76470588235294,
+      "Inherited": 1.870503597122302,
+      "Latin": 8.22746521476104
+    }
+  },
+  {
+    "font": "IBM Plex Sans Thai",
+    "scripts": {
+      "Common": 2.1884432945235015,
+      "Greek": 0.38461538461538464,
+      "Inherited": 0.7194244604316548,
+      "Latin": 8.22746521476104,
+      "Thai": 100.0
+    }
+  },
+  {
+    "font": "IBM Plex Sans Thai Looped",
+    "scripts": {
+      "Common": 2.1884432945235015,
+      "Greek": 0.38461538461538464,
+      "Inherited": 0.7194244604316548,
+      "Latin": 8.22746521476104,
+      "Thai": 100.0
+    }
+  },
+  {
+    "font": "IBM Plex Serif",
+    "scripts": {
+      "Common": 2.436394997843898,
+      "Cyrillic": 38.188976377952756,
+      "Greek": 14.23076923076923,
+      "Inherited": 3.0215827338129495,
+      "Latin": 22.807017543859647
+    }
+  },
+  {
+    "font": "Idiqlat",
+    "scripts": {
+      "Arabic": 0.06887052341597796,
+      "Common": 1.8542475204829667,
+      "Greek": 0.38461538461538464,
+      "Inherited": 5.0359712230215825,
+      "Latin": 7.683000604960677,
+      "Syriac": 86.36363636363636
+    }
+  },
+  {
+    "font": "iosevie",
+    "scripts": {
+      "Armenian": 91.91919191919192,
+      "Bopomofo": 2.5974025974025974,
+      "Braille": 100.0,
+      "Common": 50.700733074601125,
+      "Cyrillic": 99.60629921259843,
+      "Greek": 70.76923076923077,
+      "Hebrew": 0.7352941176470588,
+      "Inherited": 34.10071942446043,
+      "Latin": 82.03266787658802
+    }
+  },
+  {
+    "font": "Jigmo",
+    "scripts": {
+      "Bopomofo": 97.40259740259741,
+      "Common": 4.614057783527382,
+      "Han": 27.481809737595793,
+      "Hangul": 99.9659255473209,
+      "Hiragana": 99.73821989528795,
+      "Inherited": 0.8633093525179856,
+      "Katakana": 98.1651376146789,
+      "Latin": 3.145795523290986
+    }
+  },
+  {
+    "font": "Jigmo2",
+    "scripts": {
+      "Common": 0.4743423889607589,
+      "Han": 59.51892561343757,
+      "Latin": 3.145795523290986
+    }
+  },
+  {
+    "font": "Jigmo3",
+    "scripts": {
+      "Common": 0.4743423889607589,
+      "Han": 12.994426813220839,
+      "Latin": 3.145795523290986
+    }
+  },
+  {
+    "font": "Jomolhari",
+    "scripts": {
+      "Common": 1.7356619232427772,
+      "Greek": 0.38461538461538464,
+      "Han": 0.0019351342983203036,
+      "Inherited": 2.7338129496402876,
+      "Latin": 10.647307924984876,
+      "Tibetan": 94.20289855072464
+    }
+  },
+  {
+    "font": "Kanchenjunga",
+    "scripts": {
+      "Common": 1.5523932729624839,
+      "Greek": 0.38461538461538464,
+      "Inherited": 3.884892086330935,
+      "Kirat_Rai": 100.0,
+      "Latin": 7.683000604960677
+    }
+  },
+  {
+    "font": "Kay Pho Du",
+    "scripts": {
+      "Common": 1.5523932729624839,
+      "Greek": 0.38461538461538464,
+      "Inherited": 3.884892086330935,
+      "Kayah_Li": 100.0,
+      "Latin": 7.683000604960677
+    }
+  },
+  {
+    "font": "Kedebideri",
+    "scripts": {
+      "Beria_Erfe": 100.0,
+      "Common": 1.5416127641224666,
+      "Greek": 0.38461538461538464,
+      "Inherited": 3.3093525179856114,
+      "Latin": 7.683000604960677
+    }
+  },
+  {
+    "font": "Khitan Small Linear",
+    "scripts": {
+      "Common": 0.5821474773609314,
+      "Inherited": 0.14388489208633093,
+      "Khitan_Small_Script": 98.9517819706499,
+      "Latin": 3.145795523290986
+    }
+  },
+  {
+    "font": "Lateef",
+    "scripts": {
+      "Arabic": 32.02479338842975,
+      "Common": 1.8542475204829667,
+      "Greek": 0.38461538461538464,
+      "Inherited": 4.460431654676259,
+      "Latin": 7.683000604960677
+    }
+  },
+  {
+    "font": "Lato",
+    "scripts": {
+      "Bopomofo": 2.5974025974025974,
+      "Common": 3.9025442000862443,
+      "Coptic": 10.218978102189782,
+      "Cyrillic": 54.13385826771654,
+      "Greek": 69.03846153846153,
+      "Inherited": 19.280575539568346,
+      "Latin": 61.464004839685416
+    }
+  },
+  {
+    "font": "Liberation Mono",
+    "scripts": {
+      "Bopomofo": 2.5974025974025974,
+      "Common": 3.9672272531263473,
+      "Coptic": 10.218978102189782,
+      "Cyrillic": 55.118110236220474,
+      "Greek": 69.03846153846153,
+      "Hebrew": 97.79411764705883,
+      "Inherited": 19.280575539568346,
+      "Latin": 61.40350877192983
+    }
+  },
+  {
+    "font": "Liberation Sans",
+    "scripts": {
+      "Bopomofo": 2.5974025974025974,
+      "Common": 4.193617938766709,
+      "Coptic": 10.218978102189782,
+      "Cyrillic": 55.118110236220474,
+      "Greek": 69.03846153846153,
+      "Hebrew": 97.79411764705883,
+      "Inherited": 19.280575539568346,
+      "Latin": 61.464004839685416
+    }
+  },
+  {
+    "font": "Liberation Serif",
+    "scripts": {
+      "Bopomofo": 2.5974025974025974,
+      "Common": 4.118154376886589,
+      "Coptic": 10.218978102189782,
+      "Cyrillic": 55.118110236220474,
+      "Greek": 69.03846153846153,
+      "Hebrew": 97.79411764705883,
+      "Inherited": 19.280575539568346,
+      "Latin": 61.464004839685416
+    }
+  },
+  {
+    "font": "linja lipamanka",
+    "scripts": {
+      "Common": 0.48512289780077616,
+      "Latin": 3.871748336358137
+    }
+  },
+  {
+    "font": "linja sike 5",
+    "scripts": {
+      "Common": 1.0133678309616214,
+      "Inherited": 2.302158273381295,
+      "Latin": 14.882032667876588
+    }
+  },
+  {
+    "font": "Lisu Bosa",
+    "scripts": {
+      "Common": 1.5416127641224666,
+      "Greek": 0.38461538461538464,
+      "Inherited": 2.7338129496402876,
+      "Latin": 7.683000604960677,
+      "Lisu": 100.0
+    }
+  },
+  {
+    "font": "Madan",
+    "scripts": {
+      "Common": 0.45278137128072443,
+      "Devanagari": 43.03030303030303
+    }
+  },
+  {
+    "font": "Mingzat",
+    "scripts": {
+      "Common": 1.5955153083225526,
+      "Greek": 0.38461538461538464,
+      "Inherited": 2.7338129496402876,
+      "Latin": 7.683000604960677,
+      "Lepcha": 100.0
+    }
+  },
+  {
+    "font": "Montserrat",
+    "scripts": {
+      "Common": 2.425614489003881,
+      "Cyrillic": 46.8503937007874,
+      "Greek": 1.9230769230769231,
+      "Inherited": 7.625899280575539,
+      "Latin": 47.428917120387176
+    }
+  },
+  {
+    "font": "Namdhinggo",
+    "scripts": {
+      "Common": 1.5955153083225526,
+      "Greek": 0.576923076923077,
+      "Inherited": 2.7338129496402876,
+      "Latin": 7.683000604960677,
+      "Limbu": 100.0
+    }
+  },
+  {
+    "font": "Narnoor",
+    "scripts": {
+      "Common": 1.5847347994825356,
+      "Devanagari": 0.6060606060606061,
+      "Greek": 0.576923076923077,
+      "Gunjala_Gondi": 100.0,
+      "Inherited": 3.884892086330935,
+      "Latin": 7.683000604960677
+    }
+  },
+  {
+    "font": "NewGardiner",
+    "scripts": {
+      "Common": 0.11858559724018973,
+      "Egyptian_Hieroglyphs": 100.0,
+      "Inherited": 1.0071942446043165
+    }
+  },
+  {
+    "font": "NewGardinerNonCore",
+    "scripts": {
+      "Egyptian_Hieroglyphs": 0.15670910871694416
+    }
+  },
+  {
+    "font": "Nimbus Mono PS",
+    "scripts": {
+      "Common": 3.3850797757654165,
+      "Cyrillic": 28.346456692913385,
+      "Greek": 14.23076923076923,
+      "Inherited": 0.14388489208633093,
+      "Latin": 16.273442226255295
+    }
+  },
+  {
+    "font": "Nimbus Roman",
+    "scripts": {
+      "Common": 3.3850797757654165,
+      "Cyrillic": 28.346456692913385,
+      "Greek": 14.23076923076923,
+      "Inherited": 0.14388489208633093,
+      "Latin": 16.273442226255295
+    }
+  },
+  {
+    "font": "Nimbus Sans",
+    "scripts": {
+      "Common": 3.3850797757654165,
+      "Cyrillic": 28.346456692913385,
+      "Greek": 14.23076923076923,
+      "Inherited": 0.14388489208633093,
+      "Latin": 16.273442226255295
+    }
+  },
+  {
+    "font": "Nimbus Sans Narrow",
+    "scripts": {
+      "Common": 3.3850797757654165,
+      "Cyrillic": 28.346456692913385,
+      "Greek": 14.23076923076923,
+      "Inherited": 0.14388489208633093,
+      "Latin": 16.273442226255295
+    }
+  },
+  {
+    "font": "Nokia Pure HL KLGN",
+    "scripts": {
+      "Common": 1.2397585166019836,
+      "Greek": 0.38461538461538464,
+      "Latin": 7.683000604960677
+    }
+  },
+  {
+    "font": "Nokyung",
+    "scripts": {
+      "Common": 1.7033203967227253,
+      "Greek": 0.576923076923077,
+      "Inherited": 3.884892086330935,
+      "Latin": 7.683000604960677,
+      "New_Tai_Lue": 100.0
+    }
+  },
+  {
+    "font": "Noto Color Emoji",
+    "scripts": {
+      "Common": 15.83656748598534,
+      "Inherited": 0.28776978417266186
+    }
+  },
+  {
+    "font": "Noto Emoji",
+    "scripts": {
+      "Common": 15.83656748598534,
+      "Inherited": 0.5755395683453237
+    }
+  },
+  {
+    "font": "Noto Fangsong KSS Vertical",
+    "scripts": {
+      "Common": 0.18326865028029324,
+      "Han": 0.008708104342441366,
+      "Khitan_Small_Script": 98.74213836477988
+    }
+  },
+  {
+    "font": "Noto Kufi Arabic",
+    "scripts": {
+      "Arabic": 82.23140495867769,
+      "Common": 0.33419577404053474,
+      "Inherited": 2.014388489208633
+    }
+  },
+  {
+    "font": "Noto Music",
+    "scripts": {
+      "Common": 5.034497628288055,
+      "Greek": 13.461538461538462,
+      "Inherited": 3.1654676258992804
+    }
+  },
+  {
+    "font": "Noto Naskh Arabic",
+    "scripts": {
+      "Arabic": 82.23140495867769,
+      "Common": 0.4096593359206554,
+      "Inherited": 2.014388489208633
+    }
+  },
+  {
+    "font": "Noto Naskh Arabic UI",
+    "scripts": {
+      "Arabic": 73.89807162534436,
+      "Common": 0.35575679172056923,
+      "Inherited": 2.014388489208633
+    }
+  },
+  {
+    "font": "Noto Nastaliq Urdu",
+    "scripts": {
+      "Arabic": 23.140495867768596,
+      "Common": 0.6144890038809833,
+      "Inherited": 2.014388489208633
+    }
+  },
+  {
+    "font": "Noto Rashi Hebrew",
+    "scripts": {
+      "Common": 0.0646830530401035,
+      "Hebrew": 66.91176470588235,
+      "Inherited": 0.28776978417266186
+    }
+  },
+  {
+    "font": "Noto Sans",
+    "scripts": {
+      "Bopomofo": 2.5974025974025974,
+      "Common": 5.8753773178094,
+      "Cyrillic": 87.20472440944881,
+      "Greek": 70.76923076923077,
+      "Inherited": 31.798561151079134,
+      "Latin": 83.7265577737447
+    }
+  },
+  {
+    "font": "Noto Sans Adlam",
+    "scripts": {
+      "Adlam": 100.0,
+      "Common": 0.6252695127210005
+    }
+  },
+  {
+    "font": "Noto Sans Adlam Unjoined",
+    "scripts": {
+      "Adlam": 100.0,
+      "Common": 0.6252695127210005
+    }
+  },
+  {
+    "font": "Noto Sans Anatolian Hieroglyphs",
+    "scripts": {
+      "Anatolian_Hieroglyphs": 100.0,
+      "Common": 0.03234152652005175
+    }
+  },
+  {
+    "font": "Noto Sans Arabic",
+    "scripts": {
+      "Arabic": 82.23140495867769,
+      "Common": 0.42043984476067264,
+      "Inherited": 2.158273381294964
+    }
+  },
+  {
+    "font": "Noto Sans Arabic UI",
+    "scripts": {
+      "Arabic": 76.30853994490359,
+      "Common": 0.3773178094006037,
+      "Inherited": 2.158273381294964
+    }
+  },
+  {
+    "font": "Noto Sans Armenian",
+    "scripts": {
+      "Armenian": 96.96969696969697,
+      "Common": 0.0646830530401035,
+      "Inherited": 0.14388489208633093
+    }
+  },
+  {
+    "font": "Noto Sans Avestan",
+    "scripts": {
+      "Avestan": 100.0,
+      "Common": 0.0646830530401035,
+      "Inherited": 0.28776978417266186
+    }
+  },
+  {
+    "font": "Noto Sans Balinese",
+    "scripts": {
+      "Balinese": 97.63779527559055,
+      "Common": 0.053902544200086236,
+      "Inherited": 0.28776978417266186
+    }
+  },
+  {
+    "font": "Noto Sans Bamum",
+    "scripts": {
+      "Bamum": 100.0,
+      "Common": 0.03234152652005175
+    }
+  },
+  {
+    "font": "Noto Sans Bassa Vah",
+    "scripts": {
+      "Bassa_Vah": 100.0,
+      "Common": 0.03234152652005175
+    }
+  },
+  {
+    "font": "Noto Sans Batak",
+    "scripts": {
+      "Batak": 100.0,
+      "Common": 0.043122035360069,
+      "Inherited": 0.28776978417266186
+    }
+  },
+  {
+    "font": "Noto Sans Bengali",
+    "scripts": {
+      "Bengali": 97.95918367346938,
+      "Common": 0.2695127210004312,
+      "Devanagari": 0.6060606060606061,
+      "Inherited": 1.4388489208633095
+    }
+  },
+  {
+    "font": "Noto Sans Bengali UI",
+    "scripts": {
+      "Bengali": 97.95918367346938,
+      "Common": 0.689952565761104,
+      "Devanagari": 0.6060606060606061,
+      "Inherited": 1.4388489208633095
+    }
+  },
+  {
+    "font": "Noto Sans Bengali UI Condensed",
+    "scripts": {
+      "Bengali": 97.95918367346938,
+      "Common": 0.689952565761104,
+      "Devanagari": 0.6060606060606061,
+      "Inherited": 1.4388489208633095
+    }
+  },
+  {
+    "font": "Noto Sans Bengali UI ExtraCondensed",
+    "scripts": {
+      "Bengali": 97.95918367346938,
+      "Common": 0.689952565761104,
+      "Devanagari": 0.6060606060606061,
+      "Inherited": 1.4388489208633095
+    }
+  },
+  {
+    "font": "Noto Sans Bengali UI SemiCondensed",
+    "scripts": {
+      "Bengali": 97.95918367346938,
+      "Common": 0.689952565761104,
+      "Devanagari": 0.6060606060606061,
+      "Inherited": 1.4388489208633095
+    }
+  },
+  {
+    "font": "Noto Sans Bhaiksuki",
+    "scripts": {
+      "Bhaiksuki": 100.0,
+      "Common": 0.043122035360069
+    }
+  },
+  {
+    "font": "Noto Sans Brahmi",
+    "scripts": {
+      "Brahmi": 100.0,
+      "Common": 0.043122035360069,
+      "Inherited": 0.28776978417266186
+    }
+  },
+  {
+    "font": "Noto Sans Buginese",
+    "scripts": {
+      "Buginese": 100.0,
+      "Common": 0.053902544200086236,
+      "Inherited": 0.28776978417266186
+    }
+  },
+  {
+    "font": "Noto Sans Buhid",
+    "scripts": {
+      "Buhid": 100.0,
+      "Common": 0.0646830530401035,
+      "Inherited": 0.28776978417266186
+    }
+  },
+  {
+    "font": "Noto Sans Canadian Aboriginal",
+    "scripts": {
+      "Canadian_Aboriginal": 100.0,
+      "Common": 0.03234152652005175
+    }
+  },
+  {
+    "font": "Noto Sans Carian",
+    "scripts": {
+      "Carian": 100.0,
+      "Common": 0.0215610176800345
+    }
+  },
+  {
+    "font": "Noto Sans Caucasian Albanian",
+    "scripts": {
+      "Caucasian_Albanian": 100.0,
+      "Common": 0.03234152652005175,
+      "Inherited": 1.2949640287769784
+    }
+  },
+  {
+    "font": "Noto Sans Chakma",
+    "scripts": {
+      "Bengali": 10.204081632653061,
+      "Chakma": 100.0,
+      "Common": 0.086244070720138,
+      "Inherited": 0.28776978417266186,
+      "Myanmar": 4.11522633744856
+    }
+  },
+  {
+    "font": "Noto Sans Cham",
+    "scripts": {
+      "Cham": 100.0,
+      "Common": 0.16170763260025875,
+      "Inherited": 0.28776978417266186
+    }
+  },
+  {
+    "font": "Noto Sans Cherokee",
+    "scripts": {
+      "Cherokee": 100.0,
+      "Common": 0.0215610176800345,
+      "Inherited": 1.4388489208633095
+    }
+  },
+  {
+    "font": "Noto Sans Chorasmian",
+    "scripts": {
+      "Chorasmian": 100.0,
+      "Common": 0.0215610176800345,
+      "Inherited": 0.14388489208633093
+    }
+  },
+  {
+    "font": "Noto Sans CJK HK",
+    "scripts": {
+      "Bopomofo": 94.8051948051948,
+      "Common": 16.203104786545925,
+      "Cyrillic": 12.992125984251967,
+      "Greek": 9.615384615384617,
+      "Han": 29.639484480222926,
+      "Hangul": 100.0,
+      "Hiragana": 23.56020942408377,
+      "Inherited": 1.870503597122302,
+      "Katakana": 91.13149847094802,
+      "Latin": 20.87114337568058
+    }
+  },
+  {
+    "font": "Noto Sans CJK JP",
+    "scripts": {
+      "Bopomofo": 94.8051948051948,
+      "Common": 16.203104786545925,
+      "Cyrillic": 12.992125984251967,
+      "Greek": 9.615384615384617,
+      "Han": 29.639484480222926,
+      "Hangul": 100.0,
+      "Hiragana": 23.56020942408377,
+      "Inherited": 1.870503597122302,
+      "Katakana": 91.13149847094802,
+      "Latin": 20.87114337568058
+    }
+  },
+  {
+    "font": "Noto Sans CJK KR",
+    "scripts": {
+      "Bopomofo": 94.8051948051948,
+      "Common": 16.203104786545925,
+      "Cyrillic": 12.992125984251967,
+      "Greek": 9.615384615384617,
+      "Han": 29.639484480222926,
+      "Hangul": 100.0,
+      "Hiragana": 23.56020942408377,
+      "Inherited": 1.870503597122302,
+      "Katakana": 91.13149847094802,
+      "Latin": 20.87114337568058
+    }
+  },
+  {
+    "font": "Noto Sans CJK SC",
+    "scripts": {
+      "Bopomofo": 94.8051948051948,
+      "Common": 16.203104786545925,
+      "Cyrillic": 12.992125984251967,
+      "Greek": 9.615384615384617,
+      "Han": 29.639484480222926,
+      "Hangul": 100.0,
+      "Hiragana": 23.56020942408377,
+      "Inherited": 1.870503597122302,
+      "Katakana": 91.13149847094802,
+      "Latin": 20.87114337568058
+    }
+  },
+  {
+    "font": "Noto Sans CJK TC",
+    "scripts": {
+      "Bopomofo": 94.8051948051948,
+      "Common": 16.203104786545925,
+      "Cyrillic": 12.992125984251967,
+      "Greek": 9.615384615384617,
+      "Han": 29.639484480222926,
+      "Hangul": 100.0,
+      "Hiragana": 23.56020942408377,
+      "Inherited": 1.870503597122302,
+      "Katakana": 91.13149847094802,
+      "Latin": 20.87114337568058
+    }
+  },
+  {
+    "font": "Noto Sans Coptic",
+    "scripts": {
+      "Common": 0.5066839154808107,
+      "Coptic": 100.0,
+      "Greek": 0.19230769230769232,
+      "Inherited": 2.446043165467626
+    }
+  },
+  {
+    "font": "Noto Sans Cuneiform",
+    "scripts": {
+      "Common": 0.0215610176800345,
+      "Cuneiform": 88.58578607322326
+    }
+  },
+  {
+    "font": "Noto Sans Cypriot",
+    "scripts": {
+      "Common": 0.0215610176800345,
+      "Cypriot": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Cypro Minoan",
+    "scripts": {
+      "Common": 0.03234152652005175,
+      "Cypro_Minoan": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Deseret",
+    "scripts": {
+      "Common": 0.0215610176800345,
+      "Deseret": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Devanagari",
+    "scripts": {
+      "Common": 0.8840017248814144,
+      "Devanagari": 99.39393939393939,
+      "Inherited": 4.892086330935252
+    }
+  },
+  {
+    "font": "Noto Sans Devanagari UI",
+    "scripts": {
+      "Common": 0.8732212160413971,
+      "Devanagari": 93.33333333333333,
+      "Inherited": 4.892086330935252
+    }
+  },
+  {
+    "font": "Noto Sans Devanagari UI Condensed",
+    "scripts": {
+      "Common": 0.8732212160413971,
+      "Devanagari": 93.33333333333333,
+      "Inherited": 4.892086330935252
+    }
+  },
+  {
+    "font": "Noto Sans Devanagari UI ExtraCondensed",
+    "scripts": {
+      "Common": 0.8732212160413971,
+      "Devanagari": 93.33333333333333,
+      "Inherited": 4.892086330935252
+    }
+  },
+  {
+    "font": "Noto Sans Devanagari UI SemiCondensed",
+    "scripts": {
+      "Common": 0.8732212160413971,
+      "Devanagari": 93.33333333333333,
+      "Inherited": 4.892086330935252
+    }
+  },
+  {
+    "font": "Noto Sans Duployan",
+    "scripts": {
+      "Common": 0.5821474773609314,
+      "Duployan": 100.0,
+      "Inherited": 2.302158273381295,
+      "Latin": 0.06049606775559589
+    }
+  },
+  {
+    "font": "Noto Sans Egyptian Hieroglyphs",
+    "scripts": {
+      "Common": 0.03234152652005175,
+      "Egyptian_Hieroglyphs": 21.116552399608228,
+      "Inherited": 0.28776978417266186
+    }
+  },
+  {
+    "font": "Noto Sans Elbasan",
+    "scripts": {
+      "Common": 0.043122035360069,
+      "Elbasan": 100.0,
+      "Greek": 5.384615384615385,
+      "Inherited": 0.14388489208633093
+    }
+  },
+  {
+    "font": "Noto Sans Elymaic",
+    "scripts": {
+      "Common": 0.0215610176800345,
+      "Elymaic": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Ethiopic",
+    "scripts": {
+      "Common": 0.0646830530401035,
+      "Ethiopic": 100.0,
+      "Inherited": 0.28776978417266186
+    }
+  },
+  {
+    "font": "Noto Sans Ethiopic Condensed",
+    "scripts": {
+      "Common": 0.0646830530401035,
+      "Ethiopic": 100.0,
+      "Inherited": 0.28776978417266186
+    }
+  },
+  {
+    "font": "Noto Sans Ethiopic ExtraCondensed",
+    "scripts": {
+      "Common": 0.0646830530401035,
+      "Ethiopic": 100.0,
+      "Inherited": 0.28776978417266186
+    }
+  },
+  {
+    "font": "Noto Sans Ethiopic SemiCondensed",
+    "scripts": {
+      "Common": 0.0646830530401035,
+      "Ethiopic": 100.0,
+      "Inherited": 0.28776978417266186
+    }
+  },
+  {
+    "font": "Noto Sans Georgian",
+    "scripts": {
+      "Armenian": 1.0101010101010102,
+      "Common": 0.0646830530401035,
+      "Georgian": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Glagolitic",
+    "scripts": {
+      "Common": 0.03234152652005175,
+      "Cyrillic": 1.1811023622047243,
+      "Glagolitic": 98.50746268656717,
+      "Inherited": 0.7194244604316548
+    }
+  },
+  {
+    "font": "Noto Sans Gothic",
+    "scripts": {
+      "Common": 0.03234152652005175,
+      "Gothic": 100.0,
+      "Inherited": 0.5755395683453237
+    }
+  },
+  {
+    "font": "Noto Sans Grantha",
+    "scripts": {
+      "Common": 0.086244070720138,
+      "Grantha": 100.0,
+      "Inherited": 1.5827338129496402,
+      "Tamil": 12.195121951219512
+    }
+  },
+  {
+    "font": "Noto Sans Gujarati",
+    "scripts": {
+      "Common": 0.18326865028029324,
+      "Gujarati": 100.0,
+      "Inherited": 0.5755395683453237
+    }
+  },
+  {
+    "font": "Noto Sans Gujarati UI",
+    "scripts": {
+      "Common": 0.18326865028029324,
+      "Gujarati": 100.0,
+      "Inherited": 0.5755395683453237
+    }
+  },
+  {
+    "font": "Noto Sans Gunjala Gondi",
+    "scripts": {
+      "Common": 0.2910737386804657,
+      "Gunjala_Gondi": 100.0,
+      "Inherited": 0.28776978417266186
+    }
+  },
+  {
+    "font": "Noto Sans Gunjala Gondi Semibold",
+    "scripts": {
+      "Common": 0.2910737386804657,
+      "Gunjala_Gondi": 100.0,
+      "Inherited": 0.28776978417266186
+    }
+  },
+  {
+    "font": "Noto Sans Gurmukhi",
+    "scripts": {
+      "Common": 0.733074601121173,
+      "Gurmukhi": 100.0,
+      "Inherited": 0.5755395683453237
+    }
+  },
+  {
+    "font": "Noto Sans Gurmukhi Condensed",
+    "scripts": {
+      "Common": 0.733074601121173,
+      "Gurmukhi": 100.0,
+      "Inherited": 0.5755395683453237
+    }
+  },
+  {
+    "font": "Noto Sans Gurmukhi ExtraCondensed",
+    "scripts": {
+      "Common": 0.733074601121173,
+      "Gurmukhi": 100.0,
+      "Inherited": 0.5755395683453237
+    }
+  },
+  {
+    "font": "Noto Sans Gurmukhi SemiCondensed",
+    "scripts": {
+      "Common": 0.733074601121173,
+      "Gurmukhi": 100.0,
+      "Inherited": 0.5755395683453237
+    }
+  },
+  {
+    "font": "Noto Sans Gurmukhi UI",
+    "scripts": {
+      "Common": 0.733074601121173,
+      "Gurmukhi": 100.0,
+      "Inherited": 0.5755395683453237
+    }
+  },
+  {
+    "font": "Noto Sans Gurmukhi UI Condensed",
+    "scripts": {
+      "Common": 0.733074601121173,
+      "Gurmukhi": 100.0,
+      "Inherited": 0.5755395683453237
+    }
+  },
+  {
+    "font": "Noto Sans Gurmukhi UI ExtraCondensed",
+    "scripts": {
+      "Common": 0.733074601121173,
+      "Gurmukhi": 100.0,
+      "Inherited": 0.5755395683453237
+    }
+  },
+  {
+    "font": "Noto Sans Gurmukhi UI SemiCondensed",
+    "scripts": {
+      "Common": 0.733074601121173,
+      "Gurmukhi": 100.0,
+      "Inherited": 0.5755395683453237
+    }
+  },
+  {
+    "font": "Noto Sans Hanifi Rohingya",
+    "scripts": {
+      "Arabic": 0.13774104683195593,
+      "Common": 0.09702457956015524,
+      "Hanifi_Rohingya": 100.0,
+      "Inherited": 0.28776978417266186
+    }
+  },
+  {
+    "font": "Noto Sans Hanunoo",
+    "scripts": {
+      "Common": 0.0646830530401035,
+      "Hanunoo": 100.0,
+      "Inherited": 0.28776978417266186
+    }
+  },
+  {
+    "font": "Noto Sans Hatran",
+    "scripts": {
+      "Common": 0.0215610176800345,
+      "Hatran": 100.0,
+      "Inherited": 0.14388489208633093
+    }
+  },
+  {
+    "font": "Noto Sans Hebrew",
+    "scripts": {
+      "Common": 0.086244070720138,
+      "Hebrew": 98.52941176470588,
+      "Inherited": 0.4316546762589928
+    }
+  },
+  {
+    "font": "Noto Sans HK",
+    "scripts": {
+      "Bopomofo": 94.8051948051948,
+      "Common": 16.203104786545925,
+      "Cyrillic": 12.992125984251967,
+      "Greek": 9.615384615384617,
+      "Han": 17.521673504141187,
+      "Hangul": 1.7718715393133997,
+      "Hiragana": 23.56020942408377,
+      "Inherited": 1.870503597122302,
+      "Katakana": 91.13149847094802,
+      "Latin": 20.87114337568058
+    }
+  },
+  {
+    "font": "Noto Sans Imperial Aramaic",
+    "scripts": {
+      "Common": 0.0215610176800345,
+      "Imperial_Aramaic": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Indic Siyaq Numbers",
+    "scripts": {
+      "Arabic": 1.4462809917355373,
+      "Common": 0.7546356188012074
+    }
+  },
+  {
+    "font": "Noto Sans Inscriptional Pahlavi",
+    "scripts": {
+      "Common": 0.0215610176800345,
+      "Inscriptional_Pahlavi": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Inscriptional Parthian",
+    "scripts": {
+      "Common": 0.0215610176800345,
+      "Inscriptional_Parthian": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Javanese",
+    "scripts": {
+      "Common": 0.053902544200086236,
+      "Inherited": 0.28776978417266186,
+      "Javanese": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans JP",
+    "scripts": {
+      "Bopomofo": 94.8051948051948,
+      "Common": 16.203104786545925,
+      "Cyrillic": 12.992125984251967,
+      "Greek": 9.615384615384617,
+      "Han": 13.629150863069897,
+      "Hangul": 1.7718715393133997,
+      "Hiragana": 23.56020942408377,
+      "Inherited": 1.870503597122302,
+      "Katakana": 91.13149847094802,
+      "Latin": 20.87114337568058
+    }
+  },
+  {
+    "font": "Noto Sans Kaithi",
+    "scripts": {
+      "Common": 0.172488141440276,
+      "Devanagari": 6.0606060606060606,
+      "Inherited": 0.28776978417266186,
+      "Kaithi": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Kannada",
+    "scripts": {
+      "Common": 0.7007330746011212,
+      "Inherited": 1.1510791366906474,
+      "Kannada": 98.91304347826086
+    }
+  },
+  {
+    "font": "Noto Sans Kannada UI",
+    "scripts": {
+      "Common": 0.7007330746011212,
+      "Inherited": 1.1510791366906474,
+      "Kannada": 98.91304347826086
+    }
+  },
+  {
+    "font": "Noto Sans Kawi",
+    "scripts": {
+      "Common": 0.03234152652005175,
+      "Kawi": 98.85057471264368
+    }
+  },
+  {
+    "font": "Noto Sans Kayah Li",
+    "scripts": {
+      "Common": 0.0646830530401035,
+      "Inherited": 0.28776978417266186,
+      "Kayah_Li": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Kharoshthi",
+    "scripts": {
+      "Common": 0.0646830530401035,
+      "Inherited": 0.28776978417266186,
+      "Kharoshthi": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Khmer",
+    "scripts": {
+      "Common": 0.2695127210004312,
+      "Inherited": 0.28776978417266186,
+      "Khmer": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Khojki",
+    "scripts": {
+      "Common": 0.14014661492022423,
+      "Gujarati": 10.989010989010989,
+      "Inherited": 0.28776978417266186,
+      "Khojki": 98.46153846153847
+    }
+  },
+  {
+    "font": "Noto Sans Khudawadi",
+    "scripts": {
+      "Common": 0.18326865028029324,
+      "Inherited": 0.28776978417266186,
+      "Khudawadi": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans KR",
+    "scripts": {
+      "Bopomofo": 94.8051948051948,
+      "Common": 16.203104786545925,
+      "Cyrillic": 12.992125984251967,
+      "Greek": 9.615384615384617,
+      "Han": 8.705201640993886,
+      "Hangul": 100.0,
+      "Hiragana": 23.56020942408377,
+      "Inherited": 1.870503597122302,
+      "Katakana": 91.13149847094802,
+      "Latin": 20.87114337568058
+    }
+  },
+  {
+    "font": "Noto Sans Lao",
+    "scripts": {
+      "Common": 0.053902544200086236,
+      "Inherited": 0.28776978417266186,
+      "Lao": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Lao Condensed",
+    "scripts": {
+      "Common": 0.053902544200086236,
+      "Inherited": 0.28776978417266186,
+      "Lao": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Lao ExtraCondensed",
+    "scripts": {
+      "Common": 0.053902544200086236,
+      "Inherited": 0.28776978417266186,
+      "Lao": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Lao Looped",
+    "scripts": {
+      "Common": 0.39887882708063815,
+      "Inherited": 0.4316546762589928,
+      "Lao": 100.0,
+      "Thai": 2.3255813953488373
+    }
+  },
+  {
+    "font": "Noto Sans Lao Looped Condensed",
+    "scripts": {
+      "Common": 0.39887882708063815,
+      "Inherited": 0.4316546762589928,
+      "Lao": 100.0,
+      "Thai": 2.3255813953488373
+    }
+  },
+  {
+    "font": "Noto Sans Lao Looped ExtraCondensed",
+    "scripts": {
+      "Common": 0.39887882708063815,
+      "Inherited": 0.4316546762589928,
+      "Lao": 100.0,
+      "Thai": 2.3255813953488373
+    }
+  },
+  {
+    "font": "Noto Sans Lao Looped SemiCondensed",
+    "scripts": {
+      "Common": 0.39887882708063815,
+      "Inherited": 0.4316546762589928,
+      "Lao": 100.0,
+      "Thai": 2.3255813953488373
+    }
+  },
+  {
+    "font": "Noto Sans Lao SemiCondensed",
+    "scripts": {
+      "Common": 0.053902544200086236,
+      "Inherited": 0.28776978417266186,
+      "Lao": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Lepcha",
+    "scripts": {
+      "Common": 0.043122035360069,
+      "Inherited": 0.28776978417266186,
+      "Lepcha": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Limbu",
+    "scripts": {
+      "Common": 0.053902544200086236,
+      "Inherited": 0.28776978417266186,
+      "Limbu": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Linear A",
+    "scripts": {
+      "Common": 0.0215610176800345,
+      "Linear_A": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Linear B",
+    "scripts": {
+      "Common": 0.6360500215610178,
+      "Linear_B": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Lisu",
+    "scripts": {
+      "Common": 0.086244070720138,
+      "Lisu": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Lycian",
+    "scripts": {
+      "Common": 0.0215610176800345,
+      "Lycian": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Lydian",
+    "scripts": {
+      "Common": 0.0215610176800345,
+      "Inherited": 0.14388489208633093,
+      "Lydian": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Mahajani",
+    "scripts": {
+      "Common": 0.16170763260025875,
+      "Devanagari": 6.0606060606060606,
+      "Inherited": 0.28776978417266186,
+      "Mahajani": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Malayalam",
+    "scripts": {
+      "Common": 0.646830530401035,
+      "Inherited": 1.0071942446043165,
+      "Malayalam": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Malayalam Condensed",
+    "scripts": {
+      "Common": 0.646830530401035,
+      "Inherited": 1.0071942446043165,
+      "Malayalam": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Malayalam ExtraCondensed",
+    "scripts": {
+      "Common": 0.646830530401035,
+      "Inherited": 1.0071942446043165,
+      "Malayalam": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Malayalam SemiCondensed",
+    "scripts": {
+      "Common": 0.646830530401035,
+      "Inherited": 1.0071942446043165,
+      "Malayalam": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Malayalam UI",
+    "scripts": {
+      "Common": 0.646830530401035,
+      "Inherited": 1.0071942446043165,
+      "Malayalam": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Malayalam UI Condensed",
+    "scripts": {
+      "Common": 0.646830530401035,
+      "Inherited": 1.0071942446043165,
+      "Malayalam": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Malayalam UI ExtraCondensed",
+    "scripts": {
+      "Common": 0.646830530401035,
+      "Inherited": 1.0071942446043165,
+      "Malayalam": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Malayalam UI SemiCondensed",
+    "scripts": {
+      "Common": 0.646830530401035,
+      "Inherited": 1.0071942446043165,
+      "Malayalam": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Mandaic",
+    "scripts": {
+      "Common": 0.043122035360069,
+      "Inherited": 0.28776978417266186,
+      "Mandaic": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Manichaean",
+    "scripts": {
+      "Common": 0.043122035360069,
+      "Inherited": 0.4316546762589928,
+      "Manichaean": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Marchen",
+    "scripts": {
+      "Common": 0.03234152652005175,
+      "Marchen": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Masaram Gondi",
+    "scripts": {
+      "Common": 0.33419577404053474,
+      "Masaram_Gondi": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Math",
+    "scripts": {
+      "Arabic": 14.049586776859504,
+      "Common": 27.360931435963774,
+      "Greek": 11.153846153846155,
+      "Inherited": 8.920863309352518,
+      "Latin": 3.327283726557774
+    }
+  },
+  {
+    "font": "Noto Sans Mayan Numerals",
+    "scripts": {
+      "Common": 0.23717119448037946
+    }
+  },
+  {
+    "font": "Noto Sans Medefaidrin",
+    "scripts": {
+      "Common": 0.0215610176800345,
+      "Medefaidrin": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Meetei Mayek",
+    "scripts": {
+      "Common": 0.043122035360069,
+      "Inherited": 0.28776978417266186,
+      "Meetei_Mayek": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Mende Kikakui",
+    "scripts": {
+      "Common": 0.03234152652005175,
+      "Mende_Kikakui": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Meroitic",
+    "scripts": {
+      "Common": 0.053902544200086236,
+      "Meroitic_Cursive": 100.0,
+      "Meroitic_Hieroglyphs": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Miao",
+    "scripts": {
+      "Common": 0.03234152652005175,
+      "Miao": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Modi",
+    "scripts": {
+      "Common": 0.14014661492022423,
+      "Inherited": 0.28776978417266186,
+      "Modi": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Mongolian",
+    "scripts": {
+      "Common": 0.344976282880552,
+      "Inherited": 0.28776978417266186,
+      "Mongolian": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Mono",
+    "scripts": {
+      "Bopomofo": 2.5974025974025974,
+      "Common": 11.610608020698578,
+      "Cyrillic": 87.20472440944881,
+      "Greek": 70.76923076923077,
+      "Inherited": 31.798561151079134,
+      "Latin": 83.30308529945553
+    }
+  },
+  {
+    "font": "Noto Sans Mono CJK HK",
+    "scripts": {
+      "Bopomofo": 94.8051948051948,
+      "Common": 16.203104786545925,
+      "Cyrillic": 12.992125984251967,
+      "Greek": 9.615384615384617,
+      "Han": 29.639484480222926,
+      "Hangul": 100.0,
+      "Hiragana": 23.56020942408377,
+      "Inherited": 1.870503597122302,
+      "Katakana": 91.13149847094802,
+      "Latin": 20.87114337568058
+    }
+  },
+  {
+    "font": "Noto Sans Mono CJK JP",
+    "scripts": {
+      "Bopomofo": 94.8051948051948,
+      "Common": 16.203104786545925,
+      "Cyrillic": 12.992125984251967,
+      "Greek": 9.615384615384617,
+      "Han": 29.639484480222926,
+      "Hangul": 100.0,
+      "Hiragana": 23.56020942408377,
+      "Inherited": 1.870503597122302,
+      "Katakana": 91.13149847094802,
+      "Latin": 20.87114337568058
+    }
+  },
+  {
+    "font": "Noto Sans Mono CJK KR",
+    "scripts": {
+      "Bopomofo": 94.8051948051948,
+      "Common": 16.203104786545925,
+      "Cyrillic": 12.992125984251967,
+      "Greek": 9.615384615384617,
+      "Han": 29.639484480222926,
+      "Hangul": 100.0,
+      "Hiragana": 23.56020942408377,
+      "Inherited": 1.870503597122302,
+      "Katakana": 91.13149847094802,
+      "Latin": 20.87114337568058
+    }
+  },
+  {
+    "font": "Noto Sans Mono CJK SC",
+    "scripts": {
+      "Bopomofo": 94.8051948051948,
+      "Common": 16.203104786545925,
+      "Cyrillic": 12.992125984251967,
+      "Greek": 9.615384615384617,
+      "Han": 29.639484480222926,
+      "Hangul": 100.0,
+      "Hiragana": 23.56020942408377,
+      "Inherited": 1.870503597122302,
+      "Katakana": 91.13149847094802,
+      "Latin": 20.87114337568058
+    }
+  },
+  {
+    "font": "Noto Sans Mono CJK TC",
+    "scripts": {
+      "Bopomofo": 94.8051948051948,
+      "Common": 16.203104786545925,
+      "Cyrillic": 12.992125984251967,
+      "Greek": 9.615384615384617,
+      "Han": 29.639484480222926,
+      "Hangul": 100.0,
+      "Hiragana": 23.56020942408377,
+      "Inherited": 1.870503597122302,
+      "Katakana": 91.13149847094802,
+      "Latin": 20.87114337568058
+    }
+  },
+  {
+    "font": "Noto Sans Mro",
+    "scripts": {
+      "Common": 0.0215610176800345,
+      "Mro": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Multani",
+    "scripts": {
+      "Common": 0.0215610176800345,
+      "Gurmukhi": 12.5,
+      "Multani": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Myanmar",
+    "scripts": {
+      "Common": 0.11858559724018973,
+      "Inherited": 0.4316546762589928,
+      "Myanmar": 91.76954732510289
+    }
+  },
+  {
+    "font": "Noto Sans Myanmar Condensed",
+    "scripts": {
+      "Common": 0.11858559724018973,
+      "Inherited": 0.4316546762589928,
+      "Myanmar": 91.76954732510289
+    }
+  },
+  {
+    "font": "Noto Sans Myanmar ExtraCondensed",
+    "scripts": {
+      "Common": 0.11858559724018973,
+      "Inherited": 0.4316546762589928,
+      "Myanmar": 91.76954732510289
+    }
+  },
+  {
+    "font": "Noto Sans Myanmar SemiCondensed",
+    "scripts": {
+      "Common": 0.11858559724018973,
+      "Inherited": 0.4316546762589928,
+      "Myanmar": 91.76954732510289
+    }
+  },
+  {
+    "font": "Noto Sans Nabataean",
+    "scripts": {
+      "Common": 0.0215610176800345,
+      "Nabataean": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Nag Mundari",
+    "scripts": {
+      "Common": 0.22639068564036222,
+      "Nag_Mundari": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Nandinagari",
+    "scripts": {
+      "Common": 0.1509271237602415,
+      "Inherited": 0.28776978417266186,
+      "Kannada": 10.869565217391305,
+      "Nandinagari": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans New Tai Lue",
+    "scripts": {
+      "Common": 0.2048296679603277,
+      "Inherited": 0.28776978417266186,
+      "New_Tai_Lue": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans New Tai Lue Semibold",
+    "scripts": {
+      "Common": 0.2048296679603277,
+      "Inherited": 0.28776978417266186,
+      "New_Tai_Lue": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Newa",
+    "scripts": {
+      "Common": 0.043122035360069,
+      "Inherited": 0.4316546762589928,
+      "Newa": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans NKo",
+    "scripts": {
+      "Arabic": 0.06887052341597796,
+      "Common": 0.129366106080207,
+      "Inherited": 0.28776978417266186,
+      "Nko": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans NKo Unjoined",
+    "scripts": {
+      "Arabic": 0.06887052341597796,
+      "Common": 0.129366106080207,
+      "Inherited": 0.28776978417266186,
+      "Nko": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Nushu",
+    "scripts": {
+      "Common": 0.0215610176800345,
+      "Nushu": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Ogham",
+    "scripts": {
+      "Common": 0.0215610176800345,
+      "Ogham": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Ol Chiki",
+    "scripts": {
+      "Common": 0.03234152652005175,
+      "Ol_Chiki": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Old Hungarian",
+    "scripts": {
+      "Common": 0.0215610176800345,
+      "Inherited": 0.14388489208633093,
+      "Old_Hungarian": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Old Italic",
+    "scripts": {
+      "Common": 0.0215610176800345,
+      "Old_Italic": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Old North Arabian",
+    "scripts": {
+      "Common": 0.0215610176800345,
+      "Old_North_Arabian": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Old Permic",
+    "scripts": {
+      "Common": 0.03234152652005175,
+      "Cyrillic": 0.19685039370078738,
+      "Inherited": 0.8633093525179856,
+      "Old_Permic": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Old Persian",
+    "scripts": {
+      "Common": 0.0215610176800345,
+      "Old_Persian": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Old Sogdian",
+    "scripts": {
+      "Common": 0.03234152652005175,
+      "Old_Sogdian": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Old South Arabian",
+    "scripts": {
+      "Common": 0.0215610176800345,
+      "Old_South_Arabian": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Old Turkic",
+    "scripts": {
+      "Common": 0.0215610176800345,
+      "Inherited": 0.14388489208633093,
+      "Old_Turkic": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Oriya",
+    "scripts": {
+      "Common": 0.603708495040966,
+      "Inherited": 0.28776978417266186,
+      "Oriya": 97.84946236559139
+    }
+  },
+  {
+    "font": "Noto Sans Osage",
+    "scripts": {
+      "Common": 0.03234152652005175,
+      "Inherited": 0.5755395683453237,
+      "Osage": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Osmanya",
+    "scripts": {
+      "Common": 0.0215610176800345,
+      "Osmanya": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Pahawh Hmong",
+    "scripts": {
+      "Common": 0.03234152652005175,
+      "Inherited": 0.28776978417266186,
+      "Pahawh_Hmong": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Palmyrene",
+    "scripts": {
+      "Common": 0.0215610176800345,
+      "Palmyrene": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Pau Cin Hau",
+    "scripts": {
+      "Common": 0.0215610176800345,
+      "Pau_Cin_Hau": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans PhagsPa",
+    "scripts": {
+      "Common": 0.33419577404053474,
+      "Han": 0.0009675671491601518,
+      "Inherited": 0.4316546762589928,
+      "Mongolian": 0.5952380952380952,
+      "Phags_Pa": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Phoenician",
+    "scripts": {
+      "Common": 0.0215610176800345,
+      "Phoenician": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Psalter Pahlavi",
+    "scripts": {
+      "Common": 0.043122035360069,
+      "Inherited": 0.28776978417266186,
+      "Psalter_Pahlavi": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Rejang",
+    "scripts": {
+      "Common": 0.043122035360069,
+      "Inherited": 0.28776978417266186,
+      "Rejang": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Runic",
+    "scripts": {
+      "Common": 0.0646830530401035,
+      "Inherited": 0.14388489208633093,
+      "Runic": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Samaritan",
+    "scripts": {
+      "Common": 0.03234152652005175,
+      "Samaritan": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Saurashtra",
+    "scripts": {
+      "Common": 0.043122035360069,
+      "Inherited": 0.28776978417266186,
+      "Saurashtra": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans SC",
+    "scripts": {
+      "Bopomofo": 94.8051948051948,
+      "Common": 16.203104786545925,
+      "Cyrillic": 12.992125984251967,
+      "Greek": 9.615384615384617,
+      "Han": 27.327966560879325,
+      "Hangul": 1.7718715393133997,
+      "Hiragana": 23.56020942408377,
+      "Inherited": 1.870503597122302,
+      "Katakana": 91.13149847094802,
+      "Latin": 20.87114337568058
+    }
+  },
+  {
+    "font": "Noto Sans Sharada",
+    "scripts": {
+      "Common": 0.03234152652005175,
+      "Inherited": 1.2949640287769784,
+      "Sharada": 92.3076923076923
+    }
+  },
+  {
+    "font": "Noto Sans Shavian",
+    "scripts": {
+      "Common": 0.0215610176800345,
+      "Shavian": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Siddham",
+    "scripts": {
+      "Common": 0.03234152652005175,
+      "Inherited": 0.28776978417266186,
+      "Siddham": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans SignWriting",
+    "scripts": {
+      "Common": 0.043122035360069,
+      "Inherited": 0.14388489208633093,
+      "SignWriting": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Sinhala",
+    "scripts": {
+      "Common": 0.5605864596808969,
+      "Inherited": 0.28776978417266186,
+      "Latin": 3.145795523290986,
+      "Sinhala": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Sinhala Condensed",
+    "scripts": {
+      "Common": 0.5929279862009487,
+      "Inherited": 0.28776978417266186,
+      "Sinhala": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Sinhala ExtraCondensed",
+    "scripts": {
+      "Common": 0.5929279862009487,
+      "Inherited": 0.28776978417266186,
+      "Sinhala": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Sinhala SemiCondensed",
+    "scripts": {
+      "Common": 0.5929279862009487,
+      "Inherited": 0.28776978417266186,
+      "Sinhala": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Sinhala UI",
+    "scripts": {
+      "Common": 0.5929279862009487,
+      "Inherited": 0.28776978417266186,
+      "Sinhala": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Sinhala UI Condensed",
+    "scripts": {
+      "Common": 0.5929279862009487,
+      "Inherited": 0.28776978417266186,
+      "Sinhala": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Sinhala UI ExtraCondensed",
+    "scripts": {
+      "Common": 0.5929279862009487,
+      "Inherited": 0.28776978417266186,
+      "Sinhala": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Sinhala UI SemiCondensed",
+    "scripts": {
+      "Common": 0.5929279862009487,
+      "Inherited": 0.28776978417266186,
+      "Sinhala": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Sogdian",
+    "scripts": {
+      "Common": 0.043122035360069,
+      "Inherited": 0.14388489208633093,
+      "Sogdian": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Sora Sompeng",
+    "scripts": {
+      "Common": 0.043122035360069,
+      "Sora_Sompeng": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Sora Sompeng Semi",
+    "scripts": {
+      "Common": 0.043122035360069,
+      "Sora_Sompeng": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Soyombo",
+    "scripts": {
+      "Common": 0.03234152652005175,
+      "Soyombo": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Sundanese",
+    "scripts": {
+      "Common": 0.0646830530401035,
+      "Inherited": 0.28776978417266186,
+      "Sundanese": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Syloti Nagri",
+    "scripts": {
+      "Bengali": 10.204081632653061,
+      "Common": 0.09702457956015524,
+      "Inherited": 0.28776978417266186,
+      "Syloti_Nagri": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Symbols",
+    "scripts": {
+      "Common": 7.966796032772747,
+      "Inherited": 1.0071942446043165,
+      "Latin": 5.565638233514822
+    }
+  },
+  {
+    "font": "Noto Sans Symbols 2",
+    "scripts": {
+      "Arabic": 2.1349862258953167,
+      "Braille": 100.0,
+      "Common": 24.450194049159123,
+      "Greek": 15.384615384615385,
+      "Inherited": 0.5755395683453237
+    }
+  },
+  {
+    "font": "Noto Sans Syriac",
+    "scripts": {
+      "Arabic": 0.9641873278236914,
+      "Common": 0.3234152652005175,
+      "Inherited": 3.884892086330935,
+      "Syriac": 87.5
+    }
+  },
+  {
+    "font": "Noto Sans Syriac Eastern",
+    "scripts": {
+      "Arabic": 0.9641873278236914,
+      "Common": 0.3234152652005175,
+      "Inherited": 3.884892086330935,
+      "Syriac": 87.5
+    }
+  },
+  {
+    "font": "Noto Sans Syriac Western",
+    "scripts": {
+      "Arabic": 0.9641873278236914,
+      "Common": 0.31263475636050025,
+      "Inherited": 4.172661870503598,
+      "Syriac": 87.5
+    }
+  },
+  {
+    "font": "Noto Sans Tagalog",
+    "scripts": {
+      "Common": 0.0646830530401035,
+      "Inherited": 0.28776978417266186,
+      "Tagalog": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Tagbanwa",
+    "scripts": {
+      "Common": 0.0646830530401035,
+      "Inherited": 0.28776978417266186,
+      "Tagbanwa": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Tai Le",
+    "scripts": {
+      "Common": 0.10780508840017247,
+      "Inherited": 1.0071942446043165,
+      "Myanmar": 4.11522633744856,
+      "Tai_Le": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Tai Tham",
+    "scripts": {
+      "Common": 0.043122035360069,
+      "Inherited": 0.28776978417266186,
+      "Tai_Tham": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Tai Viet",
+    "scripts": {
+      "Common": 0.043122035360069,
+      "Inherited": 0.28776978417266186,
+      "Tai_Viet": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Takri",
+    "scripts": {
+      "Common": 0.16170763260025875,
+      "Inherited": 0.28776978417266186,
+      "Takri": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Tamil",
+    "scripts": {
+      "Common": 0.6791720569210867,
+      "Devanagari": 0.6060606060606061,
+      "Grantha": 3.5294117647058822,
+      "Inherited": 0.8633093525179856,
+      "Tamil": 58.536585365853654
+    }
+  },
+  {
+    "font": "Noto Sans Tamil Condensed",
+    "scripts": {
+      "Common": 0.6791720569210867,
+      "Devanagari": 0.6060606060606061,
+      "Grantha": 3.5294117647058822,
+      "Inherited": 0.8633093525179856,
+      "Tamil": 58.536585365853654
+    }
+  },
+  {
+    "font": "Noto Sans Tamil ExtraCondensed",
+    "scripts": {
+      "Common": 0.6791720569210867,
+      "Devanagari": 0.6060606060606061,
+      "Grantha": 3.5294117647058822,
+      "Inherited": 0.8633093525179856,
+      "Tamil": 58.536585365853654
+    }
+  },
+  {
+    "font": "Noto Sans Tamil SemiCondensed",
+    "scripts": {
+      "Common": 0.6791720569210867,
+      "Devanagari": 0.6060606060606061,
+      "Grantha": 3.5294117647058822,
+      "Inherited": 0.8633093525179856,
+      "Tamil": 58.536585365853654
+    }
+  },
+  {
+    "font": "Noto Sans Tamil Supplement",
+    "scripts": {
+      "Tamil": 41.46341463414634
+    }
+  },
+  {
+    "font": "Noto Sans Tamil UI",
+    "scripts": {
+      "Common": 0.6791720569210867,
+      "Devanagari": 0.6060606060606061,
+      "Grantha": 3.5294117647058822,
+      "Inherited": 0.8633093525179856,
+      "Tamil": 58.536585365853654
+    }
+  },
+  {
+    "font": "Noto Sans Tamil UI Condensed",
+    "scripts": {
+      "Common": 0.6791720569210867,
+      "Devanagari": 0.6060606060606061,
+      "Grantha": 3.5294117647058822,
+      "Inherited": 0.8633093525179856,
+      "Tamil": 58.536585365853654
+    }
+  },
+  {
+    "font": "Noto Sans Tamil UI ExtraCondensed",
+    "scripts": {
+      "Common": 0.6791720569210867,
+      "Devanagari": 0.6060606060606061,
+      "Grantha": 3.5294117647058822,
+      "Inherited": 0.8633093525179856,
+      "Tamil": 58.536585365853654
+    }
+  },
+  {
+    "font": "Noto Sans Tamil UI SemiCondensed",
+    "scripts": {
+      "Common": 0.6791720569210867,
+      "Devanagari": 0.6060606060606061,
+      "Grantha": 3.5294117647058822,
+      "Inherited": 0.8633093525179856,
+      "Tamil": 58.536585365853654
+    }
+  },
+  {
+    "font": "Noto Sans Tangsa",
+    "scripts": {
+      "Common": 0.0215610176800345,
+      "Tangsa": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans TC",
+    "scripts": {
+      "Bopomofo": 94.8051948051948,
+      "Common": 16.203104786545925,
+      "Cyrillic": 12.992125984251967,
+      "Greek": 9.615384615384617,
+      "Han": 17.511997832649588,
+      "Hangul": 1.7718715393133997,
+      "Hiragana": 23.56020942408377,
+      "Inherited": 1.870503597122302,
+      "Katakana": 91.13149847094802,
+      "Latin": 20.87114337568058
+    }
+  },
+  {
+    "font": "Noto Sans Telugu",
+    "scripts": {
+      "Common": 0.6252695127210005,
+      "Inherited": 0.7194244604316548,
+      "Telugu": 99.00990099009901
+    }
+  },
+  {
+    "font": "Noto Sans Telugu UI",
+    "scripts": {
+      "Common": 0.6252695127210005,
+      "Inherited": 0.7194244604316548,
+      "Telugu": 99.00990099009901
+    }
+  },
+  {
+    "font": "Noto Sans Thaana",
+    "scripts": {
+      "Arabic": 1.1707988980716253,
+      "Common": 0.3665373005605865,
+      "Inherited": 0.28776978417266186,
+      "Thaana": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Thai",
+    "scripts": {
+      "Common": 0.09702457956015524,
+      "Inherited": 0.5755395683453237,
+      "Thai": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Thai Looped",
+    "scripts": {
+      "Common": 0.5713669685209142,
+      "Inherited": 0.7194244604316548,
+      "Thai": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Thai Looped Condensed",
+    "scripts": {
+      "Common": 0.5713669685209142,
+      "Inherited": 0.7194244604316548,
+      "Thai": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Thai Looped ExtraCondensed",
+    "scripts": {
+      "Common": 0.5713669685209142,
+      "Inherited": 0.7194244604316548,
+      "Thai": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Thai Looped SemiCondensed",
+    "scripts": {
+      "Common": 0.5713669685209142,
+      "Inherited": 0.7194244604316548,
+      "Thai": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Tifinagh",
+    "scripts": {
+      "Common": 0.043122035360069,
+      "Inherited": 1.5827338129496402,
+      "Tifinagh": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Tifinagh Adrar",
+    "scripts": {
+      "Common": 0.043122035360069,
+      "Inherited": 1.5827338129496402,
+      "Tifinagh": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Tifinagh Agraw Imazighen",
+    "scripts": {
+      "Common": 0.043122035360069,
+      "Inherited": 1.5827338129496402,
+      "Tifinagh": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Tifinagh Ahaggar",
+    "scripts": {
+      "Common": 0.043122035360069,
+      "Inherited": 1.5827338129496402,
+      "Tifinagh": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Tifinagh Air",
+    "scripts": {
+      "Common": 0.043122035360069,
+      "Inherited": 1.5827338129496402,
+      "Tifinagh": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Tifinagh APT",
+    "scripts": {
+      "Common": 0.043122035360069,
+      "Inherited": 1.5827338129496402,
+      "Tifinagh": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Tifinagh Azawagh",
+    "scripts": {
+      "Common": 0.043122035360069,
+      "Inherited": 1.5827338129496402,
+      "Tifinagh": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Tifinagh Ghat",
+    "scripts": {
+      "Common": 0.043122035360069,
+      "Inherited": 1.5827338129496402,
+      "Tifinagh": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Tifinagh Hawad",
+    "scripts": {
+      "Common": 0.043122035360069,
+      "Inherited": 1.5827338129496402,
+      "Tifinagh": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Tifinagh Rhissa Ixa",
+    "scripts": {
+      "Common": 0.043122035360069,
+      "Inherited": 1.5827338129496402,
+      "Tifinagh": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Tifinagh SIL",
+    "scripts": {
+      "Common": 0.043122035360069,
+      "Inherited": 1.5827338129496402,
+      "Tifinagh": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Tifinagh Tawellemmet",
+    "scripts": {
+      "Common": 0.043122035360069,
+      "Inherited": 1.5827338129496402,
+      "Tifinagh": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Tirhuta",
+    "scripts": {
+      "Bengali": 4.081632653061225,
+      "Common": 0.172488141440276,
+      "Inherited": 0.5755395683453237,
+      "Tirhuta": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Ugaritic",
+    "scripts": {
+      "Common": 0.0215610176800345,
+      "Ugaritic": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Vai",
+    "scripts": {
+      "Common": 0.0215610176800345,
+      "Vai": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Vithkuqi",
+    "scripts": {
+      "Common": 0.3234152652005175,
+      "Vithkuqi": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Wancho",
+    "scripts": {
+      "Common": 0.19404915912031048,
+      "Wancho": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Warang Citi",
+    "scripts": {
+      "Common": 0.03234152652005175,
+      "Inherited": 0.28776978417266186,
+      "Warang_Citi": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Yi",
+    "scripts": {
+      "Common": 0.35575679172056923,
+      "Yi": 100.0
+    }
+  },
+  {
+    "font": "Noto Sans Zanabazar Square",
+    "scripts": {
+      "Common": 0.03234152652005175,
+      "Zanabazar_Square": 100.0
+    }
+  },
+  {
+    "font": "Noto Serif",
+    "scripts": {
+      "Bopomofo": 2.5974025974025974,
+      "Common": 5.8753773178094,
+      "Cyrillic": 87.20472440944881,
+      "Greek": 70.76923076923077,
+      "Inherited": 31.798561151079134,
+      "Latin": 83.7265577737447
+    }
+  },
+  {
+    "font": "Noto Serif Ahom",
+    "scripts": {
+      "Ahom": 100.0,
+      "Common": 0.03234152652005175
+    }
+  },
+  {
+    "font": "Noto Serif Armenian",
+    "scripts": {
+      "Armenian": 96.96969696969697,
+      "Common": 0.0646830530401035,
+      "Inherited": 0.14388489208633093
+    }
+  },
+  {
+    "font": "Noto Serif Balinese",
+    "scripts": {
+      "Balinese": 96.06299212598425,
+      "Common": 0.043122035360069,
+      "Inherited": 0.28776978417266186
+    }
+  },
+  {
+    "font": "Noto Serif Bengali",
+    "scripts": {
+      "Bengali": 97.95918367346938,
+      "Common": 0.689952565761104,
+      "Devanagari": 0.6060606060606061,
+      "Inherited": 1.4388489208633095
+    }
+  },
+  {
+    "font": "Noto Serif CJK HK",
+    "scripts": {
+      "Bopomofo": 94.8051948051948,
+      "Common": 16.203104786545925,
+      "Cyrillic": 12.992125984251967,
+      "Greek": 9.615384615384617,
+      "Han": 29.60755476430064,
+      "Hangul": 100.0,
+      "Hiragana": 23.56020942408377,
+      "Inherited": 1.870503597122302,
+      "Katakana": 91.13149847094802,
+      "Latin": 20.87114337568058
+    }
+  },
+  {
+    "font": "Noto Serif CJK JP",
+    "scripts": {
+      "Bopomofo": 94.8051948051948,
+      "Common": 16.203104786545925,
+      "Cyrillic": 12.992125984251967,
+      "Greek": 9.615384615384617,
+      "Han": 29.60755476430064,
+      "Hangul": 100.0,
+      "Hiragana": 23.56020942408377,
+      "Inherited": 1.870503597122302,
+      "Katakana": 91.13149847094802,
+      "Latin": 20.87114337568058
+    }
+  },
+  {
+    "font": "Noto Serif CJK KR",
+    "scripts": {
+      "Bopomofo": 94.8051948051948,
+      "Common": 16.203104786545925,
+      "Cyrillic": 12.992125984251967,
+      "Greek": 9.615384615384617,
+      "Han": 29.60755476430064,
+      "Hangul": 100.0,
+      "Hiragana": 23.56020942408377,
+      "Inherited": 1.870503597122302,
+      "Katakana": 91.13149847094802,
+      "Latin": 20.87114337568058
+    }
+  },
+  {
+    "font": "Noto Serif CJK SC",
+    "scripts": {
+      "Bopomofo": 94.8051948051948,
+      "Common": 16.203104786545925,
+      "Cyrillic": 12.992125984251967,
+      "Greek": 9.615384615384617,
+      "Han": 29.60755476430064,
+      "Hangul": 100.0,
+      "Hiragana": 23.56020942408377,
+      "Inherited": 1.870503597122302,
+      "Katakana": 91.13149847094802,
+      "Latin": 20.87114337568058
+    }
+  },
+  {
+    "font": "Noto Serif CJK TC",
+    "scripts": {
+      "Bopomofo": 94.8051948051948,
+      "Common": 16.203104786545925,
+      "Cyrillic": 12.992125984251967,
+      "Greek": 9.615384615384617,
+      "Han": 29.60755476430064,
+      "Hangul": 100.0,
+      "Hiragana": 23.56020942408377,
+      "Inherited": 1.870503597122302,
+      "Katakana": 91.13149847094802,
+      "Latin": 20.87114337568058
+    }
+  },
+  {
+    "font": "Noto Serif Devanagari",
+    "scripts": {
+      "Common": 0.8840017248814144,
+      "Devanagari": 99.39393939393939,
+      "Inherited": 4.892086330935252
+    }
+  },
+  {
+    "font": "Noto Serif Dives Akuru",
+    "scripts": {
+      "Common": 0.03234152652005175,
+      "Dives_Akuru": 68.05555555555556
+    }
+  },
+  {
+    "font": "Noto Serif Dogra",
+    "scripts": {
+      "Common": 0.053902544200086236,
+      "Dogra": 100.0,
+      "Inherited": 0.28776978417266186
+    }
+  },
+  {
+    "font": "Noto Serif Ethiopic",
+    "scripts": {
+      "Common": 0.0646830530401035,
+      "Ethiopic": 100.0,
+      "Inherited": 0.28776978417266186
+    }
+  },
+  {
+    "font": "Noto Serif Ethiopic Condensed",
+    "scripts": {
+      "Common": 0.0646830530401035,
+      "Ethiopic": 100.0,
+      "Inherited": 0.28776978417266186
+    }
+  },
+  {
+    "font": "Noto Serif Ethiopic ExtraCondensed",
+    "scripts": {
+      "Common": 0.0646830530401035,
+      "Ethiopic": 100.0,
+      "Inherited": 0.28776978417266186
+    }
+  },
+  {
+    "font": "Noto Serif Ethiopic SemiCondensed",
+    "scripts": {
+      "Common": 0.0646830530401035,
+      "Ethiopic": 100.0,
+      "Inherited": 0.28776978417266186
+    }
+  },
+  {
+    "font": "Noto Serif Georgian",
+    "scripts": {
+      "Armenian": 1.0101010101010102,
+      "Common": 0.0646830530401035,
+      "Georgian": 100.0,
+      "Inherited": 0.5755395683453237
+    }
+  },
+  {
+    "font": "Noto Serif Grantha",
+    "scripts": {
+      "Common": 0.086244070720138,
+      "Grantha": 100.0,
+      "Inherited": 1.5827338129496402,
+      "Tamil": 12.195121951219512
+    }
+  },
+  {
+    "font": "Noto Serif Gujarati",
+    "scripts": {
+      "Common": 0.7222940922811557,
+      "Gujarati": 100.0,
+      "Inherited": 0.5755395683453237
+    }
+  },
+  {
+    "font": "Noto Serif Gurmukhi",
+    "scripts": {
+      "Common": 0.733074601121173,
+      "Gurmukhi": 100.0,
+      "Inherited": 0.5755395683453237
+    }
+  },
+  {
+    "font": "Noto Serif Hebrew",
+    "scripts": {
+      "Common": 0.086244070720138,
+      "Hebrew": 98.52941176470588,
+      "Inherited": 0.28776978417266186
+    }
+  },
+  {
+    "font": "Noto Serif Kannada",
+    "scripts": {
+      "Common": 0.7007330746011212,
+      "Inherited": 1.1510791366906474,
+      "Kannada": 98.91304347826086
+    }
+  },
+  {
+    "font": "Noto Serif Khitan Small Script",
+    "scripts": {
+      "Common": 0.18326865028029324,
+      "Han": 0.008708104342441366,
+      "Khitan_Small_Script": 98.74213836477988
+    }
+  },
+  {
+    "font": "Noto Serif Khmer",
+    "scripts": {
+      "Common": 0.2695127210004312,
+      "Inherited": 0.28776978417266186,
+      "Khmer": 100.0
+    }
+  },
+  {
+    "font": "Noto Serif Khojki",
+    "scripts": {
+      "Common": 0.7007330746011212,
+      "Gujarati": 10.989010989010989,
+      "Inherited": 0.28776978417266186,
+      "Khojki": 100.0
+    }
+  },
+  {
+    "font": "Noto Serif Lao",
+    "scripts": {
+      "Common": 0.053902544200086236,
+      "Inherited": 0.28776978417266186,
+      "Lao": 100.0
+    }
+  },
+  {
+    "font": "Noto Serif Lao Condensed",
+    "scripts": {
+      "Common": 0.053902544200086236,
+      "Inherited": 0.28776978417266186,
+      "Lao": 100.0
+    }
+  },
+  {
+    "font": "Noto Serif Lao ExtraCondensed",
+    "scripts": {
+      "Common": 0.053902544200086236,
+      "Inherited": 0.28776978417266186,
+      "Lao": 100.0
+    }
+  },
+  {
+    "font": "Noto Serif Lao SemiCondensed",
+    "scripts": {
+      "Common": 0.053902544200086236,
+      "Inherited": 0.28776978417266186,
+      "Lao": 100.0
+    }
+  },
+  {
+    "font": "Noto Serif Makasar",
+    "scripts": {
+      "Common": 0.03234152652005175,
+      "Makasar": 100.0
+    }
+  },
+  {
+    "font": "Noto Serif Malayalam",
+    "scripts": {
+      "Common": 0.646830530401035,
+      "Inherited": 1.0071942446043165,
+      "Malayalam": 100.0
+    }
+  },
+  {
+    "font": "Noto Serif Myanmar",
+    "scripts": {
+      "Common": 0.11858559724018973,
+      "Inherited": 0.4316546762589928,
+      "Myanmar": 91.76954732510289
+    }
+  },
+  {
+    "font": "Noto Serif Myanmar Condensed",
+    "scripts": {
+      "Common": 0.11858559724018973,
+      "Inherited": 0.4316546762589928,
+      "Myanmar": 91.76954732510289
+    }
+  },
+  {
+    "font": "Noto Serif Myanmar ExtraCondensed",
+    "scripts": {
+      "Common": 0.11858559724018973,
+      "Inherited": 0.4316546762589928,
+      "Myanmar": 91.76954732510289
+    }
+  },
+  {
+    "font": "Noto Serif Myanmar SemiCondensed",
+    "scripts": {
+      "Common": 0.11858559724018973,
+      "Inherited": 0.4316546762589928,
+      "Myanmar": 91.76954732510289
+    }
+  },
+  {
+    "font": "Noto Serif NP Hmong",
+    "scripts": {
+      "Common": 0.03234152652005175,
+      "Nyiakeng_Puachue_Hmong": 100.0
+    }
+  },
+  {
+    "font": "Noto Serif Old Uyghur",
+    "scripts": {
+      "Common": 0.043122035360069,
+      "Inherited": 0.14388489208633093,
+      "Manichaean": 1.9607843137254901,
+      "Old_Uyghur": 100.0
+    }
+  },
+  {
+    "font": "Noto Serif Oriya",
+    "scripts": {
+      "Common": 0.6144890038809833,
+      "Inherited": 0.28776978417266186,
+      "Oriya": 96.7741935483871
+    }
+  },
+  {
+    "font": "Noto Serif Ottoman Siyaq",
+    "scripts": {
+      "Common": 0.6576110392410522
+    }
+  },
+  {
+    "font": "Noto Serif Sinhala",
+    "scripts": {
+      "Common": 0.5929279862009487,
+      "Inherited": 0.28776978417266186,
+      "Sinhala": 100.0
+    }
+  },
+  {
+    "font": "Noto Serif Sinhala Condensed",
+    "scripts": {
+      "Common": 0.5929279862009487,
+      "Inherited": 0.28776978417266186,
+      "Sinhala": 100.0
+    }
+  },
+  {
+    "font": "Noto Serif Sinhala ExtraCondensed",
+    "scripts": {
+      "Common": 0.5929279862009487,
+      "Inherited": 0.28776978417266186,
+      "Sinhala": 100.0
+    }
+  },
+  {
+    "font": "Noto Serif Sinhala SemiCondensed",
+    "scripts": {
+      "Common": 0.5929279862009487,
+      "Inherited": 0.28776978417266186,
+      "Sinhala": 100.0
+    }
+  },
+  {
+    "font": "Noto Serif Tamil",
+    "scripts": {
+      "Common": 0.6791720569210867,
+      "Devanagari": 0.6060606060606061,
+      "Grantha": 3.5294117647058822,
+      "Inherited": 0.8633093525179856,
+      "Tamil": 58.536585365853654
+    }
+  },
+  {
+    "font": "Noto Serif Tamil Condensed",
+    "scripts": {
+      "Common": 0.6791720569210867,
+      "Devanagari": 0.6060606060606061,
+      "Grantha": 3.5294117647058822,
+      "Inherited": 0.8633093525179856,
+      "Tamil": 58.536585365853654
+    }
+  },
+  {
+    "font": "Noto Serif Tamil ExtraCondensed",
+    "scripts": {
+      "Common": 0.6791720569210867,
+      "Devanagari": 0.6060606060606061,
+      "Grantha": 3.5294117647058822,
+      "Inherited": 0.8633093525179856,
+      "Tamil": 58.536585365853654
+    }
+  },
+  {
+    "font": "Noto Serif Tamil SemiCondensed",
+    "scripts": {
+      "Common": 0.6791720569210867,
+      "Devanagari": 0.6060606060606061,
+      "Grantha": 3.5294117647058822,
+      "Inherited": 0.8633093525179856,
+      "Tamil": 58.536585365853654
+    }
+  },
+  {
+    "font": "Noto Serif Tangut",
+    "scripts": {
+      "Common": 0.043122035360069,
+      "Tangut": 97.91814190624557
+    }
+  },
+  {
+    "font": "Noto Serif Telugu",
+    "scripts": {
+      "Common": 0.6252695127210005,
+      "Inherited": 0.7194244604316548,
+      "Telugu": 99.00990099009901
+    }
+  },
+  {
+    "font": "Noto Serif Thai",
+    "scripts": {
+      "Common": 0.09702457956015524,
+      "Inherited": 0.5755395683453237,
+      "Thai": 100.0
+    }
+  },
+  {
+    "font": "Noto Serif Tibetan",
+    "scripts": {
+      "Common": 0.129366106080207,
+      "Inherited": 0.28776978417266186,
+      "Tibetan": 100.0
+    }
+  },
+  {
+    "font": "Noto Serif Toto",
+    "scripts": {
+      "Common": 0.03234152652005175,
+      "Toto": 100.0
+    }
+  },
+  {
+    "font": "Noto Serif Vithkuqi",
+    "scripts": {
+      "Common": 0.3234152652005175,
+      "Vithkuqi": 100.0
+    }
+  },
+  {
+    "font": "Noto Serif Yezidi",
+    "scripts": {
+      "Arabic": 0.06887052341597796,
+      "Common": 0.0646830530401035,
+      "Yezidi": 100.0
+    }
+  },
+  {
+    "font": "Noto Traditional Nushu",
+    "scripts": {
+      "Common": 0.086244070720138,
+      "Han": 0.0280594473256444,
+      "Nushu": 100.0
+    }
+  },
+  {
+    "font": "Noto Znamenny Musical Notation",
+    "scripts": {
+      "Common": 1.2828805519620525,
+      "Inherited": 9.928057553956835
+    }
+  },
+  {
+    "font": "Nuosu SIL",
+    "scripts": {
+      "Common": 2.425614489003881,
+      "Greek": 0.38461538461538464,
+      "Inherited": 2.7338129496402876,
+      "Latin": 7.743496672716274,
+      "Yi": 100.0
+    }
+  },
+  {
+    "font": "Open Sans",
+    "scripts": {
+      "Common": 1.7248814144027595,
+      "Cyrillic": 53.74015748031496,
+      "Greek": 14.423076923076922,
+      "Inherited": 1.1510791366906474,
+      "Latin": 22.20205686630369
+    }
+  },
+  {
+    "font": "OpenSymbol",
+    "scripts": {
+      "Common": 3.891763691246227,
+      "Greek": 10.576923076923077,
+      "Inherited": 1.870503597122302,
+      "Latin": 0.5444646098003629
+    }
+  },
+  {
+    "font": "P052",
+    "scripts": {
+      "Common": 3.3850797757654165,
+      "Cyrillic": 28.346456692913385,
+      "Greek": 14.23076923076923,
+      "Inherited": 0.14388489208633093,
+      "Latin": 16.273442226255295
+    }
+  },
+  {
+    "font": "Padauk",
+    "scripts": {
+      "Common": 1.6601983613626563,
+      "Greek": 0.38461538461538464,
+      "Inherited": 2.7338129496402876,
+      "Latin": 7.683000604960677,
+      "Myanmar": 100.0,
+      "Tagalog": 4.3478260869565215
+    }
+  },
+  {
+    "font": "Padauk Book",
+    "scripts": {
+      "Common": 0.5929279862009487,
+      "Inherited": 0.4316546762589928,
+      "Latin": 3.145795523290986,
+      "Myanmar": 91.76954732510289,
+      "Tagalog": 4.3478260869565215
+    }
+  },
+  {
+    "font": "PakType Naskh Basic",
+    "scripts": {
+      "Arabic": 48.00275482093664,
+      "Common": 2.1453212591634325,
+      "Inherited": 2.014388489208633,
+      "Latin": 7.017543859649122
+    }
+  },
+  {
+    "font": "PakType Naskh Basic Semi Wide",
+    "scripts": {
+      "Arabic": 48.00275482093664,
+      "Common": 2.1453212591634325,
+      "Inherited": 2.014388489208633,
+      "Latin": 7.017543859649122
+    }
+  },
+  {
+    "font": "PakType Naskh Basic Wide",
+    "scripts": {
+      "Arabic": 48.00275482093664,
+      "Common": 2.1453212591634325,
+      "Inherited": 2.014388489208633,
+      "Latin": 7.017543859649122
+    }
+  },
+  {
+    "font": "Payap Lanna",
+    "scripts": {
+      "Common": 1.5092712376024149,
+      "Greek": 0.38461538461538464,
+      "Inherited": 2.7338129496402876,
+      "Latin": 7.683000604960677,
+      "Tai_Tham": 99.21259842519686,
+      "Thai": 1.1627906976744187
+    }
+  },
+  {
+    "font": "Plangothic P1",
+    "scripts": {
+      "Armenian": 1.0101010101010102,
+      "Bopomofo": 5.194805194805195,
+      "Common": 2.6196636481241913,
+      "Cyrillic": 0.7874015748031495,
+      "Greek": 2.8846153846153846,
+      "Han": 61.41535722579147,
+      "Jurchen": 3.316062176165803,
+      "Khitan_Small_Script": 5.660377358490567,
+      "Latin": 8.045977011494253,
+      "Tangut": 0.0708114997875655
+    }
+  },
+  {
+    "font": "Plangothic P2",
+    "scripts": {
+      "Ahom": 12.307692307692308,
+      "Arabic": 26.515151515151516,
+      "Armenian": 2.0202020202020203,
+      "Balinese": 4.724409448818897,
+      "Bengali": 3.061224489795918,
+      "Beria_Erfe": 100.0,
+      "Bopomofo": 5.194805194805195,
+      "Brahmi": 6.086956521739131,
+      "Canadian_Aboriginal": 2.203856749311295,
+      "Caucasian_Albanian": 100.0,
+      "Chakma": 5.633802816901409,
+      "Chorasmian": 100.0,
+      "Common": 27.673566192324277,
+      "Cuneiform": 18.090452261306535,
+      "Cypro_Minoan": 100.0,
+      "Cyrillic": 16.141732283464567,
+      "Devanagari": 7.2727272727272725,
+      "Dives_Akuru": 100.0,
+      "Dogra": 100.0,
+      "Duployan": 100.0,
+      "Egyptian_Hieroglyphs": 0.7639569049951028,
+      "Elymaic": 100.0,
+      "Ethiopic": 5.353728489483748,
+      "Garay": 100.0,
+      "Glagolitic": 29.850746268656714,
+      "Grantha": 100.0,
+      "Greek": 4.038461538461538,
+      "Gujarati": 7.6923076923076925,
+      "Gunjala_Gondi": 98.4126984126984,
+      "Gurmukhi": 1.25,
+      "Gurung_Khema": 100.0,
+      "Han": 13.649469773202261,
+      "Hangul": 99.98296277366045,
+      "Hanifi_Rohingya": 100.0,
+      "Hiragana": 76.17801047120419,
+      "Inherited": 55.68345323741008,
+      "Jurchen": 6.7357512953367875,
+      "Kaithi": 4.411764705882353,
+      "Kannada": 6.521739130434782,
+      "Katakana": 7.033639143730887,
+      "Kawi": 100.0,
+      "Kharoshthi": 4.411764705882353,
+      "Khitan_Small_Script": 98.9517819706499,
+      "Khmer": 1.36986301369863,
+      "Khojki": 100.0,
+      "Khudawadi": 100.0,
+      "Kirat_Rai": 100.0,
+      "Lao": 19.27710843373494,
+      "Latin": 19.96370235934664,
+      "Limbu": 2.941176470588235,
+      "Lisu": 2.0408163265306123,
+      "Mahajani": 100.0,
+      "Makasar": 100.0,
+      "Malayalam": 3.389830508474576,
+      "Masaram_Gondi": 98.66666666666667,
+      "Medefaidrin": 100.0,
+      "Mende_Kikakui": 100.0,
+      "Miao": 10.738255033557047,
+      "Modi": 100.0,
+      "Mongolian": 8.928571428571429,
+      "Myanmar": 8.641975308641975,
+      "Nag_Mundari": 100.0,
+      "Nandinagari": 100.0,
+      "Newa": 5.154639175257731,
+      "Nko": 4.838709677419355,
+      "Nushu": 100.0,
+      "Nyiakeng_Puachue_Hmong": 100.0,
+      "Ol_Onal": 100.0,
+      "Old_Hungarian": 100.0,
+      "Old_Italic": 2.564102564102564,
+      "Old_Sogdian": 100.0,
+      "Old_Turkic": 1.36986301369863,
+      "Old_Uyghur": 100.0,
+      "Oriya": 2.1505376344086025,
+      "Psalter_Pahlavi": 100.0,
+      "Runic": 9.30232558139535,
+      "Saurashtra": 1.2195121951219512,
+      "Sharada": 9.615384615384617,
+      "Siddham": 100.0,
+      "Sidetic": 100.0,
+      "SignWriting": 100.0,
+      "Sinhala": 0.9009009009009009,
+      "Sogdian": 100.0,
+      "Soyombo": 100.0,
+      "Sunuwar": 100.0,
+      "Syloti_Nagri": 2.2222222222222223,
+      "Syriac": 12.5,
+      "Tagalog": 13.043478260869565,
+      "Tai_Yo": 100.0,
+      "Takri": 100.0,
+      "Tamil": 56.91056910569105,
+      "Tangsa": 100.0,
+      "Tangut": 100.0,
+      "Telugu": 6.9306930693069315,
+      "Tibetan": 30.917874396135264,
+      "Tirhuta": 100.0,
+      "Todhri": 100.0,
+      "Tolong_Siki": 100.0,
+      "Toto": 100.0,
+      "Vithkuqi": 100.0,
+      "Wancho": 100.0,
+      "Warang_Citi": 100.0,
+      "Yezidi": 100.0,
+      "Zanabazar_Square": 98.61111111111111
+    }
+  },
+  {
+    "font": "Red Hat Display",
+    "scripts": {
+      "Common": 1.4445881845623114,
+      "Inherited": 2.158273381294964,
+      "Latin": 15.486993345432548
+    }
+  },
+  {
+    "font": "Red Hat Text",
+    "scripts": {
+      "Common": 1.4445881845623114,
+      "Inherited": 2.158273381294964,
+      "Latin": 15.486993345432548
+    }
+  },
+  {
+    "font": "RIT Meera New",
+    "scripts": {
+      "Common": 0.9055627425614489,
+      "Inherited": 0.28776978417266186,
+      "Latin": 3.327283726557774,
+      "Malayalam": 97.45762711864407
+    }
+  },
+  {
+    "font": "RIT Rachana",
+    "scripts": {
+      "Common": 0.9702457956015523,
+      "Inherited": 0.28776978417266186,
+      "Latin": 7.1990320629159115,
+      "Malayalam": 100.0
+    }
+  },
+  {
+    "font": "Ruwudu",
+    "scripts": {
+      "Arabic": 8.81542699724518,
+      "Common": 1.8003449762828805,
+      "Greek": 0.38461538461538464,
+      "Inherited": 4.460431654676259,
+      "Latin": 7.683000604960677
+    }
+  },
+  {
+    "font": "Scheherazade New",
+    "scripts": {
+      "Arabic": 32.02479338842975,
+      "Common": 1.8542475204829667,
+      "Greek": 0.38461538461538464,
+      "Inherited": 4.460431654676259,
+      "Latin": 7.683000604960677
+    }
+  },
+  {
+    "font": "Shimenkan",
+    "scripts": {
+      "Common": 2.393272962483829,
+      "Greek": 0.38461538461538464,
+      "Han": 0.0009675671491601518,
+      "Inherited": 5.755395683453238,
+      "Latin": 25.771324863883848,
+      "Miao": 100.0
+    }
+  },
+  {
+    "font": "Shimenkan Book",
+    "scripts": {
+      "Common": 2.393272962483829,
+      "Greek": 0.38461538461538464,
+      "Han": 0.0009675671491601518,
+      "Inherited": 5.755395683453238,
+      "Latin": 25.771324863883848,
+      "Miao": 100.0
+    }
+  },
+  {
+    "font": "Shimenkan Extra Light",
+    "scripts": {
+      "Common": 2.393272962483829,
+      "Greek": 0.38461538461538464,
+      "Han": 0.0009675671491601518,
+      "Inherited": 5.755395683453238,
+      "Latin": 25.771324863883848,
+      "Miao": 100.0
+    }
+  },
+  {
+    "font": "Shimenkan Light",
+    "scripts": {
+      "Common": 2.393272962483829,
+      "Greek": 0.38461538461538464,
+      "Han": 0.0009675671491601518,
+      "Inherited": 5.755395683453238,
+      "Latin": 25.771324863883848,
+      "Miao": 100.0
+    }
+  },
+  {
+    "font": "sitelen seli kiwen asuki",
+    "scripts": {
+      "Bopomofo": 2.5974025974025974,
+      "Common": 3.9672272531263473,
+      "Greek": 1.5384615384615385,
+      "Han": 0.0019351342983203036,
+      "Inherited": 4.892086330935252,
+      "Latin": 26.678765880217785
+    }
+  },
+  {
+    "font": "sitelen seli kiwen juniko",
+    "scripts": {
+      "Bopomofo": 2.5974025974025974,
+      "Common": 3.9672272531263473,
+      "Greek": 1.5384615384615385,
+      "Han": 0.0019351342983203036,
+      "Inherited": 4.892086330935252,
+      "Latin": 26.678765880217785
+    }
+  },
+  {
+    "font": "sitelen seli kiwen mono asuki",
+    "scripts": {
+      "Bopomofo": 2.5974025974025974,
+      "Common": 3.9672272531263473,
+      "Greek": 1.5384615384615385,
+      "Han": 0.0019351342983203036,
+      "Inherited": 4.892086330935252,
+      "Latin": 26.678765880217785
+    }
+  },
+  {
+    "font": "sitelen seli kiwen mono juniko",
+    "scripts": {
+      "Bopomofo": 2.5974025974025974,
+      "Common": 3.9672272531263473,
+      "Greek": 1.5384615384615385,
+      "Han": 0.0019351342983203036,
+      "Inherited": 4.892086330935252,
+      "Latin": 26.678765880217785
+    }
+  },
+  {
+    "font": "Sophia Nubian",
+    "scripts": {
+      "Common": 1.2397585166019836,
+      "Coptic": 24.817518248175183,
+      "Greek": 0.7692307692307693,
+      "Inherited": 0.4316546762589928,
+      "Latin": 8.52994555353902
+    }
+  },
+  {
+    "font": "Source Code Pro",
+    "scripts": {
+      "Common": 4.969814575247952,
+      "Cyrillic": 29.527559055118108,
+      "Greek": 18.653846153846153,
+      "Inherited": 7.76978417266187,
+      "Latin": 34.24077434966727
+    }
+  },
+  {
+    "font": "Source Sans 3",
+    "scripts": {
+      "Common": 3.859422164726175,
+      "Cyrillic": 30.708661417322837,
+      "Greek": 61.346153846153854,
+      "Inherited": 9.06474820143885,
+      "Latin": 43.43617664851785
+    }
+  },
+  {
+    "font": "Source Serif 4",
+    "scripts": {
+      "Common": 2.457956015523933,
+      "Cyrillic": 29.527559055118108,
+      "Greek": 14.807692307692308,
+      "Inherited": 3.0215827338129495,
+      "Latin": 26.860254083484573
+    }
+  },
+  {
+    "font": "Source Serif 4 Caption",
+    "scripts": {
+      "Common": 2.457956015523933,
+      "Cyrillic": 29.527559055118108,
+      "Greek": 14.807692307692308,
+      "Inherited": 3.0215827338129495,
+      "Latin": 26.860254083484573
+    }
+  },
+  {
+    "font": "Source Serif 4 Display",
+    "scripts": {
+      "Common": 2.457956015523933,
+      "Cyrillic": 29.527559055118108,
+      "Greek": 14.807692307692308,
+      "Inherited": 3.0215827338129495,
+      "Latin": 26.860254083484573
+    }
+  },
+  {
+    "font": "Source Serif 4 SmText",
+    "scripts": {
+      "Common": 2.457956015523933,
+      "Cyrillic": 29.527559055118108,
+      "Greek": 14.807692307692308,
+      "Inherited": 3.0215827338129495,
+      "Latin": 26.860254083484573
+    }
+  },
+  {
+    "font": "Source Serif 4 Subhead",
+    "scripts": {
+      "Common": 2.457956015523933,
+      "Cyrillic": 29.527559055118108,
+      "Greek": 14.807692307692308,
+      "Inherited": 3.0215827338129495,
+      "Latin": 26.860254083484573
+    }
+  },
+  {
+    "font": "Standard Symbols PS",
+    "scripts": {
+      "Common": 1.5739542906425183,
+      "Greek": 10.384615384615385,
+      "Latin": 6.957047791893527
+    }
+  },
+  {
+    "font": "STIX",
+    "scripts": {
+      "Arabic": 0.13774104683195593,
+      "Common": 34.184993531694694,
+      "Cyrillic": 20.866141732283463,
+      "Greek": 17.5,
+      "Hiragana": 0.2617801047120419,
+      "Inherited": 15.107913669064748,
+      "Latin": 40.77434966727162
+    }
+  },
+  {
+    "font": "Tagmukay",
+    "scripts": {
+      "Common": 1.0564898663216904,
+      "Inherited": 2.158273381294964,
+      "Latin": 10.042347247428918,
+      "Tifinagh": 45.76271186440678
+    }
+  },
+  {
+    "font": "Tai Heritage Pro",
+    "scripts": {
+      "Common": 1.6601983613626563,
+      "Greek": 0.38461538461538464,
+      "Inherited": 4.460431654676259,
+      "Latin": 14.519056261343014,
+      "Tai_Viet": 100.0
+    }
+  },
+  {
+    "font": "Tangut Yinchuan",
+    "scripts": {
+      "Common": 5.3255713669685205,
+      "Han": 0.025156745878163942,
+      "Inherited": 6.18705035971223,
+      "Latin": 16.575922565033274,
+      "Tangut": 97.91814190624557,
+      "Tibetan": 2.898550724637681
+    }
+  },
+  {
+    "font": "Temml-Script",
+    "scripts": {
+      "Common": 0.3773178094006037
+    }
+  },
+  {
+    "font": "Tirra",
+    "scripts": {
+      "Common": 1.6386373436826216,
+      "Greek": 0.38461538461538464,
+      "Inherited": 4.892086330935252,
+      "Latin": 10.405323653962492,
+      "Tifinagh": 100.0
+    }
+  },
+  {
+    "font": "Unifont",
+    "scripts": {
+      "Arabic": 83.88429752066115,
+      "Armenian": 100.0,
+      "Balinese": 100.0,
+      "Bamum": 13.39421613394216,
+      "Batak": 100.0,
+      "Bengali": 97.95918367346938,
+      "Bopomofo": 100.0,
+      "Braille": 100.0,
+      "Buginese": 100.0,
+      "Buhid": 100.0,
+      "Canadian_Aboriginal": 97.7961432506887,
+      "Cham": 100.0,
+      "Cherokee": 100.0,
+      "Common": 39.62915049590341,
+      "Coptic": 100.0,
+      "Cyrillic": 87.5984251968504,
+      "Devanagari": 93.33333333333333,
+      "Ethiopic": 94.64627151051626,
+      "Georgian": 100.0,
+      "Glagolitic": 71.64179104477611,
+      "Greek": 70.76923076923077,
+      "Gujarati": 100.0,
+      "Gurmukhi": 100.0,
+      "Han": 29.25826302345383,
+      "Hangul": 100.0,
+      "Hanunoo": 100.0,
+      "Hebrew": 100.0,
+      "Hiragana": 23.298429319371728,
+      "Inherited": 49.06474820143885,
+      "Javanese": 100.0,
+      "Kannada": 100.0,
+      "Katakana": 91.43730886850153,
+      "Kayah_Li": 100.0,
+      "Khmer": 100.0,
+      "Lao": 100.0,
+      "Latin": 84.99697519661223,
+      "Lepcha": 100.0,
+      "Limbu": 100.0,
+      "Lisu": 97.95918367346938,
+      "Malayalam": 100.0,
+      "Mandaic": 100.0,
+      "Meetei_Mayek": 100.0,
+      "Mongolian": 92.26190476190477,
+      "Myanmar": 91.76954732510289,
+      "New_Tai_Lue": 100.0,
+      "Nko": 100.0,
+      "Ogham": 100.0,
+      "Ol_Chiki": 100.0,
+      "Oriya": 100.0,
+      "Phags_Pa": 100.0,
+      "Rejang": 100.0,
+      "Runic": 100.0,
+      "Samaritan": 100.0,
+      "Saurashtra": 100.0,
+      "Sinhala": 81.98198198198197,
+      "Sundanese": 100.0,
+      "Syloti_Nagri": 100.0,
+      "Syriac": 100.0,
+      "Tagalog": 100.0,
+      "Tagbanwa": 100.0,
+      "Tai_Le": 100.0,
+      "Tai_Tham": 100.0,
+      "Tai_Viet": 100.0,
+      "Tamil": 58.536585365853654,
+      "Telugu": 100.0,
+      "Thaana": 100.0,
+      "Thai": 100.0,
+      "Tibetan": 100.0,
+      "Tifinagh": 100.0,
+      "Vai": 100.0,
+      "Yi": 100.0
+    }
+  },
+  {
+    "font": "Unifont CSUR",
+    "scripts": {
+      "Common": 0.01078050884001725
+    }
+  },
+  {
+    "font": "Unifont Upper",
+    "scripts": {
+      "Adlam": 100.0,
+      "Ahom": 100.0,
+      "Arabic": 16.115702479338843,
+      "Avestan": 100.0,
+      "Bassa_Vah": 100.0,
+      "Bengali": 2.0408163265306123,
+      "Beria_Erfe": 100.0,
+      "Bhaiksuki": 100.0,
+      "Brahmi": 100.0,
+      "Canadian_Aboriginal": 2.203856749311295,
+      "Carian": 100.0,
+      "Caucasian_Albanian": 100.0,
+      "Chakma": 100.0,
+      "Chorasmian": 100.0,
+      "Common": 60.39241052177663,
+      "Cuneiform": 11.41421392677674,
+      "Cypriot": 100.0,
+      "Cypro_Minoan": 100.0,
+      "Cyrillic": 12.401574803149607,
+      "Deseret": 100.0,
+      "Devanagari": 6.666666666666667,
+      "Dives_Akuru": 100.0,
+      "Dogra": 100.0,
+      "Duployan": 100.0,
+      "Egyptian_Hieroglyphs": 0.7639569049951028,
+      "Elbasan": 100.0,
+      "Elymaic": 100.0,
+      "Ethiopic": 5.353728489483748,
+      "Garay": 100.0,
+      "Glagolitic": 28.35820895522388,
+      "Gothic": 100.0,
+      "Grantha": 100.0,
+      "Greek": 29.230769230769234,
+      "Gunjala_Gondi": 100.0,
+      "Gurung_Khema": 100.0,
+      "Han": 6.676213329205047,
+      "Hanifi_Rohingya": 100.0,
+      "Hatran": 100.0,
+      "Hiragana": 76.70157068062828,
+      "Imperial_Aramaic": 100.0,
+      "Inherited": 14.100719424460431,
+      "Inscriptional_Pahlavi": 100.0,
+      "Inscriptional_Parthian": 100.0,
+      "Jurchen": 100.0,
+      "Kaithi": 100.0,
+      "Katakana": 8.56269113149847,
+      "Kawi": 100.0,
+      "Kharoshthi": 100.0,
+      "Khitan_Small_Script": 100.0,
+      "Khojki": 100.0,
+      "Khudawadi": 100.0,
+      "Kirat_Rai": 100.0,
+      "Latin": 15.00302480338778,
+      "Linear_A": 100.0,
+      "Linear_B": 100.0,
+      "Lisu": 2.0408163265306123,
+      "Lycian": 100.0,
+      "Lydian": 100.0,
+      "Mahajani": 100.0,
+      "Makasar": 100.0,
+      "Manichaean": 100.0,
+      "Marchen": 100.0,
+      "Masaram_Gondi": 100.0,
+      "Medefaidrin": 100.0,
+      "Mende_Kikakui": 100.0,
+      "Meroitic_Cursive": 100.0,
+      "Meroitic_Hieroglyphs": 100.0,
+      "Miao": 100.0,
+      "Modi": 100.0,
+      "Mongolian": 7.738095238095238,
+      "Mro": 100.0,
+      "Multani": 100.0,
+      "Myanmar": 8.23045267489712,
+      "Nabataean": 100.0,
+      "Nag_Mundari": 100.0,
+      "Nandinagari": 100.0,
+      "Newa": 100.0,
+      "Nushu": 100.0,
+      "Nyiakeng_Puachue_Hmong": 100.0,
+      "Ol_Onal": 100.0,
+      "Old_Hungarian": 100.0,
+      "Old_Italic": 100.0,
+      "Old_North_Arabian": 100.0,
+      "Old_Permic": 100.0,
+      "Old_Persian": 100.0,
+      "Old_Sogdian": 100.0,
+      "Old_South_Arabian": 100.0,
+      "Old_Turkic": 100.0,
+      "Old_Uyghur": 100.0,
+      "Osage": 100.0,
+      "Osmanya": 100.0,
+      "Pahawh_Hmong": 100.0,
+      "Palmyrene": 100.0,
+      "Pau_Cin_Hau": 100.0,
+      "Phoenician": 100.0,
+      "Proto_Cuneiform": 100.0,
+      "Psalter_Pahlavi": 100.0,
+      "Sharada": 100.0,
+      "Shavian": 100.0,
+      "Siddham": 100.0,
+      "Sidetic": 100.0,
+      "SignWriting": 100.0,
+      "Sinhala": 18.01801801801802,
+      "Sogdian": 100.0,
+      "Sora_Sompeng": 100.0,
+      "Soyombo": 100.0,
+      "Sunuwar": 100.0,
+      "Tai_Yo": 100.0,
+      "Takri": 100.0,
+      "Tamil": 41.46341463414634,
+      "Tangsa": 100.0,
+      "Tangut": 0.0424868998725393,
+      "Tirhuta": 100.0,
+      "Todhri": 100.0,
+      "Tolong_Siki": 100.0,
+      "Toto": 100.0,
+      "Tulu_Tigalari": 100.0,
+      "Ugaritic": 100.0,
+      "Vithkuqi": 100.0,
+      "Wancho": 100.0,
+      "Warang_Citi": 100.0,
+      "Yezidi": 100.0,
+      "Zanabazar_Square": 100.0
+    }
+  },
+  {
+    "font": "Unifont-JP",
+    "scripts": {
+      "Arabic": 83.88429752066115,
+      "Armenian": 100.0,
+      "Balinese": 100.0,
+      "Bamum": 13.39421613394216,
+      "Batak": 100.0,
+      "Bengali": 97.95918367346938,
+      "Bopomofo": 100.0,
+      "Braille": 100.0,
+      "Buginese": 100.0,
+      "Buhid": 100.0,
+      "Canadian_Aboriginal": 97.7961432506887,
+      "Cham": 100.0,
+      "Cherokee": 100.0,
+      "Common": 39.62915049590341,
+      "Coptic": 100.0,
+      "Cyrillic": 87.5984251968504,
+      "Devanagari": 93.33333333333333,
+      "Ethiopic": 94.64627151051626,
+      "Georgian": 100.0,
+      "Glagolitic": 71.64179104477611,
+      "Greek": 70.76923076923077,
+      "Gujarati": 100.0,
+      "Gurmukhi": 100.0,
+      "Han": 29.25826302345383,
+      "Hangul": 100.0,
+      "Hanunoo": 100.0,
+      "Hebrew": 100.0,
+      "Hiragana": 23.298429319371728,
+      "Inherited": 51.36690647482014,
+      "Javanese": 100.0,
+      "Kannada": 100.0,
+      "Katakana": 91.43730886850153,
+      "Kayah_Li": 100.0,
+      "Khmer": 100.0,
+      "Lao": 100.0,
+      "Latin": 84.99697519661223,
+      "Lepcha": 100.0,
+      "Limbu": 100.0,
+      "Lisu": 97.95918367346938,
+      "Malayalam": 100.0,
+      "Mandaic": 100.0,
+      "Meetei_Mayek": 100.0,
+      "Mongolian": 92.26190476190477,
+      "Myanmar": 91.76954732510289,
+      "New_Tai_Lue": 100.0,
+      "Nko": 100.0,
+      "Ogham": 100.0,
+      "Ol_Chiki": 100.0,
+      "Oriya": 100.0,
+      "Phags_Pa": 100.0,
+      "Rejang": 100.0,
+      "Runic": 100.0,
+      "Samaritan": 100.0,
+      "Saurashtra": 100.0,
+      "Sinhala": 81.98198198198197,
+      "Sundanese": 100.0,
+      "Syloti_Nagri": 100.0,
+      "Syriac": 100.0,
+      "Tagalog": 100.0,
+      "Tagbanwa": 100.0,
+      "Tai_Le": 100.0,
+      "Tai_Tham": 100.0,
+      "Tai_Viet": 100.0,
+      "Tamil": 58.536585365853654,
+      "Telugu": 100.0,
+      "Thaana": 100.0,
+      "Thai": 100.0,
+      "Tibetan": 100.0,
+      "Tifinagh": 100.0,
+      "Vai": 100.0,
+      "Yi": 100.0
+    }
+  },
+  {
+    "font": "Unifont-T",
+    "scripts": {
+      "Arabic": 83.88429752066115,
+      "Armenian": 100.0,
+      "Balinese": 100.0,
+      "Bamum": 13.39421613394216,
+      "Batak": 100.0,
+      "Bengali": 97.95918367346938,
+      "Bopomofo": 100.0,
+      "Braille": 100.0,
+      "Buginese": 100.0,
+      "Buhid": 100.0,
+      "Canadian_Aboriginal": 97.7961432506887,
+      "Cham": 100.0,
+      "Cherokee": 100.0,
+      "Common": 39.62915049590341,
+      "Coptic": 100.0,
+      "Cyrillic": 87.5984251968504,
+      "Devanagari": 93.33333333333333,
+      "Ethiopic": 94.64627151051626,
+      "Georgian": 100.0,
+      "Glagolitic": 71.64179104477611,
+      "Greek": 70.76923076923077,
+      "Gujarati": 100.0,
+      "Gurmukhi": 100.0,
+      "Han": 27.47890703614831,
+      "Hangul": 100.0,
+      "Hanunoo": 100.0,
+      "Hebrew": 100.0,
+      "Hiragana": 23.298429319371728,
+      "Inherited": 51.36690647482014,
+      "Javanese": 100.0,
+      "Kannada": 100.0,
+      "Katakana": 91.43730886850153,
+      "Kayah_Li": 100.0,
+      "Khmer": 100.0,
+      "Lao": 100.0,
+      "Latin": 84.99697519661223,
+      "Lepcha": 100.0,
+      "Limbu": 100.0,
+      "Lisu": 97.95918367346938,
+      "Malayalam": 100.0,
+      "Mandaic": 100.0,
+      "Meetei_Mayek": 100.0,
+      "Mongolian": 92.26190476190477,
+      "Myanmar": 91.76954732510289,
+      "New_Tai_Lue": 100.0,
+      "Nko": 100.0,
+      "Ogham": 100.0,
+      "Ol_Chiki": 100.0,
+      "Oriya": 100.0,
+      "Phags_Pa": 100.0,
+      "Rejang": 100.0,
+      "Runic": 100.0,
+      "Samaritan": 100.0,
+      "Saurashtra": 100.0,
+      "Sinhala": 81.98198198198197,
+      "Sundanese": 100.0,
+      "Syloti_Nagri": 100.0,
+      "Syriac": 100.0,
+      "Tagalog": 100.0,
+      "Tagbanwa": 100.0,
+      "Tai_Le": 100.0,
+      "Tai_Tham": 100.0,
+      "Tai_Viet": 100.0,
+      "Tamil": 58.536585365853654,
+      "Telugu": 100.0,
+      "Thaana": 100.0,
+      "Thai": 100.0,
+      "Tibetan": 100.0,
+      "Tifinagh": 100.0,
+      "Vai": 100.0,
+      "Yi": 100.0
+    }
+  },
+  {
+    "font": "URW Bookman",
+    "scripts": {
+      "Common": 3.3850797757654165,
+      "Cyrillic": 28.346456692913385,
+      "Greek": 14.23076923076923,
+      "Inherited": 0.14388489208633093,
+      "Latin": 16.273442226255295
+    }
+  },
+  {
+    "font": "URW Gothic",
+    "scripts": {
+      "Common": 3.3850797757654165,
+      "Cyrillic": 28.346456692913385,
+      "Greek": 14.23076923076923,
+      "Inherited": 0.14388489208633093,
+      "Latin": 16.273442226255295
+    }
+  },
+  {
+    "font": "Utopia",
+    "scripts": {
+      "Common": 1.1211729193617939,
+      "Greek": 0.19230769230769232,
+      "Latin": 7.80399274047187
+    }
+  },
+  {
+    "font": "Vazirmatn",
+    "scripts": {
+      "Arabic": 23.209366391184574,
+      "Common": 1.9728331177231564,
+      "Greek": 0.19230769230769232,
+      "Inherited": 2.877697841726619,
+      "Latin": 16.212946158499697
+    }
+  },
+  {
+    "font": "Z003",
+    "scripts": {
+      "Common": 3.3850797757654165,
+      "Cyrillic": 28.346456692913385,
+      "Greek": 14.23076923076923,
+      "Inherited": 0.14388489208633093,
+      "Latin": 16.273442226255295
+    }
+  }
+]
