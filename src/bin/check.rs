@@ -279,7 +279,7 @@ fn main() {
         })
         .collect();
     println!("map inverted");
-    let fjson = serde_json::to_string_pretty(&font_ranges_to_json(&font_ranges)).unwrap();
+    let fjson = serde_json::to_string_pretty(&font_ranges_to_json(&font_ranges)).unwrap() + "\n";
     fs::write("fonts.json", &fjson).unwrap();
     let sjson = serde_json::to_string_pretty(&build_font_script_coverage(&scripts, &cp_map))
         .unwrap()
