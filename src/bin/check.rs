@@ -2,7 +2,8 @@
     clippy::cast_precision_loss,
     clippy::cast_sign_loss,
     clippy::cast_possible_truncation,
-    clippy::cast_possible_wrap
+    clippy::cast_possible_wrap,
+    reason = "annoying"
 )]
 
 use std::{
@@ -35,7 +36,7 @@ fn try_fetch(url: &str) -> Option<String> {
     static CLIENT: LazyLock<Client> =
         LazyLock::new(|| Client::builder().timeout(Duration::from_mins(1)).build().unwrap());
     const RETRY_MAX: i32 = 3;
-    for attempt in 0..RETRY_MAX {
+    for attempt in 0 .. RETRY_MAX {
         match CLIENT.get(url).send() {
             Ok(resp) => return Some(resp.text().unwrap()),
             Err(e) if attempt < RETRY_MAX - 1 => {
@@ -105,7 +106,7 @@ fn build_codepoint_map() -> HashMap<u32, Vec<String>> {
             if let Some((start, end)) = range.split_once('-') {
                 let start_cp = u32::from_str_radix(start, 16).unwrap();
                 let end_cp = u32::from_str_radix(end, 16).unwrap();
-                for cp in start_cp..=end_cp {
+                for cp in start_cp ..= end_cp {
                     map.entry(cp).or_default().insert(base_family.clone());
                 }
             } else {
@@ -126,7 +127,7 @@ fn build_codepoint_map() -> HashMap<u32, Vec<String>> {
 fn process_block(block: &Block, font_map: &HashMap<u32, Vec<String>>) -> Value {
     let start_hex = format!("{:04x}", block.start);
     let end_hex = format!("{:04x}", block.end);
-    let chars = (block.start..=block.end)
+    let chars = (block.start ..= block.end)
         .filter_map(|codepoint| {
             let families = font_map.get(&codepoint)?;
             Some((format!("{codepoint:04x}"), json!(families)))
@@ -143,6 +144,7 @@ fn process_block(block: &Block, font_map: &HashMap<u32, Vec<String>>) -> Value {
 
 fn invert_map(cp_map: &HashMap<u32, Vec<String>>) -> HashMap<String, Vec<u32>> {
     let mut font_map: HashMap<String, Vec<u32>> = HashMap::new();
+    #[allow(clippy::iter_over_hash_type, reason = "making another hashmap")]
     for (&cp, families) in cp_map {
         for family in families {
             font_map.entry(family.clone()).or_default().push(cp);
@@ -156,7 +158,7 @@ fn to_ranges(mut cps: Vec<u32>) -> Vec<(u32, u32)> {
     let mut ranges = Vec::new();
     let mut start = cps[0];
     let mut prev = cps[0];
-    for &cp in &cps[1..] {
+    for &cp in &cps[1 ..] {
         if cp != prev + 1 {
             ranges.push((start, prev));
             start = cp;
@@ -195,7 +197,8 @@ fn font_ranges_to_json(map: &HashMap<String, Vec<(u32, u32)>>) -> Value {
 fn build_script_totals(scripts: &[Script]) -> HashMap<String, usize> {
     let mut totals = HashMap::new();
     for script in scripts {
-        let count = (script.start..=script.end).filter(|cp| char::from_u32(*cp).is_some()).count();
+        let count =
+            (script.start ..= script.end).filter(|cp| char::from_u32(*cp).is_some()).count();
         *totals.entry(script.name.clone()).or_default() += count;
     }
     totals
@@ -205,7 +208,7 @@ fn build_font_script_coverage(scripts: &[Script], cp_map: &HashMap<u32, Vec<Stri
     let script_totals = build_script_totals(scripts);
     let mut per_font: HashMap<String, HashMap<String, usize>> = HashMap::new();
     for script in scripts {
-        for cp in script.start..=script.end {
+        for cp in script.start ..= script.end {
             if char::from_u32(cp).is_none() {
                 continue;
             }
@@ -235,7 +238,7 @@ fn build_font_script_coverage(scripts: &[Script], cp_map: &HashMap<u32, Vec<Stri
                     if supported == 0 || total == 0 {
                         continue;
                     }
-                    let pct = supported as f64 / total as f64 * 100.0;
+                    let pct = supported as f64 / total as f64 * 100.;
                     scripts_json.insert(script, json!(pct));
                 }
                 json!({
