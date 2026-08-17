@@ -452,6 +452,18 @@
     }
   },
   {
+    "font": "Hack",
+    "scripts": {
+      "Armenian": 86.86868686868688,
+      "Common": 9.616213885295386,
+      "Cyrillic": 36.61417322834646,
+      "Georgian": 25.43352601156069,
+      "Greek": 14.038461538461538,
+      "Inherited": 9.496402877697841,
+      "Latin": 16.394434361766486
+    }
+  },
+  {
     "font": "Harmattan",
     "scripts": {
       "Arabic": 30.44077134986226,
@@ -579,12 +591,12 @@
       "Armenian": 91.91919191919192,
       "Bopomofo": 2.5974025974025974,
       "Braille": 100.0,
-      "Common": 50.68995256576111,
+      "Common": 50.72229409228115,
       "Cyrillic": 99.60629921259843,
       "Greek": 70.76923076923077,
       "Hebrew": 0.7352941176470588,
       "Inherited": 34.10071942446043,
-      "Latin": 82.09316394434362
+      "Latin": 82.57713248638838
     }
   },
   {
@@ -677,6 +689,159 @@
     }
   },
   {
+    "font": "Latin Modern Math",
+    "scripts": {
+      "Common": 17.421302285467874,
+      "Greek": 10.961538461538462,
+      "Inherited": 8.201438848920864,
+      "Latin": 19.056261343012704
+    }
+  },
+  {
+    "font": "Latin Modern Mono",
+    "scripts": {
+      "Common": 1.5847347994825356,
+      "Greek": 4.807692307692308,
+      "Inherited": 3.0215827338129495,
+      "Latin": 25.650332728372653
+    }
+  },
+  {
+    "font": "Latin Modern Mono Caps",
+    "scripts": {
+      "Common": 1.5847347994825356,
+      "Greek": 4.807692307692308,
+      "Inherited": 3.0215827338129495,
+      "Latin": 25.58983666061706
+    }
+  },
+  {
+    "font": "Latin Modern Mono Light",
+    "scripts": {
+      "Common": 1.5847347994825356,
+      "Greek": 4.807692307692308,
+      "Inherited": 3.0215827338129495,
+      "Latin": 25.650332728372653
+    }
+  },
+  {
+    "font": "Latin Modern Mono Light Cond",
+    "scripts": {
+      "Common": 1.5847347994825356,
+      "Greek": 4.807692307692308,
+      "Inherited": 3.0215827338129495,
+      "Latin": 25.650332728372653
+    }
+  },
+  {
+    "font": "Latin Modern Mono Prop",
+    "scripts": {
+      "Common": 1.6170763260025873,
+      "Greek": 4.807692307692308,
+      "Inherited": 3.0215827338129495,
+      "Latin": 26.073805202661827
+    }
+  },
+  {
+    "font": "Latin Modern Mono Prop Light",
+    "scripts": {
+      "Common": 1.6170763260025873,
+      "Greek": 4.807692307692308,
+      "Inherited": 3.0215827338129495,
+      "Latin": 26.073805202661827
+    }
+  },
+  {
+    "font": "Latin Modern Mono Slanted",
+    "scripts": {
+      "Common": 1.5847347994825356,
+      "Greek": 4.807692307692308,
+      "Inherited": 3.0215827338129495,
+      "Latin": 25.650332728372653
+    }
+  },
+  {
+    "font": "Latin Modern Roman",
+    "scripts": {
+      "Common": 1.6170763260025873,
+      "Greek": 4.807692307692308,
+      "Inherited": 3.0215827338129495,
+      "Latin": 26.073805202661827
+    }
+  },
+  {
+    "font": "Latin Modern Roman Caps",
+    "scripts": {
+      "Common": 1.6170763260025873,
+      "Greek": 4.807692307692308,
+      "Inherited": 3.0215827338129495,
+      "Latin": 25.710828796128247
+    }
+  },
+  {
+    "font": "Latin Modern Roman Demi",
+    "scripts": {
+      "Common": 1.6170763260025873,
+      "Greek": 4.807692307692308,
+      "Inherited": 3.0215827338129495,
+      "Latin": 26.073805202661827
+    }
+  },
+  {
+    "font": "Latin Modern Roman Dunhill",
+    "scripts": {
+      "Common": 1.6170763260025873,
+      "Greek": 4.807692307692308,
+      "Inherited": 3.0215827338129495,
+      "Latin": 26.073805202661827
+    }
+  },
+  {
+    "font": "Latin Modern Roman Slanted",
+    "scripts": {
+      "Common": 1.6170763260025873,
+      "Greek": 4.807692307692308,
+      "Inherited": 3.0215827338129495,
+      "Latin": 26.073805202661827
+    }
+  },
+  {
+    "font": "Latin Modern Roman Unslanted",
+    "scripts": {
+      "Common": 1.6170763260025873,
+      "Greek": 4.807692307692308,
+      "Inherited": 3.0215827338129495,
+      "Latin": 26.073805202661827
+    }
+  },
+  {
+    "font": "Latin Modern Sans",
+    "scripts": {
+      "Common": 1.6170763260025873,
+      "Greek": 4.807692307692308,
+      "Inherited": 3.0215827338129495,
+      "Latin": 26.073805202661827
+    }
+  },
+  {
+    "font": "Latin Modern Sans Demi Cond",
+    "scripts": {
+      "Common": 1.6170763260025873,
+      "Greek": 4.807692307692308,
+      "Inherited": 3.0215827338129495,
+      "Latin": 26.073805202661827
+    }
+  },
+  {
+    "font": "Latin Modern Sans Quotation",
+    "scripts": {
+      "Common": 1.6170763260025873,
+      "Greek": 4.807692307692308,
+      "Inherited": 3.0215827338129495,
+      "Latin": 26.073805202661827
+    }
+  },
+  {
     "font": "Lato",
     "scripts": {
       "Bopomofo": 2.5974025974025974,
@@ -725,6 +890,18 @@
       "Hebrew": 97.79411764705883,
       "Inherited": 19.280575539568346,
       "Latin": 61.464004839685416
+    }
+  },
+  {
+    "font": "Libertinus Math",
+    "scripts": {
+      "Bopomofo": 2.5974025974025974,
+      "Common": 21.269943941354033,
+      "Cyrillic": 45.66929133858268,
+      "Greek": 66.34615384615384,
+      "Hebrew": 39.705882352941174,
+      "Inherited": 17.553956834532375,
+      "Latin": 55.898366606170605
     }
   },
   {
@@ -777,6 +954,14 @@
       "Inherited": 2.7338129496402876,
       "Latin": 7.683000604960677,
       "Lepcha": 100.0
+    }
+  },
+  {
+    "font": "MnSymbol",
+    "scripts": {
+      "Common": 4.646399310047434,
+      "Inherited": 0.8633093525179856,
+      "Latin": 1.572897761645493
     }
   },
   {
@@ -1013,14 +1198,6 @@
     "scripts": {
       "Avestan": 100.0,
       "Common": 0.0646830530401035,
-      "Inherited": 0.28776978417266186
-    }
-  },
-  {
-    "font": "Noto Sans Balinese",
-    "scripts": {
-      "Balinese": 97.63779527559055,
-      "Common": 0.053902544200086236,
       "Inherited": 0.28776978417266186
     }
   },
@@ -3908,6 +4085,12 @@
       "Hiragana": 0.2617801047120419,
       "Inherited": 15.107913669064748,
       "Latin": 40.77434966727162
+    }
+  },
+  {
+    "font": "Symbols Nerd Font Mono",
+    "scripts": {
+      "Common": 0.1509271237602415
     }
   },
   {
