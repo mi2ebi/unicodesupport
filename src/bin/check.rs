@@ -90,17 +90,28 @@ fn fetch_scripts() -> Vec<Script> {
         .collect()
 }
 
-fn build_codepoint_map() -> HashMap<u32, Vec<String>> {
+fn build_codepoint_map() -> (HashMap<u32, Vec<String>>, HashSet<String>) {
     println!("building font map from fc-list...");
-    let output = Command::new("fc-list").args([":", "family", "charset"]).output().unwrap();
+    let output = Command::new("fc-list")
+        .args([":", "-f", "%{family[0]}\t%{charset}\t%{slant}\n"])
+        .output()
+        .unwrap();
     let mut map: HashMap<u32, HashSet<String>> = HashMap::new();
+    let mut italic_families: HashSet<String> = HashSet::new();
     for line in String::from_utf8(output.stdout).unwrap().lines() {
-        let Some((families_part, charset_part)) = line.split_once(":charset=") else {
+        let mut fields = line.splitn(3, '\t');
+        let (Some(base_family), Some(charset_part), Some(slant_part)) =
+            (fields.next(), fields.next(), fields.next())
+        else {
             continue;
         };
-        let base_family = families_part.split(',').next().unwrap().trim().replace('\\', "");
+        let base_family = base_family.trim().to_string();
         if base_family.is_empty() {
             continue;
+        }
+        let slant: i32 = slant_part.trim().parse().unwrap_or(0);
+        if slant >= 100 {
+            italic_families.insert(base_family.clone());
         }
         for range in charset_part.split_whitespace() {
             if let Some((start, end)) = range.split_once('-') {
@@ -115,13 +126,15 @@ fn build_codepoint_map() -> HashMap<u32, Vec<String>> {
             }
         }
     }
-    map.into_iter()
+    let map = map
+        .into_iter()
         .map(|(cp, families)| {
             let mut families = families.into_iter().collect::<Vec<_>>();
             families.sort();
             (cp, families)
         })
-        .collect()
+        .collect();
+    (map, italic_families)
 }
 
 fn process_block(block: &Block, font_map: &HashMap<u32, Vec<String>>) -> Value {
@@ -169,7 +182,10 @@ fn to_ranges(mut cps: Vec<u32>) -> Vec<(u32, u32)> {
     ranges
 }
 
-fn font_ranges_to_json(map: &HashMap<String, Vec<(u32, u32)>>) -> Value {
+fn font_ranges_to_json(
+    map: &HashMap<String, Vec<(u32, u32)>>,
+    italic_families: &HashSet<String>,
+) -> Value {
     let mut fonts = map.iter().collect::<Vec<_>>();
     fonts.sort_by_key(|(a, _)| a.to_lowercase());
     let fonts = fonts
@@ -187,6 +203,7 @@ fn font_ranges_to_json(map: &HashMap<String, Vec<(u32, u32)>>) -> Value {
                 .collect::<Vec<_>>();
             json!({
                 "font": font,
+                "italic": italic_families.contains(font),
                 "ranges": ranges_json
             })
         })
@@ -252,7 +269,7 @@ fn build_font_script_coverage(scripts: &[Script], cp_map: &HashMap<u32, Vec<Stri
 
 fn main() {
     let start_time = Instant::now();
-    let cp_map = build_codepoint_map();
+    let (cp_map, italic_families) = build_codepoint_map();
     println!("codepoint map built with {} codepoints", cp_map.len());
     let blocks = fetch_blocks();
     let scripts = fetch_scripts();
@@ -282,7 +299,9 @@ fn main() {
         })
         .collect();
     println!("map inverted");
-    let fjson = serde_json::to_string_pretty(&font_ranges_to_json(&font_ranges)).unwrap() + "\n";
+    let fjson = serde_json::to_string_pretty(&font_ranges_to_json(&font_ranges, &italic_families))
+        .unwrap()
+        + "\n";
     fs::write("fonts.json", &fjson).unwrap();
     let sjson = serde_json::to_string_pretty(&build_font_script_coverage(&scripts, &cp_map))
         .unwrap()

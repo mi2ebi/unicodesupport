@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>codepoint → fonts</title>
+    <style>
+     input {
+       font-family: monospace;
+       font-size: 1rem;
+     }
+     #controls {
+       display: flex;
+       gap: 1rem;
+       align-items: center;
+     }
+     label {
+       font-size: 0.9rem;
+       user-select: none;
+     }
+     #status {
+       color: #666;
+       margin-top: 0.5rem;
+     }
+     #results {
+       margin-top: 1.5rem;
+       display: grid;
+       grid-template-columns: min-content min-content min-content;
+       gap: 0.4rem 1rem;
+       align-items: baseline;
+     }
+     #results.hide-italic {
+       grid-template-columns: min-content min-content;
+     }
+     #results.hide-italic .italic-cell {
+       display: none;
+     }
+     .font-name {
+       white-space: nowrap;
+       font-size: 0.9rem;
+     }
+     .glyph {
+       font-size: 2rem;
+       line-height: 1;
+     }
+     .no-italic {
+       color: #666;
+       font-size: 0.9rem;
+       font-style: italic;
+     }
+    </style>
+  </head>
+  <body>
+    <h1>codepoint → fonts</h1>
+    <div id="controls">
+      <input id="hex" placeholder="hex" autofocus>
+      <button id="btn">search</button>
+      <label><input type="checkbox" id="italic"> show italic</label>
+    </div>
+    <div id="status"></div>
+    <div id="results"></div>
+    <script>
+     let fontRanges = null;
+     async function load() {
+       const statusl = document.getElementById('status');
+       try {
+         const resp = await fetch('./fonts.json');
+         if (!resp.ok) throw new Error(`http ${resp.status}`);
+         const raw = await resp.json();
+         fontRanges = raw.map(entry => ({
+           font: entry.font,
+           italic: !!entry.italic,
+           ranges: entry.ranges.map(r =>
+             Array.isArray(r)
+             ? [parseInt(r[0], 16), parseInt(r[1], 16)]
+             : [parseInt(r, 16), parseInt(r, 16)]
+           ),
+         }));
+         statusl.textContent = `loaded ${fontRanges.length} fonts`;
+       } catch (e) {
+         statusl.textContent = `couldn't load fonts.json next to this file: ${e.message}`;
+       }
+     }
+     function coversCodepoint(ranges, codepoint) {
+       return ranges.some(([start, end]) => codepoint >= start && codepoint <= end);
+     }
+     function fontsContainingAll(codepoints) {
+       return fontRanges
+         .filter(({ ranges }) => codepoints.every(cp => coversCodepoint(ranges, cp)))
+         .map(({ font, italic }) => ({ font, italic }));
+     }
+     function parseHexList(input) {
+       const parts = input.split(',').map(p => p.trim().replace(/^u\+/i, ''));
+       if (parts.length === 0 || parts.some(p => p === '' || !/^[0-9a-f]+$/i.test(p))) {
+         return null;
+       }
+       return parts.map(p => parseInt(p, 16));
+     }
+     function lookup() {
+       const statusl = document.getElementById('status');
+       const resultsl = document.getElementById('results');
+       resultsl.innerHTML = "";
+       if (!fontRanges) {
+         statusl.textContent = "fonts.json not loaded yet";
+         return;
+       }
+       const codepoints = parseHexList(document.getElementById('hex').value);
+       if (codepoints === null) {
+         statusl.textContent = "not a valid hex list";
+         return;
+       }
+       let char;
+       try {
+         char = String.fromCodePoint(...codepoints);
+       } catch {
+         statusl.textContent = "codepoint out of range";
+         return;
+       }
+       const fonts = fontsContainingAll(codepoints).sort((a, b) => a.font.localeCompare(b.font));
+       statusl.textContent = `${fonts.length} font${fonts.length != 1 ? "s" : ""}`;
+       for (const { font, italic } of fonts) {
+         const namel = document.createElement('div');
+         namel.className = 'font-name';
+         namel.style.fontFamily = `"${font}"`;
+         namel.textContent = font;
+         const glyphl = document.createElement('div');
+         glyphl.className = 'glyph';
+         glyphl.style.fontFamily = `"${font}"`;
+         glyphl.textContent = char;
+         const italicl = document.createElement('div');
+         italicl.classList.add('italic-cell');
+         if (italic) {
+           italicl.classList.add('glyph');
+           italicl.style.fontFamily = `"${font}"`;
+           italicl.style.fontStyle = 'italic';
+           italicl.textContent = char;
+         } else {
+           italicl.classList.add('no-italic');
+           italicl.textContent = 'no italic';
+         }
+         resultsl.append(namel, glyphl, italicl);
+       }
+     }
+     const resultsl = document.getElementById('results');
+     const italicToggle = document.getElementById('italic');
+     function syncItalicVisibility() {
+       resultsl.classList.toggle('hide-italic', !italicToggle.checked);
+     }
+     italicToggle.addEventListener('change', syncItalicVisibility);
+     syncItalicVisibility();
+     document.getElementById('btn').addEventListener('click', lookup);
+     document.getElementById('hex').addEventListener('keydown', e => {if (e.key === 'Enter') lookup();});
+     load();
+    </script>
+  </body>
+</html>

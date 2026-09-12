@@ -1,6 +1,7 @@
 [
   {
     "font": "Abyssinica SIL",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -275,6 +276,7 @@
   },
   {
     "font": "Adwaita Mono",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -1323,6 +1325,7 @@
   },
   {
     "font": "Adwaita Sans",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -1869,6 +1872,7 @@
   },
   {
     "font": "Akatab",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -2085,6 +2089,7 @@
   },
   {
     "font": "Alkalami",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -2314,6 +2319,7 @@
   },
   {
     "font": "Amiri",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -2598,6 +2604,7 @@
   },
   {
     "font": "Amiri Typewriter",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -2696,6 +2703,7 @@
   },
   {
     "font": "Andika",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -3135,6 +3143,7 @@
   },
   {
     "font": "Annapurna SIL",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -3306,6 +3315,7 @@
   },
   {
     "font": "Awami Nastaliq",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -3559,6 +3569,7 @@
   },
   {
     "font": "Bitstream Charter",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -3632,6 +3643,7 @@
   },
   {
     "font": "BJCree",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -3826,6 +3838,7 @@
   },
   {
     "font": "Black Ops One",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -4104,6 +4117,7 @@
   },
   {
     "font": "Brill",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -4646,6 +4660,7 @@
   },
   {
     "font": "Busra",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -4829,6 +4844,7 @@
   },
   {
     "font": "C059",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -5186,6 +5202,7 @@
   },
   {
     "font": "Cabin",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -5456,6 +5473,7 @@
   },
   {
     "font": "Caladea",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -5585,6 +5603,7 @@
   },
   {
     "font": "Cantarell",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -6041,6 +6060,7 @@
   },
   {
     "font": "Carlito",
+    "italic": true,
     "ranges": [
       "0000",
       [
@@ -6390,6 +6410,7 @@
   },
   {
     "font": "Caveat",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -6638,6 +6659,7 @@
   },
   {
     "font": "Charis",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -7077,6 +7099,7 @@
   },
   {
     "font": "Comfortaa",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -7370,6 +7393,7 @@
   },
   {
     "font": "Courier 10 Pitch",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -7443,6 +7467,7 @@
   },
   {
     "font": "Cursor",
+    "italic": false,
     "ranges": [
       "002b",
       "25cb",
@@ -7451,6 +7476,7 @@
   },
   {
     "font": "D050000L",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -7535,6 +7561,7 @@
   },
   {
     "font": "Dai Banna SIL",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -7683,6 +7710,7 @@
   },
   {
     "font": "DejaVu Sans",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -8608,6 +8636,7 @@
   },
   {
     "font": "Doulos SIL",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -9047,6 +9076,7 @@
   },
   {
     "font": "Droid Arabic Kufi",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -9150,6 +9180,7 @@
   },
   {
     "font": "Droid Sans",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -9317,6 +9348,7 @@
   },
   {
     "font": "Droid Sans Armenian",
+    "italic": false,
     "ranges": [
       "0020",
       [
@@ -9343,6 +9375,7 @@
   },
   {
     "font": "Droid Sans Devanagari",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -9410,6 +9443,7 @@
   },
   {
     "font": "Droid Sans Ethiopic",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -9539,6 +9573,7 @@
   },
   {
     "font": "Droid Sans Fallback",
+    "italic": false,
     "ranges": [
       "0020",
       "0e3f",
@@ -9805,6 +9840,7 @@
   },
   {
     "font": "Droid Sans Georgian",
+    "italic": false,
     "ranges": [
       "0020",
       [
@@ -9823,6 +9859,7 @@
   },
   {
     "font": "Droid Sans Hebrew",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -9865,6 +9902,7 @@
   },
   {
     "font": "Droid Sans Japanese",
+    "italic": false,
     "ranges": [
       "203e",
       [
@@ -18080,6 +18118,7 @@
   },
   {
     "font": "Droid Sans Tamil",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -18185,6 +18224,7 @@
   },
   {
     "font": "Droid Sans Thai",
+    "italic": false,
     "ranges": [
       "0020",
       [
@@ -18201,6 +18241,7 @@
   },
   {
     "font": "Fira Math",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -18679,6 +18720,7 @@
   },
   {
     "font": "Fira Sans",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -19074,6 +19116,7 @@
   },
   {
     "font": "FreeSans",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -19796,6 +19839,7 @@
   },
   {
     "font": "Gentium",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -20269,6 +20313,7 @@
   },
   {
     "font": "Hack",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -20638,6 +20683,7 @@
   },
   {
     "font": "Harmattan",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -20781,6 +20827,7 @@
   },
   {
     "font": "Hibur Mono",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -20922,6 +20969,7 @@
   },
   {
     "font": "IBM Plex Math",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -21391,6 +21439,7 @@
   },
   {
     "font": "IBM Plex Mono",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -21704,6 +21753,7 @@
   },
   {
     "font": "IBM Plex Sans",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -21972,6 +22022,7 @@
   },
   {
     "font": "IBM Plex Sans Arabic",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -22424,6 +22475,7 @@
   },
   {
     "font": "IBM Plex Sans Devanagari",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -22631,6 +22683,7 @@
   },
   {
     "font": "IBM Plex Sans Hebrew",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -22864,6 +22917,7 @@
   },
   {
     "font": "IBM Plex Sans Thai",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -23060,6 +23114,7 @@
   },
   {
     "font": "IBM Plex Sans Thai Looped",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -23256,6 +23311,7 @@
   },
   {
     "font": "IBM Plex Serif",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -23579,6 +23635,7 @@
   },
   {
     "font": "Idiqlat",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -23753,6 +23810,7 @@
   },
   {
     "font": "iosevie",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -24781,6 +24839,7 @@
   },
   {
     "font": "Jigmo",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -25016,6 +25075,7 @@
   },
   {
     "font": "Jigmo2",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -25055,6 +25115,7 @@
   },
   {
     "font": "Jigmo3",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -25078,6 +25139,7 @@
   },
   {
     "font": "Jomolhari",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -26165,6 +26227,7 @@
   },
   {
     "font": "Kanchenjunga",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -26294,6 +26357,7 @@
   },
   {
     "font": "Kay Pho Du",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -26422,6 +26486,7 @@
   },
   {
     "font": "Kedebideri",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -26552,6 +26617,7 @@
   },
   {
     "font": "Khitan Small Linear",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -26585,6 +26651,7 @@
   },
   {
     "font": "Lateef",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -26737,6 +26804,7 @@
   },
   {
     "font": "Latin Modern Math",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -27282,6 +27350,7 @@
   },
   {
     "font": "Latin Modern Mono",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -27649,6 +27718,7 @@
   },
   {
     "font": "Latin Modern Mono Caps",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -28016,6 +28086,7 @@
   },
   {
     "font": "Latin Modern Mono Light",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -28383,6 +28454,7 @@
   },
   {
     "font": "Latin Modern Mono Light Cond",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -28750,6 +28822,7 @@
   },
   {
     "font": "Latin Modern Mono Prop",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -29131,6 +29204,7 @@
   },
   {
     "font": "Latin Modern Mono Prop Light",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -29512,6 +29586,7 @@
   },
   {
     "font": "Latin Modern Mono Slanted",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -29879,6 +29954,7 @@
   },
   {
     "font": "Latin Modern Roman",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -30260,6 +30336,7 @@
   },
   {
     "font": "Latin Modern Roman Caps",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -30636,6 +30713,7 @@
   },
   {
     "font": "Latin Modern Roman Demi",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -31017,6 +31095,7 @@
   },
   {
     "font": "Latin Modern Roman Dunhill",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -31398,6 +31477,7 @@
   },
   {
     "font": "Latin Modern Roman Slanted",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -31779,6 +31859,7 @@
   },
   {
     "font": "Latin Modern Roman Unslanted",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -32160,6 +32241,7 @@
   },
   {
     "font": "Latin Modern Sans",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -32541,6 +32623,7 @@
   },
   {
     "font": "Latin Modern Sans Demi Cond",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -32922,6 +33005,7 @@
   },
   {
     "font": "Latin Modern Sans Quotation",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -33303,6 +33387,7 @@
   },
   {
     "font": "Lato",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -33583,6 +33668,7 @@
   },
   {
     "font": "Liberation Mono",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -33930,6 +34016,7 @@
   },
   {
     "font": "Liberation Sans",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -34270,6 +34357,7 @@
   },
   {
     "font": "Liberation Serif",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -34620,6 +34708,7 @@
   },
   {
     "font": "Libertinus Math",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -35220,6 +35309,7 @@
   },
   {
     "font": "Libre Franklin",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -35561,6 +35651,7 @@
   },
   {
     "font": "linja lipamanka",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -35598,6 +35689,7 @@
   },
   {
     "font": "linja sike 5",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -36080,6 +36172,7 @@
   },
   {
     "font": "Lisu Bosa",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -36195,6 +36288,7 @@
   },
   {
     "font": "Madan",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -36268,6 +36362,7 @@
   },
   {
     "font": "Mingzat",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -36381,6 +36476,7 @@
   },
   {
     "font": "MnSymbol",
+    "italic": false,
     "ranges": [
       [
         "0028",
@@ -36725,6 +36821,7 @@
   },
   {
     "font": "Montserrat",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -37193,6 +37290,7 @@
   },
   {
     "font": "Namdhinggo",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -37334,6 +37432,7 @@
   },
   {
     "font": "Narnoor",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -37490,6 +37589,7 @@
   },
   {
     "font": "NewGardiner",
+    "italic": false,
     "ranges": [
       "005b",
       "005d",
@@ -37532,6 +37632,7 @@
   },
   {
     "font": "NewGardinerNonCore",
+    "italic": false,
     "ranges": [
       "13460",
       "13476",
@@ -37545,6 +37646,7 @@
   },
   {
     "font": "Nimbus Mono PS",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -37902,6 +38004,7 @@
   },
   {
     "font": "Nimbus Roman",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -38259,6 +38362,7 @@
   },
   {
     "font": "Nimbus Sans",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -38616,6 +38720,7 @@
   },
   {
     "font": "Nimbus Sans Narrow",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -38973,6 +39078,7 @@
   },
   {
     "font": "Nokia Pure HL KLGN",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -39070,6 +39176,7 @@
   },
   {
     "font": "Nokyung",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -39231,6 +39338,7 @@
   },
   {
     "font": "Noto Color Emoji",
+    "italic": false,
     "ranges": [
       "0020",
       "0023",
@@ -39647,6 +39755,7 @@
   },
   {
     "font": "Noto Emoji",
+    "italic": false,
     "ranges": [
       "0020",
       "0023",
@@ -40067,6 +40176,7 @@
   },
   {
     "font": "Noto Fangsong KSS Vertical",
+    "italic": false,
     "ranges": [
       "0020",
       [
@@ -40098,6 +40208,7 @@
   },
   {
     "font": "Noto Kufi Arabic",
+    "italic": false,
     "ranges": [
       "0020",
       [
@@ -40169,6 +40280,7 @@
   },
   {
     "font": "Noto Music",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -40197,6 +40309,7 @@
   },
   {
     "font": "Noto Naskh Arabic",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -40275,6 +40388,7 @@
   },
   {
     "font": "Noto Naskh Arabic UI",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -40355,6 +40469,7 @@
   },
   {
     "font": "Noto Nastaliq Urdu",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -40491,6 +40606,7 @@
   },
   {
     "font": "Noto Rashi Hebrew",
+    "italic": false,
     "ranges": [
       "0020",
       "002d",
@@ -40519,6 +40635,7 @@
   },
   {
     "font": "Noto Sans",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -40722,6 +40839,7 @@
   },
   {
     "font": "Noto Sans Adlam",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -40785,6 +40903,7 @@
   },
   {
     "font": "Noto Sans Adlam Unjoined",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -40848,6 +40967,7 @@
   },
   {
     "font": "Noto Sans Anatolian Hieroglyphs",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -40860,6 +40980,7 @@
   },
   {
     "font": "Noto Sans Arabic",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -40941,6 +41062,7 @@
   },
   {
     "font": "Noto Sans Arabic UI",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -41021,6 +41143,7 @@
   },
   {
     "font": "Noto Sans Armenian",
+    "italic": false,
     "ranges": [
       "0020",
       "002d",
@@ -41049,6 +41172,7 @@
   },
   {
     "font": "Noto Sans Avestan",
+    "italic": false,
     "ranges": [
       "0020",
       "002e",
@@ -41074,6 +41198,7 @@
   },
   {
     "font": "Noto Sans Bamum",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -41090,6 +41215,7 @@
   },
   {
     "font": "Noto Sans Bassa Vah",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -41106,6 +41232,7 @@
   },
   {
     "font": "Noto Sans Batak",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -41126,6 +41253,7 @@
   },
   {
     "font": "Noto Sans Bengali",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -41231,6 +41359,7 @@
   },
   {
     "font": "Noto Sans Bengali UI",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -41353,6 +41482,7 @@
   },
   {
     "font": "Noto Sans Bengali UI Condensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -41475,6 +41605,7 @@
   },
   {
     "font": "Noto Sans Bengali UI ExtraCondensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -41597,6 +41728,7 @@
   },
   {
     "font": "Noto Sans Bengali UI SemiCondensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -41719,6 +41851,7 @@
   },
   {
     "font": "Noto Sans Bhaiksuki",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -41744,6 +41877,7 @@
   },
   {
     "font": "Noto Sans Brahmi",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -41765,6 +41899,7 @@
   },
   {
     "font": "Noto Sans Buginese",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -41786,6 +41921,7 @@
   },
   {
     "font": "Noto Sans Buhid",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -41806,6 +41942,7 @@
   },
   {
     "font": "Noto Sans Canadian Aboriginal",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -41826,6 +41963,7 @@
   },
   {
     "font": "Noto Sans Carian",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -41837,6 +41975,7 @@
   },
   {
     "font": "Noto Sans Caucasian Albanian",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -41861,6 +42000,7 @@
   },
   {
     "font": "Noto Sans Chakma",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -41900,6 +42040,7 @@
   },
   {
     "font": "Noto Sans Cham",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -41944,6 +42085,7 @@
   },
   {
     "font": "Noto Sans Cherokee",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -41980,6 +42122,7 @@
   },
   {
     "font": "Noto Sans Chorasmian",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -41992,6 +42135,7 @@
   },
   {
     "font": "Noto Sans CJK HK",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -45289,6 +45433,7 @@
   },
   {
     "font": "Noto Sans CJK JP",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -48586,6 +48731,7 @@
   },
   {
     "font": "Noto Sans CJK KR",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -51883,6 +52029,7 @@
   },
   {
     "font": "Noto Sans CJK SC",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -55180,6 +55327,7 @@
   },
   {
     "font": "Noto Sans CJK TC",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -58477,6 +58625,7 @@
   },
   {
     "font": "Noto Sans Coptic",
+    "italic": false,
     "ranges": [
       "0020",
       [
@@ -58550,6 +58699,7 @@
   },
   {
     "font": "Noto Sans Cuneiform",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -58573,6 +58723,7 @@
   },
   {
     "font": "Noto Sans Cypriot",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -58595,6 +58746,7 @@
   },
   {
     "font": "Noto Sans Cypro Minoan",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -58607,6 +58759,7 @@
   },
   {
     "font": "Noto Sans Deseret",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -58618,6 +58771,7 @@
   },
   {
     "font": "Noto Sans Devanagari",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -58691,6 +58845,7 @@
   },
   {
     "font": "Noto Sans Devanagari UI",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -58759,6 +58914,7 @@
   },
   {
     "font": "Noto Sans Devanagari UI Condensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -58827,6 +58983,7 @@
   },
   {
     "font": "Noto Sans Devanagari UI ExtraCondensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -58895,6 +59052,7 @@
   },
   {
     "font": "Noto Sans Devanagari UI SemiCondensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -58963,6 +59121,7 @@
   },
   {
     "font": "Noto Sans Duployan",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -59055,6 +59214,7 @@
   },
   {
     "font": "Noto Sans Egyptian Hieroglyphs",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -59075,6 +59235,7 @@
   },
   {
     "font": "Noto Sans Elbasan",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -59101,6 +59262,7 @@
   },
   {
     "font": "Noto Sans Elymaic",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -59112,6 +59274,7 @@
   },
   {
     "font": "Noto Sans Ethiopic",
+    "italic": false,
     "ranges": [
       "0020",
       "002d",
@@ -59263,6 +59426,7 @@
   },
   {
     "font": "Noto Sans Ethiopic Condensed",
+    "italic": false,
     "ranges": [
       "0020",
       "002d",
@@ -59414,6 +59578,7 @@
   },
   {
     "font": "Noto Sans Ethiopic ExtraCondensed",
+    "italic": false,
     "ranges": [
       "0020",
       "002d",
@@ -59565,6 +59730,7 @@
   },
   {
     "font": "Noto Sans Ethiopic SemiCondensed",
+    "italic": false,
     "ranges": [
       "0020",
       "002d",
@@ -59716,6 +59882,7 @@
   },
   {
     "font": "Noto Sans Georgian",
+    "italic": false,
     "ranges": [
       "0020",
       "002d",
@@ -59751,6 +59918,7 @@
   },
   {
     "font": "Noto Sans Glagolitic",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -59803,6 +59971,7 @@
   },
   {
     "font": "Noto Sans Gothic",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -59821,6 +59990,7 @@
   },
   {
     "font": "Noto Sans Grantha",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -59915,6 +60085,7 @@
   },
   {
     "font": "Noto Sans Gujarati",
+    "italic": false,
     "ranges": [
       "0020",
       [
@@ -59993,6 +60164,7 @@
   },
   {
     "font": "Noto Sans Gujarati UI",
+    "italic": false,
     "ranges": [
       "0020",
       [
@@ -60071,6 +60243,7 @@
   },
   {
     "font": "Noto Sans Gunjala Gondi",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -60132,6 +60305,7 @@
   },
   {
     "font": "Noto Sans Gunjala Gondi Semibold",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -60193,6 +60367,7 @@
   },
   {
     "font": "Noto Sans Gurmukhi",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -60308,6 +60483,7 @@
   },
   {
     "font": "Noto Sans Gurmukhi Condensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -60423,6 +60599,7 @@
   },
   {
     "font": "Noto Sans Gurmukhi ExtraCondensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -60538,6 +60715,7 @@
   },
   {
     "font": "Noto Sans Gurmukhi SemiCondensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -60653,6 +60831,7 @@
   },
   {
     "font": "Noto Sans Gurmukhi UI",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -60768,6 +60947,7 @@
   },
   {
     "font": "Noto Sans Gurmukhi UI Condensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -60883,6 +61063,7 @@
   },
   {
     "font": "Noto Sans Gurmukhi UI ExtraCondensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -60998,6 +61179,7 @@
   },
   {
     "font": "Noto Sans Gurmukhi UI SemiCondensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -61113,6 +61295,7 @@
   },
   {
     "font": "Noto Sans Hanifi Rohingya",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -61141,6 +61324,7 @@
   },
   {
     "font": "Noto Sans Hanunoo",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -61157,6 +61341,7 @@
   },
   {
     "font": "Noto Sans Hatran",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -61177,6 +61362,7 @@
   },
   {
     "font": "Noto Sans Hebrew",
+    "italic": false,
     "ranges": [
       "0020",
       "002d",
@@ -61225,6 +61411,7 @@
   },
   {
     "font": "Noto Sans HK",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -74230,6 +74417,7 @@
   },
   {
     "font": "Noto Sans Imperial Aramaic",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -74245,6 +74433,7 @@
   },
   {
     "font": "Noto Sans Indic Siyaq Numbers",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -74265,6 +74454,7 @@
   },
   {
     "font": "Noto Sans Inscriptional Pahlavi",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -74280,6 +74470,7 @@
   },
   {
     "font": "Noto Sans Inscriptional Parthian",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -74295,6 +74486,7 @@
   },
   {
     "font": "Noto Sans Javanese",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -74319,6 +74511,7 @@
   },
   {
     "font": "Noto Sans JP",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -87533,6 +87726,7 @@
   },
   {
     "font": "Noto Sans Kaithi",
+    "italic": false,
     "ranges": [
       "0020",
       "002d",
@@ -87560,6 +87754,7 @@
   },
   {
     "font": "Noto Sans Kannada",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -87679,6 +87874,7 @@
   },
   {
     "font": "Noto Sans Kannada UI",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -87798,6 +87994,7 @@
   },
   {
     "font": "Noto Sans Kawi",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -87819,6 +88016,7 @@
   },
   {
     "font": "Noto Sans Kayah Li",
+    "italic": false,
     "ranges": [
       "0020",
       "002d",
@@ -87837,6 +88035,7 @@
   },
   {
     "font": "Noto Sans Kharoshthi",
+    "italic": false,
     "ranges": [
       "0020",
       "002d",
@@ -87883,6 +88082,7 @@
   },
   {
     "font": "Noto Sans Khmer",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -87940,6 +88140,7 @@
   },
   {
     "font": "Noto Sans Khojki",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -87968,6 +88169,7 @@
   },
   {
     "font": "Noto Sans Khudawadi",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -88000,6 +88202,7 @@
   },
   {
     "font": "Noto Sans KR",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -98798,6 +99001,7 @@
   },
   {
     "font": "Noto Sans Lao",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -98846,6 +99050,7 @@
   },
   {
     "font": "Noto Sans Lao Condensed",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -98894,6 +99099,7 @@
   },
   {
     "font": "Noto Sans Lao ExtraCondensed",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -98942,6 +99148,7 @@
   },
   {
     "font": "Noto Sans Lao Looped",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -99033,6 +99240,7 @@
   },
   {
     "font": "Noto Sans Lao Looped Condensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -99124,6 +99332,7 @@
   },
   {
     "font": "Noto Sans Lao Looped ExtraCondensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -99215,6 +99424,7 @@
   },
   {
     "font": "Noto Sans Lao Looped SemiCondensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -99306,6 +99516,7 @@
   },
   {
     "font": "Noto Sans Lao SemiCondensed",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -99354,6 +99565,7 @@
   },
   {
     "font": "Noto Sans Lepcha",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -99378,6 +99590,7 @@
   },
   {
     "font": "Noto Sans Limbu",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -99408,6 +99621,7 @@
   },
   {
     "font": "Noto Sans Linear A",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -99427,6 +99641,7 @@
   },
   {
     "font": "Noto Sans Linear B",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -99474,6 +99689,7 @@
   },
   {
     "font": "Noto Sans Lisu",
+    "italic": false,
     "ranges": [
       "0020",
       "002d",
@@ -99494,6 +99710,7 @@
   },
   {
     "font": "Noto Sans Lycian",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -99505,6 +99722,7 @@
   },
   {
     "font": "Noto Sans Lydian",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -99518,6 +99736,7 @@
   },
   {
     "font": "Noto Sans Mahajani",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -99542,6 +99761,7 @@
   },
   {
     "font": "Noto Sans Malayalam",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -99632,6 +99852,7 @@
   },
   {
     "font": "Noto Sans Malayalam Condensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -99722,6 +99943,7 @@
   },
   {
     "font": "Noto Sans Malayalam ExtraCondensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -99812,6 +100034,7 @@
   },
   {
     "font": "Noto Sans Malayalam SemiCondensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -99902,6 +100125,7 @@
   },
   {
     "font": "Noto Sans Malayalam UI",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -99992,6 +100216,7 @@
   },
   {
     "font": "Noto Sans Malayalam UI Condensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -100082,6 +100307,7 @@
   },
   {
     "font": "Noto Sans Malayalam UI ExtraCondensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -100172,6 +100398,7 @@
   },
   {
     "font": "Noto Sans Malayalam UI SemiCondensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -100262,6 +100489,7 @@
   },
   {
     "font": "Noto Sans Mandaic",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -100280,6 +100508,7 @@
   },
   {
     "font": "Noto Sans Manichaean",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -100302,6 +100531,7 @@
   },
   {
     "font": "Noto Sans Marchen",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -100322,6 +100552,7 @@
   },
   {
     "font": "Noto Sans Masaram Gondi",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -100383,6 +100614,7 @@
   },
   {
     "font": "Noto Sans Math",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -100864,6 +101096,7 @@
   },
   {
     "font": "Noto Sans Mayan Numerals",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -100875,6 +101108,7 @@
   },
   {
     "font": "Noto Sans Medefaidrin",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -100886,6 +101120,7 @@
   },
   {
     "font": "Noto Sans Meetei Mayek",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -100910,6 +101145,7 @@
   },
   {
     "font": "Noto Sans Mende Kikakui",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -100926,6 +101162,7 @@
   },
   {
     "font": "Noto Sans Meroitic",
+    "italic": false,
     "ranges": [
       "0020",
       "003a",
@@ -100948,6 +101185,7 @@
   },
   {
     "font": "Noto Sans Miao",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -100968,6 +101206,7 @@
   },
   {
     "font": "Noto Sans Modi",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -100992,6 +101231,7 @@
   },
   {
     "font": "Noto Sans Mongolian",
+    "italic": false,
     "ranges": [
       "0020",
       "00b7",
@@ -101054,6 +101294,7 @@
   },
   {
     "font": "Noto Sans Mono",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -101446,6 +101687,7 @@
   },
   {
     "font": "Noto Sans Mono CJK HK",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -104743,6 +104985,7 @@
   },
   {
     "font": "Noto Sans Mono CJK JP",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -108040,6 +108283,7 @@
   },
   {
     "font": "Noto Sans Mono CJK KR",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -111337,6 +111581,7 @@
   },
   {
     "font": "Noto Sans Mono CJK SC",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -114634,6 +114879,7 @@
   },
   {
     "font": "Noto Sans Mono CJK TC",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -117931,6 +118177,7 @@
   },
   {
     "font": "Noto Sans Mro",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -117950,6 +118197,7 @@
   },
   {
     "font": "Noto Sans Multani",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -117978,6 +118226,7 @@
   },
   {
     "font": "Noto Sans Myanmar",
+    "italic": false,
     "ranges": [
       "0020",
       "003f",
@@ -118014,6 +118263,7 @@
   },
   {
     "font": "Noto Sans Myanmar Condensed",
+    "italic": false,
     "ranges": [
       "0020",
       "003f",
@@ -118050,6 +118300,7 @@
   },
   {
     "font": "Noto Sans Myanmar ExtraCondensed",
+    "italic": false,
     "ranges": [
       "0020",
       "003f",
@@ -118086,6 +118337,7 @@
   },
   {
     "font": "Noto Sans Myanmar SemiCondensed",
+    "italic": false,
     "ranges": [
       "0020",
       "003f",
@@ -118122,6 +118374,7 @@
   },
   {
     "font": "Noto Sans Nabataean",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -118137,6 +118390,7 @@
   },
   {
     "font": "Noto Sans Nag Mundari",
+    "italic": false,
     "ranges": [
       "0020",
       "002c",
@@ -118161,6 +118415,7 @@
   },
   {
     "font": "Noto Sans Nandinagari",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -118200,6 +118455,7 @@
   },
   {
     "font": "Noto Sans New Tai Lue",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -118249,6 +118505,7 @@
   },
   {
     "font": "Noto Sans New Tai Lue Semibold",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -118298,6 +118555,7 @@
   },
   {
     "font": "Noto Sans Newa",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -118320,6 +118578,7 @@
   },
   {
     "font": "Noto Sans NKo",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -118352,6 +118611,7 @@
   },
   {
     "font": "Noto Sans NKo Unjoined",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -118384,6 +118644,7 @@
   },
   {
     "font": "Noto Sans Nushu",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -118396,6 +118657,7 @@
   },
   {
     "font": "Noto Sans Ogham",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -118407,6 +118669,7 @@
   },
   {
     "font": "Noto Sans Ol Chiki",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -118419,6 +118682,7 @@
   },
   {
     "font": "Noto Sans Old Hungarian",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -118439,6 +118703,7 @@
   },
   {
     "font": "Noto Sans Old Italic",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -118454,6 +118719,7 @@
   },
   {
     "font": "Noto Sans Old North Arabian",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -118465,6 +118731,7 @@
   },
   {
     "font": "Noto Sans Old Permic",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -118485,6 +118752,7 @@
   },
   {
     "font": "Noto Sans Old Persian",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -118500,6 +118768,7 @@
   },
   {
     "font": "Noto Sans Old Sogdian",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -118512,6 +118781,7 @@
   },
   {
     "font": "Noto Sans Old South Arabian",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -118523,6 +118793,7 @@
   },
   {
     "font": "Noto Sans Old Turkic",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -118535,6 +118806,7 @@
   },
   {
     "font": "Noto Sans Oriya",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -118646,6 +118918,7 @@
   },
   {
     "font": "Noto Sans Osage",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -118666,6 +118939,7 @@
   },
   {
     "font": "Noto Sans Osmanya",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -118681,6 +118955,7 @@
   },
   {
     "font": "Noto Sans Pahawh Hmong",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -118713,6 +118988,7 @@
   },
   {
     "font": "Noto Sans Palmyrene",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -118724,6 +119000,7 @@
   },
   {
     "font": "Noto Sans Pau Cin Hau",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -118735,6 +119012,7 @@
   },
   {
     "font": "Noto Sans PhagsPa",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -118773,6 +119051,7 @@
   },
   {
     "font": "Noto Sans Phoenician",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -118785,6 +119064,7 @@
   },
   {
     "font": "Noto Sans Psalter Pahlavi",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -118810,6 +119090,7 @@
   },
   {
     "font": "Noto Sans Rejang",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -118827,6 +119108,7 @@
   },
   {
     "font": "Noto Sans Runic",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -118840,6 +119122,7 @@
   },
   {
     "font": "Noto Sans Samaritan",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -118856,6 +119139,7 @@
   },
   {
     "font": "Noto Sans Saurashtra",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -118876,6 +119160,7 @@
   },
   {
     "font": "Noto Sans SC",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -119854,6 +120139,7 @@
   },
   {
     "font": "Noto Sans Sharada",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -119881,6 +120167,7 @@
   },
   {
     "font": "Noto Sans Shavian",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -119892,6 +120179,7 @@
   },
   {
     "font": "Noto Sans Siddham",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -119912,6 +120200,7 @@
   },
   {
     "font": "Noto Sans SignWriting",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -119936,6 +120225,7 @@
   },
   {
     "font": "Noto Sans Sinhala",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -120023,6 +120313,7 @@
   },
   {
     "font": "Noto Sans Sinhala Condensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -120115,6 +120406,7 @@
   },
   {
     "font": "Noto Sans Sinhala ExtraCondensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -120207,6 +120499,7 @@
   },
   {
     "font": "Noto Sans Sinhala SemiCondensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -120299,6 +120592,7 @@
   },
   {
     "font": "Noto Sans Sinhala UI",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -120391,6 +120685,7 @@
   },
   {
     "font": "Noto Sans Sinhala UI Condensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -120483,6 +120778,7 @@
   },
   {
     "font": "Noto Sans Sinhala UI ExtraCondensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -120575,6 +120871,7 @@
   },
   {
     "font": "Noto Sans Sinhala UI SemiCondensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -120667,6 +120964,7 @@
   },
   {
     "font": "Noto Sans Sogdian",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -120681,6 +120979,7 @@
   },
   {
     "font": "Noto Sans Sora Sompeng",
+    "italic": false,
     "ranges": [
       "0020",
       "002d",
@@ -120698,6 +120997,7 @@
   },
   {
     "font": "Noto Sans Sora Sompeng Semi",
+    "italic": false,
     "ranges": [
       "0020",
       "002d",
@@ -120715,6 +121015,7 @@
   },
   {
     "font": "Noto Sans Soyombo",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -120727,6 +121028,7 @@
   },
   {
     "font": "Noto Sans Sundanese",
+    "italic": false,
     "ranges": [
       "0020",
       "002d",
@@ -120749,6 +121051,7 @@
   },
   {
     "font": "Noto Sans Syloti Nagri",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -120778,6 +121081,7 @@
   },
   {
     "font": "Noto Sans Symbols",
+    "italic": false,
     "ranges": [
       "0020",
       [
@@ -120949,6 +121253,7 @@
   },
   {
     "font": "Noto Sans Symbols 2",
+    "italic": false,
     "ranges": [
       "0020",
       "0023",
@@ -121457,6 +121762,7 @@
   },
   {
     "font": "Noto Sans Syriac",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -121544,6 +121850,7 @@
   },
   {
     "font": "Noto Sans Syriac Eastern",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -121631,6 +121938,7 @@
   },
   {
     "font": "Noto Sans Syriac Western",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -121719,6 +122027,7 @@
   },
   {
     "font": "Noto Sans Tagalog",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -121740,6 +122049,7 @@
   },
   {
     "font": "Noto Sans Tagbanwa",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -121768,6 +122078,7 @@
   },
   {
     "font": "Noto Sans Tai Le",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -121809,6 +122120,7 @@
   },
   {
     "font": "Noto Sans Tai Tham",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -121841,6 +122153,7 @@
   },
   {
     "font": "Noto Sans Tai Viet",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -121861,6 +122174,7 @@
   },
   {
     "font": "Noto Sans Takri",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -121889,6 +122203,7 @@
   },
   {
     "font": "Noto Sans Tamil",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -122016,6 +122331,7 @@
   },
   {
     "font": "Noto Sans Tamil Condensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -122143,6 +122459,7 @@
   },
   {
     "font": "Noto Sans Tamil ExtraCondensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -122270,6 +122587,7 @@
   },
   {
     "font": "Noto Sans Tamil SemiCondensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -122397,6 +122715,7 @@
   },
   {
     "font": "Noto Sans Tamil Supplement",
+    "italic": false,
     "ranges": [
       [
         "11fc0",
@@ -122407,6 +122726,7 @@
   },
   {
     "font": "Noto Sans Tamil UI",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -122534,6 +122854,7 @@
   },
   {
     "font": "Noto Sans Tamil UI Condensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -122661,6 +122982,7 @@
   },
   {
     "font": "Noto Sans Tamil UI ExtraCondensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -122788,6 +123110,7 @@
   },
   {
     "font": "Noto Sans Tamil UI SemiCondensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -122915,6 +123238,7 @@
   },
   {
     "font": "Noto Sans Tangsa",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -122930,6 +123254,7 @@
   },
   {
     "font": "Noto Sans TC",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -135925,6 +136250,7 @@
   },
   {
     "font": "Noto Sans Telugu",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -136031,6 +136357,7 @@
   },
   {
     "font": "Noto Sans Telugu UI",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -136137,6 +136464,7 @@
   },
   {
     "font": "Noto Sans Thaana",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -136188,6 +136516,7 @@
   },
   {
     "font": "Noto Sans Thai",
+    "italic": false,
     "ranges": [
       "0020",
       "002d",
@@ -136214,6 +136543,7 @@
   },
   {
     "font": "Noto Sans Thai Looped",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -136288,6 +136618,7 @@
   },
   {
     "font": "Noto Sans Thai Looped Condensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -136362,6 +136693,7 @@
   },
   {
     "font": "Noto Sans Thai Looped ExtraCondensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -136436,6 +136768,7 @@
   },
   {
     "font": "Noto Sans Thai Looped SemiCondensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -136510,6 +136843,7 @@
   },
   {
     "font": "Noto Sans Tifinagh",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -136543,6 +136877,7 @@
   },
   {
     "font": "Noto Sans Tifinagh Adrar",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -136576,6 +136911,7 @@
   },
   {
     "font": "Noto Sans Tifinagh Agraw Imazighen",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -136609,6 +136945,7 @@
   },
   {
     "font": "Noto Sans Tifinagh Ahaggar",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -136642,6 +136979,7 @@
   },
   {
     "font": "Noto Sans Tifinagh Air",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -136675,6 +137013,7 @@
   },
   {
     "font": "Noto Sans Tifinagh APT",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -136708,6 +137047,7 @@
   },
   {
     "font": "Noto Sans Tifinagh Azawagh",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -136741,6 +137081,7 @@
   },
   {
     "font": "Noto Sans Tifinagh Ghat",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -136774,6 +137115,7 @@
   },
   {
     "font": "Noto Sans Tifinagh Hawad",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -136807,6 +137149,7 @@
   },
   {
     "font": "Noto Sans Tifinagh Rhissa Ixa",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -136840,6 +137183,7 @@
   },
   {
     "font": "Noto Sans Tifinagh SIL",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -136873,6 +137217,7 @@
   },
   {
     "font": "Noto Sans Tifinagh Tawellemmet",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -136906,6 +137251,7 @@
   },
   {
     "font": "Noto Sans Tirhuta",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -136943,6 +137289,7 @@
   },
   {
     "font": "Noto Sans Ugaritic",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -136955,6 +137302,7 @@
   },
   {
     "font": "Noto Sans Vai",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -136966,6 +137314,7 @@
   },
   {
     "font": "Noto Sans Vithkuqi",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -137013,6 +137362,7 @@
   },
   {
     "font": "Noto Sans Wancho",
+    "italic": false,
     "ranges": [
       "0020",
       "0022",
@@ -137045,6 +137395,7 @@
   },
   {
     "font": "Noto Sans Warang Citi",
+    "italic": false,
     "ranges": [
       "0020",
       "0027",
@@ -137062,6 +137413,7 @@
   },
   {
     "font": "Noto Sans Yi",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -137101,6 +137453,7 @@
   },
   {
     "font": "Noto Sans Zanabazar Square",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -137113,6 +137466,7 @@
   },
   {
     "font": "Noto Serif",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -137316,6 +137670,7 @@
   },
   {
     "font": "Noto Serif Ahom",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -137336,6 +137691,7 @@
   },
   {
     "font": "Noto Serif Armenian",
+    "italic": false,
     "ranges": [
       "0020",
       "002d",
@@ -137364,6 +137720,7 @@
   },
   {
     "font": "Noto Serif Balinese",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -137384,6 +137741,7 @@
   },
   {
     "font": "Noto Serif Bengali",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -137506,6 +137864,7 @@
   },
   {
     "font": "Noto Serif CJK HK",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -140743,6 +141102,7 @@
   },
   {
     "font": "Noto Serif CJK JP",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -143980,6 +144340,7 @@
   },
   {
     "font": "Noto Serif CJK KR",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -147217,6 +147578,7 @@
   },
   {
     "font": "Noto Serif CJK SC",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -150454,6 +150816,7 @@
   },
   {
     "font": "Noto Serif CJK TC",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -153691,6 +154054,7 @@
   },
   {
     "font": "Noto Serif Devanagari",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -153764,6 +154128,7 @@
   },
   {
     "font": "Noto Serif Dives Akuru",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -153801,6 +154166,7 @@
   },
   {
     "font": "Noto Serif Dogra",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -153821,6 +154187,7 @@
   },
   {
     "font": "Noto Serif Ethiopic",
+    "italic": false,
     "ranges": [
       "0020",
       "002d",
@@ -153972,6 +154339,7 @@
   },
   {
     "font": "Noto Serif Ethiopic Condensed",
+    "italic": false,
     "ranges": [
       "0020",
       "002d",
@@ -154123,6 +154491,7 @@
   },
   {
     "font": "Noto Serif Ethiopic ExtraCondensed",
+    "italic": false,
     "ranges": [
       "0020",
       "002d",
@@ -154274,6 +154643,7 @@
   },
   {
     "font": "Noto Serif Ethiopic SemiCondensed",
+    "italic": false,
     "ranges": [
       "0020",
       "002d",
@@ -154425,6 +154795,7 @@
   },
   {
     "font": "Noto Serif Georgian",
+    "italic": false,
     "ranges": [
       "0020",
       "002d",
@@ -154466,6 +154837,7 @@
   },
   {
     "font": "Noto Serif Grantha",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -154560,6 +154932,7 @@
   },
   {
     "font": "Noto Serif Gujarati",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -154672,6 +155045,7 @@
   },
   {
     "font": "Noto Serif Gurmukhi",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -154787,6 +155161,7 @@
   },
   {
     "font": "Noto Serif Hebrew",
+    "italic": false,
     "ranges": [
       "0020",
       "002d",
@@ -154834,6 +155209,7 @@
   },
   {
     "font": "Noto Serif Kannada",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -154953,6 +155329,7 @@
   },
   {
     "font": "Noto Serif Khitan Small Script",
+    "italic": false,
     "ranges": [
       "0020",
       [
@@ -154984,6 +155361,7 @@
   },
   {
     "font": "Noto Serif Khmer",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -155041,6 +155419,7 @@
   },
   {
     "font": "Noto Serif Khojki",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -155105,6 +155484,7 @@
   },
   {
     "font": "Noto Serif Lao",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -155153,6 +155533,7 @@
   },
   {
     "font": "Noto Serif Lao Condensed",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -155201,6 +155582,7 @@
   },
   {
     "font": "Noto Serif Lao ExtraCondensed",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -155249,6 +155631,7 @@
   },
   {
     "font": "Noto Serif Lao SemiCondensed",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -155297,6 +155680,7 @@
   },
   {
     "font": "Noto Serif Makasar",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -155309,6 +155693,7 @@
   },
   {
     "font": "Noto Serif Malayalam",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -155399,6 +155784,7 @@
   },
   {
     "font": "Noto Serif Myanmar",
+    "italic": false,
     "ranges": [
       "0020",
       "003f",
@@ -155435,6 +155821,7 @@
   },
   {
     "font": "Noto Serif Myanmar Condensed",
+    "italic": false,
     "ranges": [
       "0020",
       "003f",
@@ -155471,6 +155858,7 @@
   },
   {
     "font": "Noto Serif Myanmar ExtraCondensed",
+    "italic": false,
     "ranges": [
       "0020",
       "003f",
@@ -155507,6 +155895,7 @@
   },
   {
     "font": "Noto Serif Myanmar SemiCondensed",
+    "italic": false,
     "ranges": [
       "0020",
       "003f",
@@ -155543,6 +155932,7 @@
   },
   {
     "font": "Noto Serif NP Hmong",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -155567,6 +155957,7 @@
   },
   {
     "font": "Noto Serif Old Uyghur",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -155582,6 +155973,7 @@
   },
   {
     "font": "Noto Serif Oriya",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -155689,6 +156081,7 @@
   },
   {
     "font": "Noto Serif Ottoman Siyaq",
+    "italic": false,
     "ranges": [
       [
         "1ed01",
@@ -155698,6 +156091,7 @@
   },
   {
     "font": "Noto Serif Sinhala",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -155790,6 +156184,7 @@
   },
   {
     "font": "Noto Serif Sinhala Condensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -155882,6 +156277,7 @@
   },
   {
     "font": "Noto Serif Sinhala ExtraCondensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -155974,6 +156370,7 @@
   },
   {
     "font": "Noto Serif Sinhala SemiCondensed",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -156066,6 +156463,7 @@
   },
   {
     "font": "Noto Serif Tamil",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -156193,6 +156591,7 @@
   },
   {
     "font": "Noto Serif Tamil Condensed",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -156320,6 +156719,7 @@
   },
   {
     "font": "Noto Serif Tamil ExtraCondensed",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -156447,6 +156847,7 @@
   },
   {
     "font": "Noto Serif Tamil SemiCondensed",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -156574,6 +156975,7 @@
   },
   {
     "font": "Noto Serif Tangut",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -156598,6 +157000,7 @@
   },
   {
     "font": "Noto Serif Telugu",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -156704,6 +157107,7 @@
   },
   {
     "font": "Noto Serif Thai",
+    "italic": false,
     "ranges": [
       "0020",
       "002d",
@@ -156730,6 +157134,7 @@
   },
   {
     "font": "Noto Serif Tibetan",
+    "italic": false,
     "ranges": [
       "0020",
       "002d",
@@ -156770,6 +157175,7 @@
   },
   {
     "font": "Noto Serif Toto",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -156782,6 +157188,7 @@
   },
   {
     "font": "Noto Serif Vithkuqi",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -156829,6 +157236,7 @@
   },
   {
     "font": "Noto Serif Yezidi",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -156853,6 +157261,7 @@
   },
   {
     "font": "Noto Traditional Nushu",
+    "italic": false,
     "ranges": [
       "0020",
       [
@@ -156909,6 +157318,7 @@
   },
   {
     "font": "Noto Znamenny Musical Notation",
+    "italic": false,
     "ranges": [
       "0020",
       "007c",
@@ -156929,6 +157339,7 @@
   },
   {
     "font": "Nuosu SIL",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -157103,6 +157514,7 @@
   },
   {
     "font": "Open Sans",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -157277,6 +157689,7 @@
   },
   {
     "font": "OpenSymbol",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -157838,6 +158251,7 @@
   },
   {
     "font": "P052",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -158195,6 +158609,7 @@
   },
   {
     "font": "Padauk",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -158324,6 +158739,7 @@
   },
   {
     "font": "Padauk Book",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -158368,6 +158784,7 @@
   },
   {
     "font": "PakType Naskh Basic",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -158452,6 +158869,7 @@
   },
   {
     "font": "PakType Naskh Basic Semi Wide",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -158536,6 +158954,7 @@
   },
   {
     "font": "PakType Naskh Basic Wide",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -158620,6 +159039,7 @@
   },
   {
     "font": "Payap Lanna",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -158752,6 +159172,7 @@
   },
   {
     "font": "Plangothic P1",
+    "italic": false,
     "ranges": [
       [
         "0000",
@@ -160491,6 +160912,7 @@
   },
   {
     "font": "Plangothic P2",
+    "italic": false,
     "ranges": [
       [
         "0000",
@@ -162436,6 +162858,7 @@
   },
   {
     "font": "Red Hat Display",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -162561,6 +162984,7 @@
   },
   {
     "font": "Red Hat Text",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -162686,6 +163110,7 @@
   },
   {
     "font": "RIT Meera New",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -162765,6 +163190,7 @@
   },
   {
     "font": "RIT Rachana",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -162838,6 +163264,7 @@
   },
   {
     "font": "Ruwudu",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -163067,6 +163494,7 @@
   },
   {
     "font": "Scheherazade New",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -163219,6 +163647,7 @@
   },
   {
     "font": "Shimenkan",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -163542,6 +163971,7 @@
   },
   {
     "font": "Shimenkan Book",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -163865,6 +164295,7 @@
   },
   {
     "font": "Shimenkan Extra Light",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -164188,6 +164619,7 @@
   },
   {
     "font": "Shimenkan Light",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -164511,6 +164943,7 @@
   },
   {
     "font": "sitelen seli kiwen asuki",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -164910,6 +165343,7 @@
   },
   {
     "font": "sitelen seli kiwen juniko",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -165309,6 +165743,7 @@
   },
   {
     "font": "sitelen seli kiwen mono asuki",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -165708,6 +166143,7 @@
   },
   {
     "font": "sitelen seli kiwen mono juniko",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -166107,6 +166543,7 @@
   },
   {
     "font": "Sophia Nubian",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -166247,6 +166684,7 @@
   },
   {
     "font": "Source Code Pro",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -166833,6 +167271,7 @@
   },
   {
     "font": "Source Sans 3",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -167587,6 +168026,7 @@
   },
   {
     "font": "Source Serif 4",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -168029,6 +168469,7 @@
   },
   {
     "font": "Source Serif 4 Caption",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -168471,6 +168912,7 @@
   },
   {
     "font": "Source Serif 4 Display",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -168913,6 +169355,7 @@
   },
   {
     "font": "Source Serif 4 SmText",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -169355,6 +169798,7 @@
   },
   {
     "font": "Source Serif 4 Subhead",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -169797,6 +170241,7 @@
   },
   {
     "font": "Standard Symbols PS",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -169932,6 +170377,7 @@
   },
   {
     "font": "STIX",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -170483,6 +170929,7 @@
   },
   {
     "font": "Symbols Nerd Font Mono",
+    "italic": false,
     "ranges": [
       [
         "23fb",
@@ -170579,6 +171026,7 @@
   },
   {
     "font": "Tagmukay",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -170763,6 +171211,7 @@
   },
   {
     "font": "Tai Heritage Pro",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -170918,6 +171367,7 @@
   },
   {
     "font": "Tangut Yinchuan",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -171438,6 +171888,7 @@
   },
   {
     "font": "Temml-Script",
+    "italic": false,
     "ranges": [
       "0020",
       "00a0",
@@ -171478,6 +171929,7 @@
   },
   {
     "font": "Tirra",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -171690,6 +172142,7 @@
   },
   {
     "font": "Unifont",
+    "italic": false,
     "ranges": [
       [
         "0000",
@@ -172837,6 +173290,7 @@
   },
   {
     "font": "Unifont CSUR",
+    "italic": false,
     "ranges": [
       "0020",
       [
@@ -172920,6 +173374,7 @@
   },
   {
     "font": "Unifont Upper",
+    "italic": false,
     "ranges": [
       "0020",
       [
@@ -174828,6 +175283,7 @@
   },
   {
     "font": "Unifont-JP",
+    "italic": false,
     "ranges": [
       [
         "0000",
@@ -175971,6 +176427,7 @@
   },
   {
     "font": "Unifont-T",
+    "italic": false,
     "ranges": [
       [
         "0000",
@@ -175985,6 +176442,7 @@
   },
   {
     "font": "URW Bookman",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -176342,6 +176800,7 @@
   },
   {
     "font": "URW Gothic",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -176699,6 +177158,7 @@
   },
   {
     "font": "Utopia",
+    "italic": true,
     "ranges": [
       [
         "0020",
@@ -176772,6 +177232,7 @@
   },
   {
     "font": "Vazirmatn",
+    "italic": false,
     "ranges": [
       [
         "0020",
@@ -177072,6 +177533,7 @@
   },
   {
     "font": "Z003",
+    "italic": true,
     "ranges": [
       [
         "0020",
