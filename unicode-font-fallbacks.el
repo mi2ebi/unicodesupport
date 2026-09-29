@@ -1891,7 +1891,7 @@
 (set-fontset-font t '(#x1f6c6 . #x1f6ca) "Plangothic P2")
 (set-fontset-font t '(#x1f6cb . #x1f6d2) "Noto Color Emoji")
 (set-fontset-font t '(#x1f6d3 . #x1f6d4) "Plangothic P2")
-(set-fontset-font t '(#x1f6d5 . #x1f6d7) "Noto Color Emoji")
+(set-fontset-font t '(#x1f6d5 . #x1f6d9) "Noto Color Emoji")
 (set-fontset-font t '(#x1f6dc . #x1f6e5) "Noto Color Emoji")
 (set-fontset-font t '(#x1f6e6 . #x1f6e8) "Plangothic P2")
 (set-fontset-font t #x1f6e9 "Noto Color Emoji")
@@ -1932,11 +1932,11 @@
 
 ;; Symbols and Pictographs Extended-A
 (set-fontset-font t '(#x1fa70 . #x1fa7c) "Noto Color Emoji")
-(set-fontset-font t '(#x1fa80 . #x1fa89) "Noto Color Emoji")
-(set-fontset-font t '(#x1fa8f . #x1fac6) "Noto Color Emoji")
-(set-fontset-font t '(#x1face . #x1fadc) "Noto Color Emoji")
-(set-fontset-font t '(#x1fadf . #x1fae9) "Noto Color Emoji")
-(set-fontset-font t '(#x1faf0 . #x1faf8) "Noto Color Emoji")
+(set-fontset-font t '(#x1fa80 . #x1fac6) "Noto Color Emoji")
+(set-fontset-font t #x1fac8 "Noto Color Emoji")
+(set-fontset-font t '(#x1facc . #x1fadd) "Noto Color Emoji")
+(set-fontset-font t '(#x1fadf . #x1faeb) "Noto Color Emoji")
+(set-fontset-font t '(#x1faef . #x1fafa) "Noto Color Emoji")
 
 ;; Symbols for Legacy Computing
 (set-fontset-font t #x1fbcb "Plangothic P2")
