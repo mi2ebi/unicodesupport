@@ -345,7 +345,6 @@ const PLANGOTHIC: &[&str] = &["Plangothic P1", "Plangothic P2"];
 const NEVER_SELECT: &[&str] = &["Unifont", "Unifont Upper", "Unifont-JP", "Unifont-T"];
 const MONOSPACE: &[&str] = &[
     "Hack",
-    "Hibur Mono",
     "IBM Plex Mono",
     "iosevie",
     "Liberation Mono",
@@ -366,13 +365,7 @@ const SCRIPT_FONTS: &[(&str, &[&str])] = &[
     ("Berf", &["Kedebideri"]),
     ("Egyp", &["NewGardiner"]),
     ("Ethi", &["Hibur Mono"]),
-    ("Hmnp", &["Noto Serif NP Hmong"]),
     ("Krai", &["Kanchenjunga"]),
-    ("Merc", &["Noto Sans Meroitic"]),
-    ("Mero", &["Noto Sans Meroitic"]),
-    ("Mymr", &["Noto Sans Myanmar", "Padauk"]),
-    ("Taml", &["Noto Sans Tamil", "Noto Sans Tamil Supplement"]),
-    ("Tibt", &["Noto Serif Tibetan", "Jomolhari"]),
 ];
 // ideographic scripts that stay on the CJK/Plangothic fonts instead of getting
 // a derived Noto font
@@ -395,6 +388,7 @@ type Predicate = fn(&str) -> bool;
 const BLOCK_FONTS: &[(Predicate, &[&str])] = &[
     (|b| b.contains("Arabic"), &["Noto Sans Arabic"]),
     (|b| EMOJI_BLOCKS.contains(&b), EMOJI_FONTS),
+    (|b| b == "Tamil Supplement", &["Noto Sans Tamil Supplement"]),
 ];
 
 const CJK_SCRIPTS: &[&str] = &["Hani", "Hang", "Hira", "Kana", "Bopo"];

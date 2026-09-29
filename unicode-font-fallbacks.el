@@ -69,12 +69,9 @@
 (set-fontset-font t '(#x8a0 . #x8ff) "Noto Sans Arabic")
 
 ;; Devanagari
-(set-fontset-font t '(#x900 . #x950) "Noto Sans Devanagari")
-(set-fontset-font t '(#x951 . #x952) "Noto Sans Tamil")
+(set-fontset-font t '(#x900 . #x952) "Noto Sans Devanagari")
 (set-fontset-font t '(#x953 . #x954) "Annapurna SIL")
-(set-fontset-font t '(#x955 . #x963) "Noto Sans Devanagari")
-(set-fontset-font t '(#x964 . #x965) "Noto Sans Tamil")
-(set-fontset-font t '(#x966 . #x97f) "Noto Sans Devanagari")
+(set-fontset-font t '(#x955 . #x97f) "Noto Sans Devanagari")
 
 ;; Bengali
 (set-fontset-font t '(#x980 . #x983) "Noto Sans Bengali")
@@ -371,9 +368,7 @@
 (set-fontset-font t '(#x1cc0 . #x1cc7) "Noto Sans Sundanese")
 
 ;; Vedic Extensions
-(set-fontset-font t '(#x1cd0 . #x1cd9) "Noto Sans Devanagari")
-(set-fontset-font t #x1cda "Noto Sans Tamil")
-(set-fontset-font t '(#x1cdb . #x1cf4) "Noto Sans Devanagari")
+(set-fontset-font t '(#x1cd0 . #x1cf4) "Noto Sans Devanagari")
 (set-fontset-font t '(#x1cf5 . #x1cf7) "Noto Sans Bengali")
 (set-fontset-font t '(#x1cf8 . #x1cf9) "Noto Sans Devanagari")
 (set-fontset-font t #x1cfa "Noto Sans Nandinagari")
@@ -1253,7 +1248,7 @@
 (set-fontset-font t '(#x116c0 . #x116c9) "Noto Sans Takri")
 
 ;; Myanmar Extended-C
-(set-fontset-font t '(#x116d0 . #x116e3) "Padauk")
+(set-fontset-font t '(#x116d0 . #x116e3) "Plangothic P2")
 
 ;; Ahom
 (set-fontset-font t '(#x11700 . #x1171a) "Noto Serif Ahom")
