@@ -358,9 +358,11 @@ const MONOSPACE: &[&str] = &[
 const SCRIPT_FONTS: &[(&str, &[&str])] = &[
     ("Arab", &["Noto Sans Arabic", "Amiri"]),
     ("Berf", &["Kedebideri"]),
+    ("Diak", &["Plangothic P2"]),
     ("Egyp", &["NewGardiner"]),
     ("Ethi", &["Hibur Mono"]),
     ("Krai", &["Kanchenjunga"]),
+    ("Tang", &["Tangut Yinchuan"]),
 ];
 // ideographic scripts that stay on the CJK/Plangothic fonts instead of getting
 // a derived Noto font
@@ -377,6 +379,7 @@ const EMOJI_BLOCKS: &[&str] = &[
     "Supplemental Symbols and Pictographs",
     "Symbols and Pictographs Extended-A",
     "Transport and Map Symbols",
+    "Dingbats",
 ];
 
 type Predicate = fn(&str) -> bool;
@@ -384,6 +387,7 @@ const BLOCK_FONTS: &[(Predicate, &[&str])] = &[
     (|b| b.contains("Arabic"), &["Noto Sans Arabic"]),
     (|b| EMOJI_BLOCKS.contains(&b), EMOJI_FONTS),
     (|b| b == "Tamil Supplement", &["Noto Sans Tamil Supplement"]),
+    (|b| b == "Kawi", &["Noto Sans Kawi"]),
 ];
 
 const CJK_SCRIPTS: &[&str] = &["Hani", "Hang", "Hira", "Kana", "Bopo"];
@@ -522,7 +526,7 @@ fn validate_config(families: &HashSet<String>) {
         let closest = families
             .iter()
             .map(|family| (edit_distance(&lowercase, &family.to_lowercase()), family))
-            .filter(|&(distance, _)| distance <= 5)
+            // .filter(|&(distance, _)| distance <= 5)
             .min();
         match closest {
             Some((_, family)) => eprintln!(

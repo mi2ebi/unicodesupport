@@ -517,11 +517,14 @@
 ;; Dingbats
 (set-fontset-font t #x2700 "Plangothic P2")
 (set-fontset-font t #x2701 "D050000L")
-(set-fontset-font t #x2702 "Noto Sans Mono CJK HK")
+(set-fontset-font t #x2702 "Noto Color Emoji")
 (set-fontset-font t '(#x2703 . #x2704) "D050000L")
-(set-fontset-font t '(#x2706 . #x2709) "D050000L")
-(set-fontset-font t '(#x270a . #x270b) "Noto Color Emoji")
-(set-fontset-font t '(#x270c . #x2712) "D050000L")
+(set-fontset-font t '(#x2706 . #x2707) "D050000L")
+(set-fontset-font t '(#x2708 . #x270d) "Noto Color Emoji")
+(set-fontset-font t #x270e "D050000L")
+(set-fontset-font t #x270f "Noto Color Emoji")
+(set-fontset-font t '(#x2710 . #x2711) "D050000L")
+(set-fontset-font t #x2712 "Noto Color Emoji")
 (set-fontset-font t #x2719 "D050000L")
 (set-fontset-font t #x271e "D050000L")
 (set-fontset-font t #x271f "Brill")
@@ -535,7 +538,8 @@
 (set-fontset-font t #x2757 "Noto Color Emoji")
 (set-fontset-font t '(#x275b . #x275e) "D050000L")
 (set-fontset-font t '(#x275f . #x2760) "Noto Sans Symbols 2")
-(set-fontset-font t '(#x2762 . #x2763) "D050000L")
+(set-fontset-font t #x2762 "D050000L")
+(set-fontset-font t #x2763 "Noto Color Emoji")
 (set-fontset-font t #x2765 "D050000L")
 (set-fontset-font t '(#x2766 . #x2767) "Brill")
 (set-fontset-font t '(#x2768 . #x276b) "Hack")
@@ -1263,30 +1267,14 @@
 (set-fontset-font t #x118ff "Noto Sans Warang Citi")
 
 ;; Dives Akuru
-(set-fontset-font t #x11900 "Noto Serif Dives Akuru")
-(set-fontset-font t #x11901 "Plangothic P2")
-(set-fontset-font t #x11902 "Noto Serif Dives Akuru")
-(set-fontset-font t #x11903 "Plangothic P2")
-(set-fontset-font t #x11904 "Noto Serif Dives Akuru")
-(set-fontset-font t #x11905 "Plangothic P2")
-(set-fontset-font t #x11906 "Noto Serif Dives Akuru")
-(set-fontset-font t #x11909 "Noto Serif Dives Akuru")
-(set-fontset-font t #x1190c "Noto Serif Dives Akuru")
-(set-fontset-font t #x1190d "Plangothic P2")
-(set-fontset-font t #x1190e "Noto Serif Dives Akuru")
-(set-fontset-font t #x1190f "Plangothic P2")
-(set-fontset-font t #x11910 "Noto Serif Dives Akuru")
-(set-fontset-font t '(#x11911 . #x11913) "Plangothic P2")
-(set-fontset-font t #x11915 "Plangothic P2")
-(set-fontset-font t #x11916 "Noto Serif Dives Akuru")
-(set-fontset-font t '(#x11918 . #x11929) "Noto Serif Dives Akuru")
-(set-fontset-font t #x1192a "Plangothic P2")
-(set-fontset-font t '(#x1192b . #x11935) "Noto Serif Dives Akuru")
-(set-fontset-font t '(#x11937 . #x11939) "Noto Serif Dives Akuru")
-(set-fontset-font t '(#x1193b . #x1193c) "Plangothic P2")
-(set-fontset-font t '(#x1193d . #x11940) "Noto Serif Dives Akuru")
-(set-fontset-font t #x11941 "Plangothic P2")
-(set-fontset-font t '(#x11942 . #x11946) "Noto Serif Dives Akuru")
+(set-fontset-font t '(#x11900 . #x11906) "Plangothic P2")
+(set-fontset-font t #x11909 "Plangothic P2")
+(set-fontset-font t '(#x1190c . #x11913) "Plangothic P2")
+(set-fontset-font t '(#x11915 . #x11916) "Plangothic P2")
+(set-fontset-font t '(#x11918 . #x11935) "Plangothic P2")
+(set-fontset-font t '(#x11937 . #x11938) "Plangothic P2")
+(set-fontset-font t #x11939 "Noto Serif Dives Akuru")
+(set-fontset-font t '(#x1193b . #x11946) "Plangothic P2")
 (set-fontset-font t '(#x11950 . #x11959) "Plangothic P2")
 
 ;; Nandinagari
@@ -1357,7 +1345,7 @@
 ;; Kawi
 (set-fontset-font t '(#x11f00 . #x11f10) "Noto Sans Kawi")
 (set-fontset-font t '(#x11f12 . #x11f3a) "Noto Sans Kawi")
-(set-fontset-font t #x11f3c "Plangothic P2")
+(set-fontset-font t #x11f3c "Noto Sans Kawi")
 (set-fontset-font t '(#x11f3e . #x11f59) "Noto Sans Kawi")
 (set-fontset-font t #x11f5a "Plangothic P2")
 
@@ -1440,20 +1428,16 @@
 (set-fontset-font t '(#x16f8f . #x16f9f) "Noto Sans Miao")
 
 ;; Ideographic Symbols and Punctuation
-(set-fontset-font t '(#x16fe0 . #x16fe4) "Plangothic P2")
+(set-fontset-font t #x16fe0 "Tangut Yinchuan")
+(set-fontset-font t '(#x16fe1 . #x16fe4) "Plangothic P2")
 (set-fontset-font t '(#x16ff0 . #x16ff6) "Plangothic P2")
 
 ;; Tangut
-(set-fontset-font t '(#x17000 . #x187ff) "Plangothic P2")
+(set-fontset-font t '(#x17000 . #x187f7) "Tangut Yinchuan")
+(set-fontset-font t '(#x187f8 . #x187ff) "Plangothic P2")
 
 ;; Tangut Components
-(set-fontset-font t '(#x18800 . #x18801) "Plangothic P1")
-(set-fontset-font t #x18802 "Noto Serif Tangut")
-(set-fontset-font t '(#x18803 . #x1880a) "Plangothic P2")
-(set-fontset-font t #x1880b "Plangothic P1")
-(set-fontset-font t '(#x1880c . #x18840) "Plangothic P2")
-(set-fontset-font t '(#x18841 . #x18842) "Plangothic P1")
-(set-fontset-font t '(#x18843 . #x18aff) "Plangothic P2")
+(set-fontset-font t '(#x18800 . #x18aff) "Tangut Yinchuan")
 
 ;; Khitan Small Script
 (set-fontset-font t #x18b00 "Plangothic P2")
@@ -1512,7 +1496,8 @@
 (set-fontset-font t #x18cff "Plangothic P2")
 
 ;; Tangut Supplement
-(set-fontset-font t '(#x18d00 . #x18d20) "Plangothic P2")
+(set-fontset-font t '(#x18d00 . #x18d08) "Tangut Yinchuan")
+(set-fontset-font t '(#x18d09 . #x18d20) "Plangothic P2")
 
 ;; Tangut Components Supplement
 (set-fontset-font t '(#x18d80 . #x18df2) "Plangothic P2")
