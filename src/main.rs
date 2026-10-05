@@ -72,14 +72,19 @@ fn try_fetch(url: &str) -> Option<String> {
     unreachable!()
 }
 
-fn fetch_blocks() -> Vec<Block> {
-    let mut response = try_fetch("https://www.unicode.org/Public/draft/ucd/Blocks.txt");
+fn fetch_latest_ucd(f: &str) -> String {
+    let mut response = try_fetch(&format!("https://www.unicode.org/Public/draft/ucd/{f}.txt"));
     if response.clone().is_none_or(|r| r.starts_with('<')) {
-        response = try_fetch("https://www.unicode.org/Public/latest/ucd/Blocks.txt");
+        response = try_fetch(&format!("https://www.unicode.org/Public/latest/ucd/{f}.txt"));
     }
     let Some(response) = response else {
         panic!("ohno");
     };
+    response
+}
+
+fn fetch_blocks() -> Vec<Block> {
+    let response = fetch_latest_ucd("Blocks");
     response
         .lines()
         .filter(|line| !line.starts_with('#') && !line.trim().is_empty())
@@ -94,13 +99,7 @@ fn fetch_blocks() -> Vec<Block> {
 }
 
 fn fetch_scripts() -> Vec<Script> {
-    let mut response = try_fetch("https://www.unicode.org/Public/draft/ucd/Scripts.txt");
-    if response.clone().is_none_or(|r| r.starts_with('<')) {
-        response = try_fetch("https://www.unicode.org/Public/latest/ucd/Scripts.txt");
-    }
-    let Some(response) = response else {
-        panic!("ohno");
-    };
+    let response = fetch_latest_ucd("Scripts");
     let aliases = fetch_script_aliases();
     response
         .lines()
@@ -121,14 +120,7 @@ fn fetch_scripts() -> Vec<Script> {
 }
 
 fn fetch_script_aliases() -> HashMap<String, String> {
-    let mut response =
-        try_fetch("https://www.unicode.org/Public/draft/ucd/PropertyValueAliases.txt");
-    if response.clone().is_none_or(|r| r.starts_with('<')) {
-        response = try_fetch("https://www.unicode.org/Public/latest/ucd/PropertyValueAliases.txt");
-    }
-    let Some(response) = response else {
-        panic!("ohno");
-    };
+    let response = fetch_latest_ucd("PropertyValueAliases");
     response
         .lines()
         .filter(|line| !line.starts_with('#') && !line.trim().is_empty())
@@ -143,13 +135,7 @@ fn fetch_script_aliases() -> HashMap<String, String> {
 }
 
 fn fetch_script_extensions() -> Vec<ScriptExtension> {
-    let mut response = try_fetch("https://www.unicode.org/Public/draft/ucd/ScriptExtensions.txt");
-    if response.clone().is_none_or(|r| r.starts_with('<')) {
-        response = try_fetch("https://www.unicode.org/Public/latest/ucd/ScriptExtensions.txt");
-    }
-    let Some(response) = response else {
-        panic!("ohno");
-    };
+    let response = fetch_latest_ucd("ScriptExtensions");
     response
         .lines()
         .filter(|line| !line.starts_with('#') && !line.trim().is_empty())
