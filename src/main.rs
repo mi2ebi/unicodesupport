@@ -73,11 +73,13 @@ fn try_fetch(url: &str) -> Option<String> {
 }
 
 fn fetch_blocks() -> Vec<Block> {
-    let response =
-        try_fetch("https://www.unicode.org/Public/draft/ucd/Blocks.txt").unwrap_or_else(|| {
-            try_fetch("https://www.unicode.org/Public/latest/ucd/Blocks.txt")
-                .unwrap_or_else(|| panic!("ohno"))
-        });
+    let mut response = try_fetch("https://www.unicode.org/Public/draft/ucd/Blocks.txt");
+    if response.clone().is_none_or(|r| r.starts_with('<')) {
+        response = try_fetch("https://www.unicode.org/Public/latest/ucd/Blocks.txt");
+    }
+    let Some(response) = response else {
+        panic!("ohno");
+    };
     response
         .lines()
         .filter(|line| !line.starts_with('#') && !line.trim().is_empty())
@@ -92,11 +94,13 @@ fn fetch_blocks() -> Vec<Block> {
 }
 
 fn fetch_scripts() -> Vec<Script> {
-    let response = try_fetch("https://www.unicode.org/Public/draft/ucd/Scripts.txt")
-        .unwrap_or_else(|| {
-            try_fetch("https://www.unicode.org/Public/latest/ucd/Scripts.txt")
-                .unwrap_or_else(|| panic!("ohno"))
-        });
+    let mut response = try_fetch("https://www.unicode.org/Public/draft/ucd/Scripts.txt");
+    if response.clone().is_none_or(|r| r.starts_with('<')) {
+        response = try_fetch("https://www.unicode.org/Public/latest/ucd/Scripts.txt");
+    }
+    let Some(response) = response else {
+        panic!("ohno");
+    };
     let aliases = fetch_script_aliases();
     response
         .lines()
@@ -117,11 +121,14 @@ fn fetch_scripts() -> Vec<Script> {
 }
 
 fn fetch_script_aliases() -> HashMap<String, String> {
-    let response = try_fetch("https://www.unicode.org/Public/draft/ucd/PropertyValueAliases.txt")
-        .unwrap_or_else(|| {
-            try_fetch("https://www.unicode.org/Public/latest/ucd/PropertyValueAliases.txt")
-                .unwrap_or_else(|| panic!("ohno"))
-        });
+    let mut response =
+        try_fetch("https://www.unicode.org/Public/draft/ucd/PropertyValueAliases.txt");
+    if response.clone().is_none_or(|r| r.starts_with('<')) {
+        response = try_fetch("https://www.unicode.org/Public/latest/ucd/PropertyValueAliases.txt");
+    }
+    let Some(response) = response else {
+        panic!("ohno");
+    };
     response
         .lines()
         .filter(|line| !line.starts_with('#') && !line.trim().is_empty())
@@ -136,11 +143,13 @@ fn fetch_script_aliases() -> HashMap<String, String> {
 }
 
 fn fetch_script_extensions() -> Vec<ScriptExtension> {
-    let response = try_fetch("https://www.unicode.org/Public/draft/ucd/ScriptExtensions.txt")
-        .unwrap_or_else(|| {
-            try_fetch("https://www.unicode.org/Public/latest/ucd/ScriptExtensions.txt")
-                .unwrap_or_else(|| panic!("ohno"))
-        });
+    let mut response = try_fetch("https://www.unicode.org/Public/draft/ucd/ScriptExtensions.txt");
+    if response.clone().is_none_or(|r| r.starts_with('<')) {
+        response = try_fetch("https://www.unicode.org/Public/latest/ucd/ScriptExtensions.txt");
+    }
+    let Some(response) = response else {
+        panic!("ohno");
+    };
     response
         .lines()
         .filter(|line| !line.starts_with('#') && !line.trim().is_empty())
