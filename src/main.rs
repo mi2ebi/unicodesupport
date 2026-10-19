@@ -380,6 +380,7 @@ const EMOJI_BLOCKS: &[&str] = &[
     "Symbols and Pictographs Extended-A",
     "Transport and Map Symbols",
     "Dingbats",
+    "Miscellaneous Symbols",
 ];
 
 type Predicate = fn(&str) -> bool;
