@@ -805,7 +805,7 @@
 (set-fontset-font t '(#xa746 . #xa747) "Noto Sans Mono")
 (set-fontset-font t '(#xa74c . #xa74d) "Noto Sans Mono")
 (set-fontset-font t '(#xa752 . #xa759) "Noto Sans Mono")
-(set-fontset-font t '(#xa75c . #xa75f) "Noto Sans Mono")
+(set-fontset-font t '(#xa75c . #xa75d) "Noto Sans Mono")
 (set-fontset-font t '(#xa768 . #xa778) "Noto Sans Mono")
 (set-fontset-font t '(#xa796 . #xa797) "Noto Sans Mono")
 (set-fontset-font t '(#xa7c2 . #xa7c3) "Plangothic P2")
@@ -866,7 +866,6 @@
 (set-fontset-font t '(#xab01 . #xab2e) "Hibur Mono")
 
 ;; Latin Extended-E
-(set-fontset-font t #xab34 "Noto Sans Mono")
 (set-fontset-font t #xab48 "Noto Sans Mono")
 (set-fontset-font t #xab4a "Noto Sans Mono")
 (set-fontset-font t '(#xab50 . #xab51) "Noto Sans Mono")
